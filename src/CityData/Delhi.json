@@ -24,5 +24,31 @@
             "placedescription":"Swaminarayan Akshardham is a Hindu temple, and spiritual-cultural campus in Delhi, India. The temple is close to the border with Noida.",
             "placehistory":" Swaminarayan akshardham temple was officially opened on 6 November 2005 by Pramukh Swami Maharaj in the presence of A. P. J. Abdul Kalam, Manmohan Singh, L.K Advani and B.L Joshi. The temple, at the centre of the complex, was built according to the Vastu shastra and Pancharatra shastra."           
         }
-    ]
+    ],
+    "mumbai":[
+        {
+            "placename":"Gateway of india",
+            "placeimg":["./img/mumbai/gatewayofindia1.jpg","./img/mumbai/gatewayofindia2.jpg","./img/mumbai/gatewayofindia3.jpg"],
+            "placedescription":" The Gateway of India is an arch monument built during the 20th century in Bombay, India. The monument was erected to commemorate the landing of King George V and Queen Mary at Apollo Bunder on their visit to India in 1911." ,           
+            "placehistory":"The Gateway of India was built to commemorate the arrival of George V, Emperor of India and Mary of Teck, Empress consort, in India at Apollo Bunder, Mumbai (Bombay) on 2 December 1911 prior to the Delhi Durbar of 1911; it was the first visit of a British monarch to India."
+        },
+        {
+            "placename":"Chhatrapati shivaji maharaj terminus ",
+            "placeimg":["./img/mumbai/shivajiterminals1.jpeg","./img/mumbai/shivajiterminals2.jpeg","./img/mumbai/shivajiterminals3.jpeg"],
+            "placedescription":"Chhatrapati Shivaji Terminus, originally Victoria Terminus, officially since 2017 Chhatrapati Shivaji Maharaj Terminus, main railway station in Mumbai, India, and the headquarters of the city’s Central Railway System." ,           
+            "placehistory":" Chhatrapati Shivaji Maharaj Terminus (CSMT) was built in 1887 to commemorate the Queen Victoria’s Golden Jubilee. Designed by British architect Frederick William Stevens, the building blends elements of Victorian Italianate Gothic Revival and classic Indian architecture. "
+        },
+        {
+            "placename":" Marine Lines ",
+            "placeimg":["./img/mumbai/marineline1.jpg","./img/mumbai/marineline2.jpg","./img/mumbai/marineline3.jpg"],
+            "placedescription":"Marine Lines was the name of the road on which Bombay Hospital and Liberty Cinema stand. It is now known as V Thackersey Marg.Marine Drive is the famous promenade near the station. " ,           
+            "placehistory":"Marine Lines is a locality in South Mumbai. The name Marine Lines is derived from the Marine Battalion Lines, a military establishment built by the British in the 19th century. The battalion was later converted to an air force residential quarters, and now lies just south of Metro Adlabs. "
+        },
+        {
+            "placename":" Haji Ali Dargah",
+            "placeimg":["./img/mumbai/hajialidargah1.jpeg","./img/mumbai/hajialidargah2.jpeg","./img/mumbai/hajialidargah3.jpeg"],
+            "placedescription":"The Haji Ali Dargah is a mosque and dargah or the monument of Pir Haji Ali Shah Bukhari located on an islet off the coast of Worli in the southern Mumbai.",          
+            "placehistory":"The Haji Ali Dargah was constructed in 1431 in memory of a wealthy Muslim merchant, Sayyed Pir Haji Ali Shah Bukhari, who gave up all his worldly possessions before making a pilgrimage to Mecca. Hailing from Bukhara, in present-day Uzbekistan, Bukhari travelled around the world in the early to mid 15th century, and eventually settled in present-day Mumbai."
+        }
+    ]   
 }
