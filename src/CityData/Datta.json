@@ -41,7 +41,53 @@
             "placedescription":"Tarn Taran Sahib is a city in the state of Punjab, in far northern India. Tarn Taran district was formed in 16th Jun, 2006, during the celebrations marking the 400th martyrdom day of Shri Guru Arjan Dev Ji. The declaration to this effect was made by Captain Amarinder Singh, Chief Minister of Punjab.",
             "placehistory":"Steeped in antiquity, Tarn Taran dates back to the times of the fifth sikh Guru Shri Guru Arjan Dev ji (1563-1606). He laid the foundation of this city in 1596 and the milestone was laid for the welfare of people with the establishment of Shri Tarn Taran Sahib Temple. "
         }
+    ],
+    "Jaipur Place":
+    [
+        {
+            "placename":"Amber Fort",
+            "placeimg":
+            ["./img/jaipur-city/amber-fort-1.jpg",
+            "./img/jaipur-city/amber-fort-2.jpg",
+            "./img/jaipur-city/amber-fort-3.jpg"
+            ],
+            "placedescription":" One of the top tourist attractions of Jaipur, the huge Amer Palace Fort sits atop a small hill, and is located at a distance about 11 km from the main city. The magnificent Amer Fort is an extensive palace complex that has been built with pale yellow and pink sandstone, and with white marble.",
+            "placehistory":"In early times, the state of Jaipur was known as Amber or Dhundhar and was controlled by Meena chiefs of five different tribes. They were under suzerainty of the Bargurjar Rajput Raja of Deoti. Later a Kachhwaha prince, Dulha Rai, destroyed the sovereignty of Meenas and also defeated Bargurjars of Deoli and took Dhundhar fully under Kachwaha rule."
+        },
+        {
+            "placename":"Hawa Mahal" ,
+            "placeimg":
+            ["./img/jaipur-city/hawa-mahal-1.jpg",
+             "./img/jaipur-city/hawa-mahal-2.jpg",
+             "./img/jaipur-city/hawa-mahal-3.jpg"
+            ],
+            "placedescription":" The Hawa Mahal is a palace in the city of Jaipur, India. Built from red and pink sandstone, it is on the edge of the City Palace, Jaipur, and extends to the Zenana, or women's chambers. The structure was built in 1799 by the Maharaja Sawai Pratap Singh, grandson of Maharaja Sawai Jai Singh, the founder of the city of Jhunjhunu in the state of Rajasthan.[1] He was so inspired by the unique structure of Khetri Mahal that he built this grand and historical palace.",
+            "placehistory":"It was built in 1799 by Maharaja Sawai Pratap Singh for the court harem so that they could witness the royal processions and the street life. The exquisite pink and red sandstone 'mahal' stands out for its striking architecture, and the beautiful 'jhaali' works on its 953 windows."
+        },
+        {
+            "placename":"Nahargarh Fort",
+            "placeimg":
+            ["./img/jaipur-city/nahargart-fort-1.jpg",
+            "./img/jaipur-city/nahargart-fort-2.jpg",
+            "./img/jaipur-city/nahargart-fort-3.jpg"
+            ],
+            "placedescription":" It was constructed during the reign of Jai Singh in 1734, and was later expanded in 1868. Nahargarh, which means abode of tigers, was a formidable barrier, defending Jaipur against attacking enemies. Within its walls, the fort houses Madhavendra Bhawan, the summer destination for the members of the royal family.",
+            "placehistory":"Nahargarh Fort was built in 1734 by the then Maharaja of Jaipur, Sawai Jai Singh II. He constructed the fort as a retreat for the hunting expeditions of the royal family. The fort was initially named Sudarshangarh but was later renamed as Nahargarh."
+        },
+        {
+            "placename":"Jantar Mantar",
+            "placeimg":
+            ["./img/jaipur-city/jantar-mantar-1.jpg",
+            "./img/jaipur-city/jantar-mantar-2.jpg",
+            "./img/jaipur-city/jantar-mantar-3.jpg"
+            ],
+            "placedescription":"The Jantar Mantar, in Jaipur, is an astronomical observation site built in the early 18th century. It includes a set of some 20 main fixed instruments. They are monumental examples in masonry of known instruments but which in many cases have specific characteristics of their own.",
+            "placehistory":"Built in 1724 by Maharaja Jai Singh II of Jaipur, Jantar Mantar is one of the five astronomical observatories built by the king in Northern India. Its striking combinations of geometric forms have caught the attention of architects, artists and art historians from around the world."
+        }
     ]
+    
+    
+    
   
     
 }
