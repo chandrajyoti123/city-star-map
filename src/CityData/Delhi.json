@@ -1,0 +1,28 @@
+{
+    "delhi":[
+        {
+            "placename":"India Gate",
+            "placeimg":["/img/delhi/indiagate1","/img/delhi/indiagate2","/img/delhi/indiagate3"],
+            "placedescription":" The India Gate is a war memorial located near the Kartavya path on the eastern edge of the ceremonial axis of New Delhi, formerly called Rajpath.",
+            "placehistory":"India Gate, official name Delhi Memorial, originally called All-India War Memorial, monumental sandstone arch in New Delhi,dedicated to the troops of British India who died in wars fought between 1914 and 1919. India Gate, which is located at the eastern end of the Rajpath (formerly called the Kingsway), is about 138 feet (42 metres) in height."            
+        },
+        {
+            "placename":"Red Fort",
+            "placeimg":["./img/delhi/redfort1.jpg" ,"./img/delhi/redfort2.jpeg" ,"./img/delhi/redfort3.jpg" ],
+            "placedescription":"Red Fort, also called Lal Kila or Lal Qila, Mughal fort in Old Delhi, India. It was built by Shah Jahān in the mid-17th century and remains a major tourist attraction. ",
+            "placehistory":"The Red Fort Complex was built as the palace fort of Shahjahanabad – the new capital of the fifth Mughal Emperor of India, Shah Jahan. Named for its massive enclosing walls of red sandstone, it is adjacent to an older fort, the Salimgarh, built by Islam Shah Suri in 1546, with which it forms the Red Fort Complex."              
+        },
+        {
+            "placename":"Qutub Minar ",
+            "placeimg":["/img/delhi/qutobminar1.jpeg","/img/delhi/qutobminar2.jpg","/img/delhi/qutobminar3.jpg"],
+            "placedescription":"The Qutb Minar is a minaret and victory tower that forms part of the Qutb complex, which lies at the site of Delhi’s oldest fortified city, Lal Kot, founded by the Tomar Rajputs. It is a UNESCO World Heritage Site in the Mehrauli area of South Delhi, India.",
+            "placehistory":" The Qutb Minar was built over the ruins of the Lal Kot, the citadel of Dhillika. Qutub Minar was begun after the Quwwat-ul-Islam Mosque. Drawing references from their Ghurid homeland, Qutub-ud-Din Aibak and Shamsu’d-Din Iltutmish constructed a minar (minaret) at the south-eastern corner of the Quwwatu’l-Islam between 1199 and 1503."              
+        },
+        {
+            "placename":"Swaminarayan Akshardham",
+            "placeimg":["./img/delhi/akshardham1.jpeg","./img/delhi/akshardham2.jpg","./img/delhi/akshardham3.jpeg"],
+            "placedescription":"Swaminarayan Akshardham is a Hindu temple, and spiritual-cultural campus in Delhi, India. The temple is close to the border with Noida.",
+            "placehistory":" Swaminarayan akshardham temple was officially opened on 6 November 2005 by Pramukh Swami Maharaj in the presence of A. P. J. Abdul Kalam, Manmohan Singh, L.K Advani and B.L Joshi. The temple, at the centre of the complex, was built according to the Vastu shastra and Pancharatra shastra."           
+        }
+    ]
+}
