@@ -1,0 +1,136 @@
+{
+    "amritsar":
+    [
+        {
+            "placename":"Sri Harmandir Sahib",
+            "placeimg":
+            ["./img/amritsar-city/sri-harimandir-sahib-1.jpg",
+            "./img/amritsar-city/sri-harimandir-sahib-2.jpg",
+            "./img/amritsar-city/sri-harimandir-sahib-3.jpg"
+            ],
+            "placedescription":" The Golden temple is located in the holy city of the Sikhs, Amritsar. The Golden temple is famous for its full golden dome, it is one of the most sacred pilgrim spots for Sikhs. The Mandir is built on a 67-ft square of marble and is a two storied structure.",
+            "placehistory":" It is located in the city of Amritsar, Punjab state, northwestern India. The first Harmandir Sahib was built in 1604 by Arjan, the fifth Sikh Guru, who symbolically had it placed on a lower level so that even the humblest had to step down to enter it."
+        },
+        {
+            "placename":"durgiana city" ,
+            "placeimg":
+            [   "./img/amritsar-city/durgiana-1.jpg",
+                "./img/amritsar-city/durgiana-2.jpg",
+                "./img/amritsar-city/durgiana-3.jpg"
+            ],
+            "placedescription":" The temple is built in the middle of a sacred lake, which measures 160 metres (520 ft)  130 metres (430 ft). Its dome and canopies are similar to that of the Golden temple of Sikh religion, also located in Amritsar. A bridge provides the approach to the temple. The dome of the temple is gilded.",
+            "placehistory":"It was built in 1921 by Guru Harsai Mal Kapoor in the architectural style of the Sikh Shri Harmandir Sahib (Golden Temple) . Harsai Mal was a descendant of Prithi Chand and hence Guru Ram Das. The grandchildren of Harsai Mal Kapoor is currently living in amritsar and one of caretakers of the idol of Harsai mal Kapoor."
+        },
+        {
+            "placename":"Gobindgarh Fort",
+            "placeimg":
+            ["./img/amritsar-city/gobindgarth-fort-1.jpg",
+            "./img/amritsar-city/gobindgarth-fort-2.jpg",
+            "./img/amritsar-city/gobindgarth-fort-3.jpg"
+            ],
+            "placedescription":"Gobindgarh Fort is located on the south west fringe of Amritsar, in a square pattern, with a perimeter of 1,000 m and made up entirely of bricks and lime. The fort had 25 cannons mounted on its ramparts and it remained with the Bhangi rulers till 1805.",
+            "placehistory":" Maharaja Ranjit Singh, the first maharaja of the Sikh Empire, conquered the fort in the early 19thcentury. It was he who renamed it as Gobindgarh Fort after Guru Gobind Singh, the 10th guru of the Sikhs. Further, he made many renovations and added new structures to the fort from 1805 to 1809."
+        },
+        {
+            "placename":"Tarn Taran Sahib",
+            "placeimg":
+            ["./img/amritsar-city/tarn-taran-sahib-1.jpg",
+            "./img/amritsar-city/tarn-taran-sahib-2.jpg",
+            "./img/amritsar-city/tarn-taran-sahib-3.jpg"
+            ],
+            "placedescription":"Tarn Taran Sahib is a city in the state of Punjab, in far northern India. Tarn Taran district was formed in 16th Jun, 2006, during the celebrations marking the 400th martyrdom day of Shri Guru Arjan Dev Ji. The declaration to this effect was made by Captain Amarinder Singh, Chief Minister of Punjab.",
+            "placehistory":"Steeped in antiquity, Tarn Taran dates back to the times of the fifth sikh Guru Shri Guru Arjan Dev ji (1563-1606). He laid the foundation of this city in 1596 and the milestone was laid for the welfare of people with the establishment of Shri Tarn Taran Sahib Temple. "
+        }
+    ],
+    "Jaipur Place":
+    [
+        {
+            "placename":"Amber Fort",
+            "placeimg":
+            ["./img/jaipur-city/amber-fort-1.jpg",
+            "./img/jaipur-city/amber-fort-2.jpg",
+            "./img/jaipur-city/amber-fort-3.jpg"
+            ],
+            "placedescription":" One of the top tourist attractions of Jaipur, the huge Amer Palace Fort sits atop a small hill, and is located at a distance about 11 km from the main city. The magnificent Amer Fort is an extensive palace complex that has been built with pale yellow and pink sandstone, and with white marble.",
+            "placehistory":"In early times, the state of Jaipur was known as Amber or Dhundhar and was controlled by Meena chiefs of five different tribes. They were under suzerainty of the Bargurjar Rajput Raja of Deoti. Later a Kachhwaha prince, Dulha Rai, destroyed the sovereignty of Meenas and also defeated Bargurjars of Deoli and took Dhundhar fully under Kachwaha rule."
+        },
+        {
+            "placename":"Hawa Mahal" ,
+            "placeimg":
+            ["./img/jaipur-city/hawa-mahal-1.jpg",
+             "./img/jaipur-city/hawa-mahal-2.jpg",
+             "./img/jaipur-city/hawa-mahal-3.jpg"
+            ],
+            "placedescription":" The Hawa Mahal is a palace in the city of Jaipur, India. Built from red and pink sandstone, it is on the edge of the City Palace, Jaipur, and extends to the Zenana, or women's chambers. The structure was built in 1799 by the Maharaja Sawai Pratap Singh, grandson of Maharaja Sawai Jai Singh, the founder of the city of Jhunjhunu in the state of Rajasthan.[1] He was so inspired by the unique structure of Khetri Mahal that he built this grand and historical palace.",
+            "placehistory":"It was built in 1799 by Maharaja Sawai Pratap Singh for the court harem so that they could witness the royal processions and the street life. The exquisite pink and red sandstone 'mahal' stands out for its striking architecture, and the beautiful 'jhaali' works on its 953 windows."
+        },
+        {
+            "placename":"Nahargarh Fort",
+            "placeimg":
+            ["./img/jaipur-city/nahargart-fort-1.jpg",
+            "./img/jaipur-city/nahargart-fort-2.jpg",
+            "./img/jaipur-city/nahargart-fort-3.jpg"
+            ],
+            "placedescription":" It was constructed during the reign of Jai Singh in 1734, and was later expanded in 1868. Nahargarh, which means abode of tigers, was a formidable barrier, defending Jaipur against attacking enemies. Within its walls, the fort houses Madhavendra Bhawan, the summer destination for the members of the royal family.",
+            "placehistory":"Nahargarh Fort was built in 1734 by the then Maharaja of Jaipur, Sawai Jai Singh II. He constructed the fort as a retreat for the hunting expeditions of the royal family. The fort was initially named Sudarshangarh but was later renamed as Nahargarh."
+        },
+        {
+            "placename":"Jantar Mantar",
+            "placeimg":
+            ["./img/jaipur-city/jantar-mantar-1.jpg",
+            "./img/jaipur-city/jantar-mantar-2.jpg",
+            "./img/jaipur-city/jantar-mantar-3.jpg"
+            ],
+            "placedescription":"The Jantar Mantar, in Jaipur, is an astronomical observation site built in the early 18th century. It includes a set of some 20 main fixed instruments. They are monumental examples in masonry of known instruments but which in many cases have specific characteristics of their own.",
+            "placehistory":"Built in 1724 by Maharaja Jai Singh II of Jaipur, Jantar Mantar is one of the five astronomical observatories built by the king in Northern India. Its striking combinations of geometric forms have caught the attention of architects, artists and art historians from around the world."
+        }
+    ],
+    "South Goa ":
+    [
+        {
+            "placename":"Colva Beach",
+            "placeimg":
+            ["./img/south-goa/colva-beach-1.jpg",
+            "./img/south-goa/colva-beach-2.jpg",
+            "./img/south-goa/colva-beach-3.jpg"
+            ],
+            "placedescription":"Colva Portuguese: Colva is a coastal village situated in the Salcete taluka, in South Goa district, of Goa state on the west coast of the Indian subcontinent. Colva Beach (Portuguese: Praia de Colva spans about 2.5 km (1.6 mi) along a sandy coastline of approximately 25 km (16 mi) extending from Bogmalo in the north to Cabo de Rama in the south. The village had significant importance to the Portuguese, local (Gancars) noble chardó (Kshatriya) Feudal Lords and was the retreat for Goa's high, elite and aristocratic society, who would come to Colvá for their mudança (change of air), to enjoy the private beach of the then Roiz family. Today the Portuguese area is dotted with the past elite houses and modern villas, including many ruins from more than 300 years. On weekends, huge crowds of tourists, visitors from around the world as well as local Indians, enjoy the sunset and various activities. The beach is particularly busy in October, when hordes of religious pilgrims come and visit Colvá Church, called Igreja de Nossa Senhora das Mercês (Church of Our Lady of Mercy), that was founded in AD 1630 by the Roiz family and the crown of the statue of our Lady has their family initials. The church was later modified in the eighteenth century which is located at the village square. The 1630 church construction was funded by the Roiz family, the Jesuits and the Gancars of Collu",
+            "placehistory":"Colva was under Portuguese administration, as the Province of Portuguese-Goa, from 1510 until 1961 (and was still under dispute and represented in the Parliament of Portugal till 1974/75). It was the village of the Portuguese Roiz family, the descendants of D. Diogo Rodrigues, and its villagers. The village had belonged since 1550 to D. Diogo Rodrigues, who was the Lord of Colvá (Landlord of Colvá). He built the first Portuguese architecture residential house in 1551 facing away from the sea and at a distance from the shore to avoid any enemy attacks from the Arabian Sea. The entire beach called Praia da Colvá belonged to him.   In the 18th century, one of Diogo's descendants, Sebastião José Roiz, ordered the village people to plant coconut trees along the entire coastline, which the villagers thought was a waste of time as the soil was white and thus infertile and unable to sustain their growth. However today the shore line is fringed by those plantations of coconut trees. The entire Colvá shore and beach property as far as Betalbatim was inherited by various descendants of the Roiz family until the late 20th century, after which parts were handed over to the Government of Goa under the post-1974 Indian administration following the 1961 annexation of Goa by India. The rest of the land was sold."
+        },
+        {
+            "placename":"Kadamba Shri Mahadeva Temple (Tambdisurla)" ,
+            "placeimg":
+            ["./img/south-goa/kadamba-mahadev-temple-1.jpg",
+            "./img/south-goa/kadamba-mahadev-temple-2.jpg",
+            "./img/south-goa/kadamba-mahadev-temple-3.jpg"
+            ],
+            "placedescription":" The temple is dedicated to Lord Shiva and is reminiscent of the temples at Aihole in neighbouring Karnataka. There is a linga (symbol of Lord Shiva) mounted on a pedestal inside the inner sanctum, and local legend has it that a huge king cobra is in permanent residence in the dimly lit interior. The temple consists of garbhagriha, antarala and a pillared Nandi mandapa built of basalt. The four pillars, embellished with intricate carvings of elephants and chains support a stone ceiling decorated with finely carved Ashtoken lotus flowers.",
+            "placehistory":"The temple was built in the Kadamba style from basalt, carried across the mountains from the Deccan plateau and carved by craftsmen. It is considered to be the only specimen of Kadamba architecture in basalt stone preserved and available in Goa. The temple survived untouched due to its remote location in a clearing deep in the forest at the foot of the Western Ghats which surround the site."
+        },
+        {
+            "placename":"Majorda Beach",
+            "placeimg":
+            ["./img/south-goa/majorda-beach-1.jpg",
+            "./img/south-goa/majorda-beach-2.jpg",
+            "./img/south-goa/majorda-beach-3.jpg"
+            ],
+            "placedescription":" Majorda beach situated in the Salcete taluka is among the southern beaches of Goa. It is a beautiful beach that has a lot of palm groves. Some of the most famous hotels and resorts of Goa are found here and thus it is quite a popular place for a holiday. This south Goa beach also has a number of restaurants and beach shacks that serve up tasty dishes from the cuisine of Goa, Europe and India.Majorda is also the place where the Jesuits discovered the best toddy of Goa who used it to leaven the bread. Even today the people of Majorda are known to be the best bakers of Goa as they were the first to know the art of baking European breads. There are a lot of buses that run daily by the help of which one can get to Majorda. From the Dabolim airport also one can get into transfer buses that take you there. Also a number of taxis are available to get to Majorda.",
+            "placehistory":" Majorda is the village where the Jesuits, fond as they were of the good things of life, discovered the best Goan toddy (sap from the coconut palm), which they used to leaven the bread. Naturally, then, Majorda is the place where the Goans were first trained in the delicate art of baking European breads."
+        },
+        {
+            "placename":"Dudhsagar Falls",
+            "placeimg":
+            ["./img/south-goa/dudhsagar-falls-1.jpg",
+            "./img/south-goa/dudhsagar-falls-2.jpg",
+            "./img/south-goa/dudhsagar-falls-1.jpg"
+            ],
+            "placedescription":"Dudhsagar Falls (lit. 'Sea of Milk') is a four-tiered waterfall located on the Mandovi River in the Indian state of Goa. It is 60 km from Panaji by road and is located on the Belgaum–Vasco Da Gama rail route about 46 km east of Madgaon and 80 km south of Belgaum. Dudhsagar Falls is amongst India's tallest waterfalls with a height of 310 m (1017 feet) and an average width of 30 metres (100 feet).The falls are located in the Bhagwan Mahaveer Sanctuary and Mollem National Park among the Western Ghats. The falls are a punctuation mark in the journey of the Mandovi River from the Western Ghats to Panjim where it meets the Arabian sea. The area is surrounded by deciduous forests with rich biodiversity. This waterfall is also known as Tambdi Surla to some of the local people. The falls are not particularly spectacular during the dry season but during the monsoon season, however, the falls are fed by rains and form a huge force of water.",
+            "placehistory":"The waterfall is four-tiered waterfall and is about 1015 ft high and 100 ft wide. According to legend, the waterfall was once the abode of a beautiful princess. The princess used to drink sweetened milk from a golden jug after she took a bath. One day, she spotted a prince watching her while she drank the milk."
+        }
+    ]
+    
+    
+    
+  
+    
+}
