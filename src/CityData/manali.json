@@ -1,0 +1,28 @@
+{
+    "mathura":[
+        {
+            "placename":"Krishna Janmasthan Temple",
+            "placeimg":["./img/mathura/mathura11.jpg","./img/mathura/mathura12.jpg","./img/mathura/mathura13.jpg"],
+            "placedescription":"The Krishna Janmasthan Temple Complex is a group of Hindu temples situated in Mathura, Uttar Pradesh, India. There are three main temples inside the premises - Keshavdev temple which is dedicated to Krishna, Garbh Griha where Krishna is believed to be born in Dvapar Yuga and Bhagvata Bhavan where presiding deities are Radha Krishna",
+            "placehistory":"   According to Hindu traditions, Krishna was born to Devaki and Vasudeva in a prison cell where they were confined by his maternal uncle Kansa, a king of Mathura, due to prophecy of his death by the child of Devaki.[10][11] According to tradition, a temple dedicated to Krishna was built the birthplace by his great grandson Vajranabh.[10][2] The  present site known as Krishna Janmasthan (lit.'birthplace of Krishna') was known as Katra (lit.'market place') Keshavdeva.[8] The archaeological excavations of the site had  revealed pottery and terracotta from 6th century BC.[8] It also produced some Jain sculptures as well as a large Buddhist complex including Yasha Vihara"
+        },
+        {
+            "placename":"Prem Mandir",
+            "placeimg":["./img/mathura/mathura21.webp","./img/mathura/mathura22.webp","./img/mathura/mathura23.jpg"],
+            "placedescription":"Rohtang Pass (Rohtang  is a high mountain pass (elevation 3,980 m (13,058 ft)) on the eastern end of the Pir Panjal Range of the Himalayas around 51 km (32 mi) from Manali in the Indian state of Himachal Pradesh.[2][3][4][5] It connects the Kullu Valley with the Lahaul and Spiti Valleys of Himachal Pradesh, India.",
+            "placehistory":"PThe foundation stone was laid by Jagadguru Shri Kripalu Ji Maharaj in the presence of thousand devotees on 14 January 2001. The structure took around 12 years to construct,involving around 1000 artisans.The Vrindavan site was developed by Kripalu Ji Maharaj, whose main ashram was in Vrindavan.[8] He dedicated the gift of love to Shri Vrindavan Dham.Prem Mandir is constructed entirely of Italian marble. The total dimensions of the temple including its flag is 125 ft. high, 190 ft. long and the 128 ft.wide raised platform serves as the seat of the two-storeyed white monument."
+        },
+        {
+            "placename":"ISKCON Temple  ",
+            "placeimg":["./img/mathura/mathura31.jpg","./img/mathura/mathura32.jpg","./img/mathura/mathura33.jpg"],
+            "placedescription":"ISKCON Vrindavan, also called Sri Sri Krishna Balaram Mandir, is one of the major ISKCON temples in the world. It is a Gaudiya Vaishnava temple located in the city of                    Vrindavan, Mathura district, in the Indian state of Uttar Pradesh.[1] The temple is dedicated to the Hindu gods Krishna and Balarama. The other deities of temple are Radha                    Krishna and Gauranga Nityananda.",
+            "placehistory":" A. C. Bhaktivedanta Swami Prabhupada, founder-acharya of the International Society for Krishna Consciousness, inaugurated the Krishna Balaram Mandir and installed deities (murtis) of Krishna-Balaram, Radha-Shyamasundar, the gopis Lalita Devi and Vishakha Devi, and Gaura-Nitai on Ram Navami (April 20)"
+        },
+        {
+            "placename":"Govardhan Hill  ",
+            "placeimg":["./img/mathura/mathura41.jpg","./img/mathura/mathura42.jpg","./img/mathura/mathura43.jpg"],
+            "placedescription":" Govardhan Hill (Sanskrit: गोवर्धन पर्वत; Govardhana Parvata; Pronunciation:, also called Mount Govardhana and Giriraj, is a sacred Hindu site in the Mathura district of Uttar Pradesh, India on an 8 km long hill located in the area of Govardhan and Radha Kund,[1][2] which is about 21 kilometres (13 mi) from Vrindavan.[3] It is the sacred centre of Braj and is identified as a natural form of Krishna, the Govardhana Shila.",
+            "placehistory":"Govardhan Hill is considered a sacred site because it is the setting for many legends relating to the life of Lord Krishna, the deity believed to be embodied in the earth of the hill. Krishna and his brother Balarama are said to have spent many happy hours roaming among its shade providing groves, pools, caves and lush cow-pastures. An Eden-like sanctuary, the area's waterfalls, garden-grove (van), arbour (nikunj), water tank (kund), and flora are depicted in scenes of Krishna's adventures with Radha."
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "manali":[
+        {
+            "placename":"Hadimba Temple",
+            "placeimg":["./img/manali/manali11.jpg","./img/manali/manali12.jpg","./img/manali/manali13.jpg"],
+            "placedescription":" Hidimba Devi Temple, locally known as Dhungari Temple, also known variously as the Hadimba Temple, is located in Manāli, a hill station in the State of Himāchal Pradesh in north India. It is an ancient cave temple dedicated to Hidimbi Devi, wife of Bhima, a figure in the Indian epic Mahābhārata.",
+            "placehistory":" The Hidimba Devi temple was built in 1553 CE by Maharaja Bahadur Singh.[3] The temple is built around a cave where Devi Hidimba performed meditation. Hidimbi was supposed to have lived there with her brother Hidimb, and not much is known about their parents. Born into a Rakshasa family, Hidimba vowed to marry one who would defeat her brother Hidimb, who was supposed to be very brave and fearless. During the Pandava's exile, when they visited Manali, Bhima, one of the five Pandavas defeated Hidimb.Thereafter, Hidimba married Bhima and gave birth to their son Ghatotkacha."
+        },
+        {
+            "placename":"Rohtang Pass",
+            "placeimg":["./img/manali/manali21.jpg","./img/manali/manali22.jpg","./img/manali/manali23.jpeg"],
+            "placedescription":" Rohtang Pass (Rohtang  is a high mountain pass (elevation 3,980 m (13,058 ft)) on the eastern end of the Pir Panjal Range of the Himalayas around 51 km (32 mi) from Manali in the Indian state of Himachal Pradesh.[2][3][4][5] It connects the Kullu Valley with the Lahaul and Spiti Valleys of Himachal Pradesh, India.",
+            "placehistory":"The pass provides a natural divide between the Kullu Valley with a primarily sanatani culture (in the south), and the arid high-altitude Lahaul and Spiti valleys with a Buddhist culture (in the north). The pass lies on the watershed between the Chenab and Beas basins. On the southern side of this pass, the Beas River emerges from underground and flows southward[6] and on its northern side, the Chandra River (flows from the eastern Himalayas), a source stream of the river Chenab, flows westward."
+        },
+        {
+            "placename":"Solang Valley ",
+            "placeimg":["./img/manali/manali31.webp","./img/manali/manali32.jpeg","./img/manali/manali33.jpg"],
+            "placedescription":" Solang Valley derives its name from a combination of the words Solang (Nearby village) and Nallah (water stream). It is a side valley at the top of the Kullu Valley in Himachal Pradesh, India 14 km northwest of the resort town Manali on the way to Rohtang Pass, and is known for its summer and winter sports conditions. The sports most commonly offered are parachuting, paragliding, skating, and zorbing.",
+            "placehistory":"The majestic Solang Valley is renowned for its vast slopes of greenery, contributing to its status as a favorite ski resort. The sprawling expanse of lush lawns in the valley has earned it a reputation as a popular destination for skiing enthusiasts. The resort is also known for its world-class ski school and family activities. The  village has many shops, including a candy store, which has been featured on Food Network shows.[citation needed] A few ski agencies offering courses and equipment reside  here and operate only"
+        },
+        {
+            "placename":"hrigu Lake ",
+            "placeimg":["./img/manali/manali41.avif","./img/manali/manali42.jpg","./img/manali/manali43.webp"],
+            "placedescription":" Bhrigu Lake or Brighu Lake is a lake located at an elevation of around 4,300 metres (14,100 ft) in Kullu district, Himachal Pradesh, India. It is located to the east of Rohtang Pass and is around 6 kilometres (3.7 mi) from Gulaba village. It can be reached by trekking either from the Vashishth temple, which is famous for its hot water springs, close to the town of Manali. Actually there is no settlement in Gulaba and is an area of the Pir Panjal mountain range. It is named after Maharishi Bhrigu",
+            "placehistory":"Legend has it that the sage used to meditate near the lake and hence it has been rendered sacred; the locals believe that due to this the lake never freezes completely. This lake is held sacred to the sage, Rishi Brighu, a great saint of Indian history. It lies on the various trek routes of the region"
+        }
+    ]
+}
