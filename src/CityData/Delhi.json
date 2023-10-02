@@ -50,5 +50,32 @@
             "placedescription":"The Haji Ali Dargah is a mosque and dargah or the monument of Pir Haji Ali Shah Bukhari located on an islet off the coast of Worli in the southern Mumbai.",          
             "placehistory":"The Haji Ali Dargah was constructed in 1431 in memory of a wealthy Muslim merchant, Sayyed Pir Haji Ali Shah Bukhari, who gave up all his worldly possessions before making a pilgrimage to Mecca. Hailing from Bukhara, in present-day Uzbekistan, Bukhari travelled around the world in the early to mid 15th century, and eventually settled in present-day Mumbai."
         }
-    ]   
+    ],
+    "nagpur":[
+        {  
+            "placename":"Shri Ganesh Tekadi Mandir",
+            "placeimg":["./img/nagpur/ganeshtekadi1.png","./img/nagpur/ganeshtekadi2.png","./img/nagpur/ganeshtekadi3.png"],
+            "placedescription":":Ganesh Tekdi Temple also known as Takdicha Ganapati means Ganpati of hills. Situated atop a hill on Station Road, this temple is about 250 years old and has immense religious significance for Hinduism.",          
+            "placehistory":" Nagpur is a city rich with many ancient and famous temples, some dating upto 300 years. These temples attract a large number of devotees who gather to offer a prayer especially on festivals. One name that comes rushing to one’s mind when talking about Nagpur is “Ganesh Mandir Tekdi“. Located at station road, this temple is a haven for devotees of Lord Ganesh. It is named “Ganesh Tekdi” because of its location, up a hill and tekdi means hill in Marathi." 
+            
+        },
+        {  
+            "placename":" Futala Lake",
+            "placeimg":["./img/nagpur/futala1.png","./img/nagpur/futala2.png","./img/nagpur/futala3.png"],
+            "placedescription":"The fountain is located in the Futala Lake area, which is a popular spot for picnics and evening walks. The fountain is made of concrete and steel and is one of the largest fountains in India, it is said to be around 125 ft in height.",         
+            "placehistory":"Futala Lake is a lake in Nagpur in the Indian state of Maharashtra. The lake covers 60 acres. Built by the Bhosle kings of Nagpur, the lake is known for its coloured fountains. In the evenings the site is illuminated with halogen lights and Tanga rides.The city of Nagpur boasts of being home to eleven magnificent and scenic lakes, and the Futala Lake is one them. Also known as the Telankhedi Lake, it is located in the western part of Nagpur, about 6 kilometres away from the city centre, and is believed to be more than 200 years old."
+        },
+        {  
+            "placename":" Dikshabhumi ",          
+            "placeimg":["./img/nagpur/dikshabhumi1.png","./img/nagpur/dikshabhumi2.png","./img/nagpur/dikshabhumi3.png"],
+            "placedescription":" Dikshabhumi is an important place for followers of Buddhism and a place of historical importance for Indian society. Deeksha Bhoomi is also known as the place where Dr. B.R. Ambedkar, the architect of the Indian Constitution, converted to Buddhism along with thousands of his followers in 1956.",         
+            "placehistory":"Dr. Ambedkar had declared in 1935 that although he was born as a Hindu, he would not die as one, as conversion was the solution to abandon the caste system. After this declaration and having extensively and exhaustively studied the doctrines of all the major world religions, Dr. Ambedkar would choose Buddhism for himself and his followers.Buddhism was 2,550 years old in 1956, so it was a notable year of celebration for the Buddhist religious world globally and 14 October was the traditional date of conversion of Emperor Ashoka, the great Indian Buddhist Monarch and the day is celebrated as Ashok Vijaya Dashmi."
+        },
+        {  
+            "placename":"Zero Mile Stone",
+            "placeimg":["./img/nagpur/zero-mile1.png","./img/nagpur/zero-mile2.png","./img/nagpur/zero-mile3.png"],
+            "placedescription":"Nagpur lies precisely at the center of the country with the Zero Mile Marker indicating the geographical center of India. The Zero Mile Stone was erected by the British who used this point to measure all the distances. The Zero Mile Stone consists of four horses and a pillar made up of sandstone.",          
+            "placehistory":" Zero Mile Stone is a monument built by British during the Great Trigonometrical Survey of India in 1907 in Nagpur, Maharashtra. The Zero Mile Stone consists of a pillar made up of sandstone and another small stone representing the GTS Standard Bench Mark, and four stucco horses that were added later. The height of the top of the pillar is 1020.171 feet above mean sea level. In 2008, The Times of India undertook to maintain the monument for the next 5 years." 
+        }
+    ]
 }
