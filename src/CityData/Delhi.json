@@ -75,7 +75,33 @@
             "placename":"Zero Mile Stone",
             "placeimg":["./img/nagpur/zero-mile1.png","./img/nagpur/zero-mile2.png","./img/nagpur/zero-mile3.png"],
             "placedescription":"Nagpur lies precisely at the center of the country with the Zero Mile Marker indicating the geographical center of India. The Zero Mile Stone was erected by the British who used this point to measure all the distances. The Zero Mile Stone consists of four horses and a pillar made up of sandstone.",          
-            "placehistory":" Zero Mile Stone is a monument built by British during the Great Trigonometrical Survey of India in 1907 in Nagpur, Maharashtra. The Zero Mile Stone consists of a pillar made up of sandstone and another small stone representing the GTS Standard Bench Mark, and four stucco horses that were added later. The height of the top of the pillar is 1020.171 feet above mean sea level. In 2008, The Times of India undertook to maintain the monument for the next 5 years." 
+            "placehistory":"Zero Mile Stone is a monument built by British during the Great Trigonometrical Survey of India in 1907 in Nagpur, Maharashtra. The Zero Mile Stone consists of a pillar made up of sandstone and another small stone representing the GTS Standard Bench Mark, and four stucco horses that were added later. The height of the top of the pillar is 1020.171 feet above mean sea level. In 2008, The Times of India undertook to maintain the monument for the next 5 years." 
+        }
+    ],
+    "agra":[
+        {  
+            "placename":" Taj Mahal",
+            "placeimg":["./img/agra/tajmahal1.jpg","./img/agra/tajmahal2.jpg","./img/agra/tajmahal3.jpg"],
+            "placedescription":"The Taj Mahal was designated as a UNESCO World Heritage Site in 1983 for being “the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage”. It is regarded by many as the best example of Mughal architecture and a symbol of India's rich history.",          
+            "placehistory":"The Taj Mahal( 'Crown of the Palace') is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (r. 1628–1658) to house the tomb of his beloved wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall." 
+        },
+        {  
+            "placename":"Agra Fort",
+            "placeimg":["./img/agra/agrafort1.png","./img/agra/agrafort2.png","./img/agra/agrafort3.png"],
+            "placedescription":"The Agra Fort is a historical fort in the city of Agra, and also known as Agra's Red Fort. Mughal emperor Humayun was crowned at this fort. It was later renovated by the Mughal emperor Akbar from 1565 and the present-day structure was completed in 1573.",       
+            "placehistory":"The Agra Fort is a historical fort in the city of Agra, and also known as Agra's Red Fort. Mughal emperor Humayun was crowned at this fort. It was later renovated by the Mughal emperor Akbar from 1565 and the present-day structure was completed in 1573. It served as the main residence of the rulers of the Mughal dynasty until 1638, when the capital was shifted from Agra to Delhi. It was also known as the 'Lal-Qila' or 'Qila-i-Akbari'. Before capture by the British, the last Indian rulers to have occupied it were the Marathas. In 1983, the Agra fort was inscribed as a UNESCO World Heritage Site because of its importance during the Mughal Dynasty. It is about 2.5 kilometers (1.6 mi) northwest of its more famous sister monument, the Taj Mahal. The fort can be more accurately described as a walled city. " 
+        },
+        {  
+            "placename":"Itmad-ud-Daula",
+            "placeimg":["./img/agra/itmaduddaula1.jpg","./img/agra/itmaduddaula2.jpg","./img/agra/itmaduddaula3.jpg"],
+            "placedescription":"Tomb of I'timād-ud-Daulah is a Mughal mausoleum in the city of Agra in the Indian state of Uttar Pradesh. Often described as a 'jewel box', sometimes called the 'Bachcha Taj' or the 'Baby Taj', the tomb of I'timād-ud-Daulah is often regarded as a draft of the Taj Mahal.",          
+            "placehistory":"Tomb of I'timād-ud-Daulah is the tomb of Mirza Ghiyas Beg and his wife Asmat Beghum. He hailed from Iran and served Akbar. He was the father of the famous Nur-Jehan and grandfather of Mumtaz-Mahal of the Taj Mahal fame. He was made Vazir (Prime Minister) after Nur Jehan's marriage with Jehangir in 1611. He held the mansab of 7000/7000 and the title : 'I'timad-Ud-Daulah' (The Lord treasurer). He died at Agra in 1622, a few months after his wife's death. Nur Jehan built this tomb for her parents between 1622 and 1628. Her own tomb and that of Jehangir are at Lahore." 
+        },
+        {  
+            "placename":"Taj Museum",
+            "placeimg":["./img/agra/tajmusium1.jpg","./img/agra/tajmusium2.jpg","./img/agra/tajmusium3.jpg"],
+            "placedescription":" Taj Museum is a small museum that is located inside the Taj Mahal complex. It is a double storied building found on a raised platform. The museum has 3 galleries and more than 100 display items that attract every tourist who visits Taj Mahal. The museum was inaugurated in 1982.",          
+            "placehistory":"The origin of Taj Museum goes back to 1906 when it was established at the instance of Lord Curzon (Viceroy of India 1899 to 1905 A.D.) in two hexagonal rooms on the west side of main entrance gateway to the Taj Mahal. Further, Khan Bahadur Maulvi Zafar Hussan, Honorary Curator and Superintendent, Archaeological Survey, Northern Circle, Agra made valuable efforts to develop this Museum."
         }
     ]
 }
