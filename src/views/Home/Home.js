@@ -20,11 +20,20 @@ const Home =() => {
         else if(cityname=="banglore"){
             setStorecity(CityData.banglore)
         }
-        // else if(cityname=="chennai"){
-        //     setStorecity(CityData.chennai)
-        // }
-        else{
+        else if(cityname=="chennai"){
             setStorecity(CityData.chennai)
+        }
+        else if(cityname=="jaipur"){
+            setStorecity(CityData.jaipur)
+        }
+        else if(cityname=="amritsar"){
+            setStorecity(CityData.amritsar)
+        }
+        else if(cityname=="southgoa"){
+            setStorecity(CityData.southgoa)
+        }
+        else{
+            console.log("error")
         }
 
     },[cityname])
