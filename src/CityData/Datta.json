@@ -1,0 +1,47 @@
+{
+    "amritsar":
+    [
+        {
+            "placename":"Sri Harmandir Sahib",
+            "placeimg":
+            ["./img/amritsar-city/sri-harimandir-sahib-1.jpg",
+            "./img/amritsar-city/sri-harimandir-sahib-2.jpg",
+            "./img/amritsar-city/sri-harimandir-sahib-3.jpg"
+            ],
+            "placedescription":" The Golden temple is located in the holy city of the Sikhs, Amritsar. The Golden temple is famous for its full golden dome, it is one of the most sacred pilgrim spots for Sikhs. The Mandir is built on a 67-ft square of marble and is a two storied structure.",
+            "placehistory":" It is located in the city of Amritsar, Punjab state, northwestern India. The first Harmandir Sahib was built in 1604 by Arjan, the fifth Sikh Guru, who symbolically had it placed on a lower level so that even the humblest had to step down to enter it."
+        },
+        {
+            "placename":"durgiana city" ,
+            "placeimg":
+            [   "./img/amritsar-city/durgiana-1.jpg",
+                "./img/amritsar-city/durgiana-2.jpg",
+                "./img/amritsar-city/durgiana-3.jpg"
+            ],
+            "placedescription":" The temple is built in the middle of a sacred lake, which measures 160 metres (520 ft)  130 metres (430 ft). Its dome and canopies are similar to that of the Golden temple of Sikh religion, also located in Amritsar. A bridge provides the approach to the temple. The dome of the temple is gilded.",
+            "placehistory":"It was built in 1921 by Guru Harsai Mal Kapoor in the architectural style of the Sikh Shri Harmandir Sahib (Golden Temple) . Harsai Mal was a descendant of Prithi Chand and hence Guru Ram Das. The grandchildren of Harsai Mal Kapoor is currently living in amritsar and one of caretakers of the idol of Harsai mal Kapoor."
+        },
+        {
+            "placename":"Gobindgarh Fort",
+            "placeimg":
+            ["./img/amritsar-city/gobindgarth-fort-1.jpg",
+            "./img/amritsar-city/gobindgarth-fort-2.jpg",
+            "./img/amritsar-city/gobindgarth-fort-3.jpg"
+            ],
+            "placedescription":"Gobindgarh Fort is located on the south west fringe of Amritsar, in a square pattern, with a perimeter of 1,000 m and made up entirely of bricks and lime. The fort had 25 cannons mounted on its ramparts and it remained with the Bhangi rulers till 1805.",
+            "placehistory":" Maharaja Ranjit Singh, the first maharaja of the Sikh Empire, conquered the fort in the early 19thcentury. It was he who renamed it as Gobindgarh Fort after Guru Gobind Singh, the 10th guru of the Sikhs. Further, he made many renovations and added new structures to the fort from 1805 to 1809."
+        },
+        {
+            "placename":"Tarn Taran Sahib",
+            "placeimg":
+            ["./img/amritsar-city/tarn-taran-sahib-1.jpg",
+            "./img/amritsar-city/tarn-taran-sahib-2.jpg",
+            "./img/amritsar-city/tarn-taran-sahib-3.jpg"
+            ],
+            "placedescription":"Tarn Taran Sahib is a city in the state of Punjab, in far northern India. Tarn Taran district was formed in 16th Jun, 2006, during the celebrations marking the 400th martyrdom day of Shri Guru Arjan Dev Ji. The declaration to this effect was made by Captain Amarinder Singh, Chief Minister of Punjab.",
+            "placehistory":"Steeped in antiquity, Tarn Taran dates back to the times of the fifth sikh Guru Shri Guru Arjan Dev ji (1563-1606). He laid the foundation of this city in 1596 and the milestone was laid for the welfare of people with the establishment of Shri Tarn Taran Sahib Temple. "
+        }
+    ]
+  
+    
+}
