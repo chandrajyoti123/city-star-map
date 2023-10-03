@@ -192,7 +192,7 @@ const Home = () => {
 
             </div>
 
-          {/* <TrendingCity/> */}
+          {/* <TrendingCity/>
 
             {
                 storecity.map((citydata, i) => {
@@ -201,7 +201,7 @@ const Home = () => {
 
 
                 })
-            }
+            } */}
 
          
 
