@@ -26,6 +26,7 @@ const Home = () => {
         if (cityname == "mathura") {
             setStorecity(CityData.mathura)
          setCityplace("mathura")
+         console.log(cityname)
 
         }
         else if (cityname == "manali") {
