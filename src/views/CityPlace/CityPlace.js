@@ -1,71 +1,77 @@
 import HomeCard from "../../components/HomeCard/HomeCard"
 import CityData from './../../CityData/City.json'
 import { useState ,useEffect } from "react"
-const CityPlace=({dataofcityplace})=>{
+const CityPlace=({})=>{
     
-  console.log(dataofcityplace)
   
+    const [getcity,setGetcity]=useState('')
     const [storecity, setStorecity] = useState([])
+   
+
+    useEffect(()=>{
+        const readcity=localStorage.getItem("city")
+       setGetcity(readcity)
+    },[])
 
     useEffect(() => {
-        if (dataofcityplace == "mathura") {
+        if (getcity == "mathura") {
             setStorecity(CityData.mathura)
 
         }
-        else if (dataofcityplace == "manali") {
+        else if (getcity == "manali") {
             setStorecity(CityData.manali)
         }
-        else if (dataofcityplace == "banglore") {
+        else if (getcity == "banglore") {
             setStorecity(CityData.banglore)
         }
-        else if (dataofcityplace == "chennai") {
+        else if (getcity == "chennai") {
             setStorecity(CityData.chennai)
         }
-        else if (dataofcityplace == "jaipur") {
+        else if (getcity == "jaipur") {
             setStorecity(CityData.jaipur)
         }
-        else if (dataofcityplace == "amritsar") {
+        else if (getcity == "amritsar") {
             setStorecity(CityData.amritsar)
         }
-        else if (dataofcityplace == "southgoa") {
+        else if (getcity == "southgoa") {
             setStorecity(CityData.southgoa)
         }
-        else if (dataofcityplace == "pune") {
+        else if (getcity == "pune") {
             setStorecity(CityData.pune)
         }
-        else if (dataofcityplace == "delhi") {
+        else if (getcity == "delhi") {
             setStorecity(CityData.delhi)
         }
-        else if (dataofcityplace == "mumbai") {
+        else if (getcity == "mumbai") {
             setStorecity(CityData.mumbai)
         }
-        else if (dataofcityplace == "nagpur") {
+        else if (getcity == "nagpur") {
             setStorecity(CityData.nagpur)
         }
-        else if (dataofcityplace == "agra") {
+        else if (getcity == "agra") {
             setStorecity(CityData.agra)
         }
-        else if (dataofcityplace == "kolkata") {
+        else if (getcity == "kolkata") {
             setStorecity(CityData.Kolkata)
         }
-        else if (dataofcityplace == "ahamednagar") {
+        else if (getcity == "ahamednagar") {
             setStorecity(CityData.Ahamednagar)
         }
-        else if (dataofcityplace == "hydrabad") {
+        else if (getcity == "hydrabad") {
             setStorecity(CityData.Hydrabad)
         }
         else {
 
         }
 
-    }, [])
+    }, [getcity])
 
     return(
         <div>
         {
             storecity.map((citydata, i) => {
                 const { placename, placeimg, placedescription, placehistory } = citydata
-                return <HomeCard name={placename} img1={placeimg[0]} img2={placeimg[1]} img3={placeimg[2]} description={placedescription} history={placehistory} />
+                return <HomeCard name={placename} key={i} img1={placeimg[0]} img2={placeimg[1]} img3={placeimg[2]} description={placedescription} history={placehistory} />
 
 
             })
