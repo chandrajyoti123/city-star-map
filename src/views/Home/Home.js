@@ -18,15 +18,16 @@ import section5 from './section5.jpg'
 const Home = () => {
     const [cityname, setCityname] = useState("")
     const [storecity, setStorecity] = useState([])
-    const [cityplace ,setCityplace]=useState("")
-     
+    const [cityplace ,setCityplace]=useState("mathura")
+    
+    // console.log(cityplace)
 
     useEffect(() => {
         
         if (cityname == "mathura") {
             setStorecity(CityData.mathura)
-         setCityplace("mathura")
-         console.log(cityname)
+            setCityplace("mathura")
+         
 
         }
         else if (cityname == "manali") {
@@ -182,7 +183,7 @@ const Home = () => {
 
             </div>
 
-           <CityPlace searchvalue={cityplace}/>
+          
 
             {
                 storecity.map((citydata, i) => {
@@ -192,6 +193,8 @@ const Home = () => {
 
                 })
             }
+
+         
 
 
         </div>
