@@ -6,6 +6,7 @@ import Blogs from "./views/Blogs/Blogs";
 import Login from "./views/Login/Login";
 import TopSearchPlaces from "./views/TopSearchPlaces/TopSearchPlaces";
 import VisitorReviews from "./views/VisitorReviews/VisitorReviews";
+import CityPlace from "./views/CityPlace/CityPlace";
 
 const router =createBrowserRouter([
     {
@@ -31,6 +32,10 @@ const router =createBrowserRouter([
     {
         path:'/visitorreviews',
         element:<VisitorReviews/>
+    },
+    {
+        path:'/cityplace',
+        element:<CityPlace/>
     }
 
 ])
