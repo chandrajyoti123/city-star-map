@@ -35,8 +35,14 @@ const Home =() => {
         else if(cityname=="pune"){
             setStorecity(CityData.pune)
         }
+        else if(cityname=="delhi"){
+            setStorecity(CityData.delhi)
+        }
+        else if(cityname=="mumbai"){
+            setStorecity(CityData.mumbai)
+        }
         else{
-            console.log("error")
+           
         }
 
     },[cityname])

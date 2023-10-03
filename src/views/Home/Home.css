@@ -1,3 +1,15 @@
+
+:root{
+    --primarycolor:#cadeef;
+    --secondarycolor:#9bd4e4;
+    --ternarycolor:#39ace7;
+    --darkcolor:#0784b5;
+    --fontheading:50px;
+    --fontsubheading:40px;
+    --textsize:23px;
+    --subheadingweight:600;
+    --headingweight:bolder;
+}
 .input{
     width: 400px;
     height: 40px;
