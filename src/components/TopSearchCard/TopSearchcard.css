@@ -1,0 +1,32 @@
+.topsearchcard{
+    width: 80vw;
+    height: auto;
+    background-color: rgb(203, 218, 238);
+    margin: 20px auto;
+}
+.img-group{
+    width: 100%;
+    display: flex;
+    height: 300px;
+}
+.img{
+    width: 33%;
+    height: 100%;
+}
+.name{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(42, 93, 165);
+    font-family: bold;
+}
+.description{
+    font-size: 25px;
+    text-align: justify;
+    padding: 0 30px;
+    color: rgb(97, 152, 210);
+}
+.heading{
+    font-size: 30px;
+    color: rgb(68, 76, 171);
+    text-align: center;
+}
