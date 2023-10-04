@@ -1,6 +1,7 @@
 import HomeCard from "../../components/HomeCard/HomeCard";
 import { Link } from "react-router-dom";
 // import CityPlace from "../CityPlace/CityPlace";
+import PlaceCard from "../../components/PlaceCard/PlaceCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import CityData from './../../CityData/City.json'
@@ -203,7 +204,10 @@ const Home = () => {
                 })
             } */}
 
-         
+         {/* -----------------section3----------------- */}
+         <div>
+            <PlaceCard/>
+         </div>
 
 
         </div>
