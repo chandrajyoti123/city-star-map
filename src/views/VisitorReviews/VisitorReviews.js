@@ -7,6 +7,12 @@ import Customer from "./../../components/Customer/Customer";
 
 function Reviews() {
     const [data, setData] = useState(view.customer);
+    const [name, setName] = useState("");
+
+    const nameOnChage=((e) =>{
+        const changename = e.target.value;
+        setName(changename);
+    });
     
     return (
         <>
