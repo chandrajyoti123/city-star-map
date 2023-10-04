@@ -8,7 +8,7 @@
 }
 
 .toppalaceimage {
-    height: 230px;
+    height: 235px;
     width: 300px;
     display: block;
     margin-left: auto;
@@ -27,7 +27,7 @@
     font-size: 17px;
     padding: 0 10px;
     text-align: justify;
-    background-color: pink;
+    /* background-color: pink; */
     height: 110px;
     /* width: 300px; */
     
@@ -42,5 +42,6 @@
     background-color: var(--secondarycolor);
     border-radius: 3px;
     border: 1px solid black;
+    border: none;
     /* background-color: rgb(102, 176, 236); */
 }

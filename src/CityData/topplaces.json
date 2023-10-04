@@ -118,6 +118,16 @@
             ],
             "placedescription": "Shirdi (pronunciationⓘ; also known as Sainagar) is a city in the Indian state of Maharashtra. It is located in the Rahata taluka of Ahmednagar District. It is accessible via the Ahmednagar–Malegaon State Highway No.10, approximately 83 km (52 mi) from Ahmednagar and 15 km (9.3 mi) from Kopargaon. It is located 185 km (115 mi) east of the Western Seashore line (the Ahmednagar–Manmad road), a very busy route.",
             "placehistory": "Shirdi is famously known as the home of the late 19th century saint Shri Sai Baba. [1] The Shri Saibaba Sansthan Trust located in Shirdi is one of the richest temple organisations. One of the most famous pilgrim centres of India, Shirdi is where Shri Sai Baba, the saint known for his divine powers, lived and preached for over five decades. Samadhi Temple, where he lived, has a room that depicts articles and things used by Shri Sai during his lifetime, and is therefore quite significant for his disciples, who follow his teachings and rever him till date. The temple also houses his mortal remains."
-        }   
+        },
+        {
+            "placename": " Charminar ",
+            "placeimg": [
+                "./img/pune/charminar-img-1.jpg",
+                "./img/pune/charminar-img-2.jpg",
+                "./img/pune/charminar-img-3.jpg"
+            ],
+            "placedescription": "The Charminar (lit. 'four minarets') is a monument located in Hyderabad, Telangana, India. Constructed in 1591, the landmark is a symbol of Hyderabad and officially incorporated in the emblem of Telangana.[3] The Charminar's long history includes the existence of a mosque on its top floor for more than 425 years. While both historically and religiously significant, it is also known for its popular and busy local markets surrounding the structure, and has become one of the most frequented tourist attractions in Hyderabad. Charminar is also a site of numerous festival celebrations, such as Eid-ul-adha and Eid al-Fitr,[4] as it is adjacent to the city's main mosque, the Makkah Masjid.",
+            "placehistory": "The fifth ruler of the Qutb Shahi dynasty, Muhammad Quli Qutb Shah, built the Charminar in 1591 after shifting his capital from Golconda to the newly formed city of Hyderabad.Charminar, Char Kaman and Gulzar Houz, photographed by Lala Deen Dayal in the 1880s The Archaeological Survey of India (ASI), the current caretaker of the structure, mentions in its records, There are various theories regarding the purpose for which Charminar was constructed. However, it is widely accepted that Charminar was built at the centre of the city, to commemorate the eradication of plague, a deadly disease which was wide spread at that time.[8][9] According to Jean de Thévenot, a French traveller of the 17th century whose narration was complemented with the available Persian texts, the Charminar was constructed in the year 1591 CE, to commemorate the beginning of the second Islamic millennium year (1000 AH). The event was celebrated far and wide in the Islamic world, thus Qutb Shah founded the city of Hyderabad to celebrate the event and commemorate it with the construction of this building."
+        }  
     ]
 }

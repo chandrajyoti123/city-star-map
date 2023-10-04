@@ -1,5 +1,11 @@
 .main-heading{
     font-size: var(--fontheading);
+    color: var(--darkcolor);
     text-align: center;
-    margin-top: 30px;
+    margin-top: 35px;
+}
+.topsearch-container{
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
 }
