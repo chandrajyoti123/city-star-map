@@ -8,6 +8,7 @@ import TopSearchPlaces from "./views/TopSearchPlaces/TopSearchPlaces";
 import VisitorReviews from "./views/VisitorReviews/VisitorReviews";
 import CityPlace from "./views/CityPlace/CityPlace";
 import TrendingCity from "./views/TrendingCity/TrendingCity";
+import FamousPlace from "./views/FamousPlace/FamousPlace";
 
 const router =createBrowserRouter([
     {
@@ -39,8 +40,12 @@ const router =createBrowserRouter([
         element:<CityPlace/>
     },
     {
-        path:'/trendingcity/:id',
+        path:'/trendingcity',
         element:<TrendingCity/>
+    },
+    {
+        path:'/famouseplace/:index',
+        element:<FamousPlace/>
     }
 
 ])

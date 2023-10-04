@@ -3,7 +3,8 @@ import tosearchdata from './../../CityData/topplaces.json'
 import React, { useState, useEffect } from "react"; 
 import './TopSearchPlaces.css'
 import Navbar from '../../components/Navbar/Navbar';
-import FamousPlaceCard from '../../components/TopPlaceCard/FamousPlaceCard';
+import FamousPlaceCard from '../../components/FamousPlaceCard/FamousPlaceCard';
+import { Link } from 'react-router-dom';
 
 const TopSearchPlaces = () => {
     const [topsearch, setTopsearch] = useState(tosearchdata.topsearch);
@@ -23,7 +24,7 @@ const TopSearchPlaces = () => {
     return (
         <>
             <Navbar />
-            <p className='main-heading'>Top Tourist Places Attraction In India</p>
+
             < input type='text'
                 placeholder=' Search'
                 value={searchterm}
@@ -32,6 +33,7 @@ const TopSearchPlaces = () => {
                         (e.target.value)
                 }}
             />
+             <p className='main-heading'>Top Tourist Places Attraction In India</p>
 
             {/* {
             topsearch.map((elementofsearch,i)=>(
@@ -44,7 +46,7 @@ const TopSearchPlaces = () => {
                 {
                     place.map((placecitydata,i) => {
                         // const {placename ,placeimg,  placedescription } = placecitydata;
-                        return <FamousPlaceCard image={placecitydata.placeimg[0]}  title={placecitydata.placename} description={placecitydata.placedescription} no={i+1} />
+                        return (<Link to='/trendingcity'><FamousPlaceCard image={placecitydata.placeimg[0]}  title={placecitydata.placename} description={placecitydata.placedescription} no={i+1} /></Link>)
                     })
                 }
             </div>
