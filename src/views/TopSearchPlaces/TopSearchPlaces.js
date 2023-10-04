@@ -46,7 +46,7 @@ const TopSearchPlaces = () => {
                 {
                     place.map((placecitydata,i) => {
                         // const {placename ,placeimg,  placedescription } = placecitydata;
-                        return (<Link to='/trendingcity'><FamousPlaceCard image={placecitydata.placeimg[0]}  title={placecitydata.placename} description={placecitydata.placedescription} no={i+1} /></Link>)
+                        return (<Link to={`/topplaces/${i}`}><FamousPlaceCard image={placecitydata.placeimg[0]}  title={placecitydata.placename} description={placecitydata.placedescription} no={i+1} /></Link>)
                     })
                 }
             </div>
