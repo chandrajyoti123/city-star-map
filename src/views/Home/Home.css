@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
+   
 }
 :root{
     --primarycolor:#cadeef;
@@ -21,6 +21,7 @@
     height: 90vh;
     background: linear-gradient(135deg,rgb(0, 0, 0,0.5),rgba(250, 247, 247,0.1)), url('./background.jpg');
     background-size: cover;
+    color: white;
 }
 .searchsection{
     width: 80%;
@@ -56,11 +57,12 @@
 }
 .icon{
     font-size: 25px;
+    color: white;
 }
 .input{
     width: 400px;
     height: 40px;
-    
+    color: white;
  font-size: 20px;
       padding-left: 15px;
   
@@ -78,6 +80,7 @@
 .login{
    text-decoration: none;
    font-size: 30px;
+   color: white;
 
 }
 .sectiononebody{
@@ -185,4 +188,5 @@
 .nameofcard{
     font-size: var(--fontsubheading);
     margin: 5px 20px;
+    color: white;
 }

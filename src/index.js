@@ -7,6 +7,7 @@ import Login from "./views/Login/Login";
 import TopSearchPlaces from "./views/TopSearchPlaces/TopSearchPlaces";
 import VisitorReviews from "./views/VisitorReviews/VisitorReviews";
 import CityPlace from "./views/CityPlace/CityPlace";
+import TrendingCity from "./views/TrendingCity/TrendingCity";
 
 const router =createBrowserRouter([
     {
@@ -36,6 +37,10 @@ const router =createBrowserRouter([
     {
         path:'/cityplace',
         element:<CityPlace/>
+    },
+    {
+        path:'/trendingcity/:id',
+        element:<TrendingCity/>
     }
 
 ])

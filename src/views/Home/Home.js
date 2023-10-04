@@ -1,6 +1,7 @@
 import HomeCard from "../../components/HomeCard/HomeCard";
 import { Link } from "react-router-dom";
-import CityPlace from "../CityPlace/CityPlace";
+// import CityPlace from "../CityPlace/CityPlace";
+import PlaceCard from "../../components/PlaceCard/PlaceCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import CityData from './../../CityData/City.json'
@@ -14,19 +15,29 @@ import section2 from './section2.jpg'
 import section3 from './section3.jpg'
 import section4 from './section4.jpg'
 import section5 from './section5.jpg'
+import TrendingCity from "../TrendingCity/TrendingCity";
 
 const Home = () => {
     const [cityname, setCityname] = useState("")
     const [storecity, setStorecity] = useState([])
-    const [cityplace ,setCityplace]=useState("")
-     
+    const [cityplace ,setCityplace]=useState("mathura")
+    
+    // console.log(cityplace)
+    
+    useEffect(()=>{
+        localStorage.setItem("city",cityplace)
+
+    },[cityplace])
+      
+        
+   
 
     useEffect(() => {
         
         if (cityname == "mathura") {
             setStorecity(CityData.mathura)
-         setCityplace("mathura")
-         console.log(cityname)
+            setCityplace("mathura")
+         
 
         }
         else if (cityname == "manali") {
@@ -126,7 +137,7 @@ const Home = () => {
             <div className="sectiontwo">
 
                 <div className='row1'>
-                    <Link className="linkrow1">
+                    <Link className="linkrow1" to='/trendingcity/1'>
                         <div className='row1-child'>
 
                             <img src={section1} className='sectionimg' />
@@ -136,7 +147,7 @@ const Home = () => {
 
                         </div>
                     </Link>
-                    <Link className="linkrow1">
+                    <Link className="linkrow1" to='/trendingcity/2'>
                         <div className='row1-child'>
                             <img src={section2} className='sectionimg' />
                             <div className="transparentfilm">
@@ -149,7 +160,7 @@ const Home = () => {
 
                 </div>
                 <div className='row2'>
-                    <Link className="linkrow2">
+                    <Link className="linkrow2" to='/trendingcity/3'>
                         <div className='row2-child'>
                             <img src={section3} className='sectionimg' />
                             <div className="transparentfilm">
@@ -158,7 +169,7 @@ const Home = () => {
 
                         </div>
                     </Link>
-                    <Link className="linkrow2">
+                    <Link className="linkrow2" to='/trendingcity/4'>
                         <div className='row2-child'>
                             <img src={section4} className='sectionimg' />
                             <div className="transparentfilm">
@@ -167,7 +178,7 @@ const Home = () => {
 
                         </div>
                     </Link>
-                   <Link className="linkrow2">
+                   <Link className="linkrow2" to='/trendingcity/5'>
                    <div className='row2-child'>
                         <img src={section5} className='sectionimg' />
                         <div className="transparentfilm">
@@ -182,7 +193,7 @@ const Home = () => {
 
             </div>
 
-           <CityPlace searchvalue={cityplace}/>
+          {/* <TrendingCity/>
 
             {
                 storecity.map((citydata, i) => {
@@ -191,7 +202,12 @@ const Home = () => {
 
 
                 })
-            }
+            } */}
+
+         {/* -----------------section3----------------- */}
+         <div>
+            <PlaceCard/>
+         </div>
 
 
         </div>
