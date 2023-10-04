@@ -24,16 +24,22 @@ const TopSearchPlaces = () => {
     return (
         <>
             <Navbar />
-
+         <div className='tosearch-main-container'>
+            <div className='searchbox'>
             < input type='text'
-                placeholder=' Search'
+                placeholder=' Search Place Here'
                 value={searchterm}
                 onChange={(e) => {
                     setSearchterm
                         (e.target.value)
                 }}
             />
-             <p className='main-heading'>Top Tourist Places Attraction In India</p>
+            </div>
+         
+             <p className='main-heading'>Top 15 Tourist Places Attraction In India</p>
+
+         </div>
+           
 
             {/* {
             topsearch.map((elementofsearch,i)=>(
