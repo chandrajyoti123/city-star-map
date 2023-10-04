@@ -105,6 +105,17 @@ const Home = () => {
         }
 
     }, [cityname])
+    // -----------------------scroll-------------------------
+    // const scroll =document.getElementById('flex-scroll')
+    // scroll.addEventListener("weel",(eve)=>{
+    //     eve.preventDefault()
+    //     scroll.scrollLeft += eve.deltaY
+    // })
+
+    const handleScroll = (event) => {
+        const scroll = document.getElementById('flex-scroll');
+        scroll.scrollLeft += event.deltaY;
+    }
 
 
     return (
@@ -139,6 +150,10 @@ const Home = () => {
                     <div className="sectiononesubheading">  Start planning your next unforgettable road trip</div>
                 </div>
             </div>
+           <div className="headingseciotion">
+           <div className="mainheading">Trending destinations</div>
+            
+           </div>
 
             <div className="sectiontwo">
 
@@ -198,27 +213,27 @@ const Home = () => {
 
 
             </div>
+            <div className="headingseciotion">
+           <div className="mainheading">Best of India </div>
+           
+           </div>
            <div className="topplaces">
           <div className="topplacecol1"> <span><FontAwesomeIcon icon={faAngleLeft} className="faangle" onClick={()=>{
-          window.scrollTo({
-          top:0,
-            right: 800,
-            behavior: "smooth",
-          });
+              handleScroll({ deltaY: -500 });
+          
           }}/></span></div>
-           <div  className=" flexrow">
-                
-             
-                
-               {
+           <div  className=" flexrow" id="flex-scroll">
+                 {
                 topsearcharr.map((topsearchele,i)=>{
                     return <TopPlaceCard placecardimg={topsearchele.placeimg[0]} placecardname={topsearchele.placename}/>
 
-                })
-               }
-                    
+                   })
+                 }
             </div>
-            <div className="topplacecol2"> <span><FontAwesomeIcon icon={faAngleRight} className="faangle"/></span></div>
+            <div className="topplacecol2"> <span><FontAwesomeIcon icon={faAngleRight} className="faangle" onClick={()=>{
+            handleScroll({ deltaY:500 });
+          
+          }}/></span></div>
            </div>
 
           

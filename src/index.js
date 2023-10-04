@@ -1,5 +1,6 @@
 import  ReactDOM  from "react-dom/client";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import FamousPlacess from "./views/FamousPlacess/FamousPlace";
 import Home from "./views/Home/Home";
 import AboutUs from "./views/AboutUs/AboutUs";
 import Blogs from "./views/Blogs/Blogs";
@@ -8,7 +9,7 @@ import TopSearchPlaces from "./views/TopSearchPlaces/TopSearchPlaces";
 import VisitorReviews from "./views/VisitorReviews/VisitorReviews";
 import CityPlace from "./views/CityPlace/CityPlace";
 import TrendingCity from "./views/TrendingCity/TrendingCity";
-import FamousPlace from "./views/FamousPlace/FamousPlace";
+
 
 const router =createBrowserRouter([
     {
@@ -44,9 +45,9 @@ const router =createBrowserRouter([
         element:<TrendingCity/>
     },
     {
-        path:'/famouseplace/:index',
-        element:<FamousPlace/>
-    }
+        path:'/topplaces/:id',
+        element:<FamousPlacess/>
+    },
 
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'))
