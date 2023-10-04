@@ -1,0 +1,46 @@
+.topplacecard-container {
+    height: 450px;
+    width: 350px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.toppalaceimage {
+    height: 230px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 8px; */
+    border-radius: 10px 10px 0 0;
+}
+
+.titleplace {
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.description-place {
+    font-size: 17px;
+    padding: 0 10px;
+    text-align: justify;
+    background-color: pink;
+    height: 110px;
+    /* width: 300px; */
+    
+}
+
+.number-box {
+    display: inline-block;
+    width: 32px;
+    height: 27px;
+    text-align: center;
+    margin-right: 12px;
+    background-color: var(--secondarycolor);
+    border-radius: 3px;
+    border: 1px solid black;
+    /* background-color: rgb(102, 176, 236); */
+}
