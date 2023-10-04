@@ -9,16 +9,22 @@ function Reviews() {
     const [data, setData] = useState(view.customer);
     const [name, setName] = useState("");
     const [title, setTitle] = useState("");
+    const [description, setDescription] = useState("");
 
     const nameOnChage=((e) =>{
         const changename = e.target.value;
         setName(changename);
     });
-    
+
     const titleOnChage = ((e) =>{
         const changetitle = e.target.value;
         setTitle(changetitle)
     })
+
+    const descriptionOnChange =((e) =>{
+        const chengedescription = e.target.value;
+        setDescription(chengedescription);
+});
     
     return (
         <>
