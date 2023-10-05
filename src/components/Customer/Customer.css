@@ -39,7 +39,9 @@ padding-left: 10px;
 .font-size{
     font-size: 25px;
     margin-top: 20px;
-
+}
+.cursor-pointer{
+    cursor: pointer;
 }
 .container-like{
    
@@ -77,6 +79,16 @@ padding-left: 10px;
 .main-container{
     display: flex;
     justify-content: space-evenly;
+}
+.delete-reviews-container{
+    position: relative;
+}
+.delete-reviews-card{
+    cursor: pointer;
+    font-size: 25px;
+    position: absolute;
+    right:5px;
+    bottom:5px;
 }
 
 
