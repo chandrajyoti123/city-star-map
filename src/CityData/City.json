@@ -268,7 +268,7 @@
     "delhi":[
         {
             "placename":"India Gate",
-            "placeimg":["/img/delhi/indiagate1.jpg","/img/delhi/indiagate2.jpeg","/img/delhi/indiagate3.jpeg"],
+            "placeimg":["/img/delhi/indiagate1.jpeg","/img/delhi/indiagate2.jpeg","/img/delhi/indiagate3.jpeg"],
             "placedescription":" The India Gate is a war memorial located near the Kartavya path on the eastern edge of the ceremonial axis of New Delhi, formerly called Rajpath.",
             "placehistory":"India Gate, official name Delhi Memorial, originally called All-India War Memorial, monumental sandstone arch in New Delhi,dedicated to the troops of British India who died in wars fought between 1914 and 1919. India Gate, which is located at the eastern end of the Rajpath (formerly called the Kingsway), is about 138 feet (42 metres) in height."            
         },
