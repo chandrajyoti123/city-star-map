@@ -41,7 +41,7 @@ const router =createBrowserRouter([
         element:<CityPlace/>
     },
     {
-        path:'/trendingcity',
+        path:'/trendingcity/:id',
         element:<TrendingCity/>
     },
     {
