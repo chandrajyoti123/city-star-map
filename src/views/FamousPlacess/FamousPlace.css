@@ -15,20 +15,30 @@
     /* margin-top: 50px; */
 }
 .place-img{
-    border-radius: 15px;
+    border-radius: 25px;
     margin: 20px;
     margin-top: 60px;
-    width: 360px;
+    width: 350px;   
+    height: 350px;
+    margin-bottom: 200px;
 }
 .about-place{
     /* text-align: center; */
     font-size: var(--fontsubheading);
     font-weight: var(--subheadingweight);
     color: var( --ternarycolor);
-    margin-top: 60px; 
+    margin-top: 120px; 
 }
 .place-text{
     font-size: var(--textsize);
-    margin-top: 15px;
+    color: var(--darkcolor);
+    margin-top: 10px;
     text-align: justify;
+}
+.place-history{
+     /* text-align: center; */
+     font-size: var(--fontsubheading);
+     font-weight: var(--subheadingweight);
+     color: var( --ternarycolor);
+     margin-top: 25px;
 }

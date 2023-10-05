@@ -39,14 +39,7 @@ const TopSearchPlaces = () => {
              <p className='main-heading'>Top 15 Tourist Places Attraction In India</p>
 
          </div>
-           
-{/* 
-            {
-            topsearch.map((elementofsearch,i)=>(
-             <TopSearchCard name={elementofsearch.placename} img1={elementofsearch.placeimg[0]} img2={elementofsearch.placeimg[1]} img3={elementofsearch.placeimg[2]} description={elementofsearch.placedescription} history={elementofsearch.placehistory}/>
-
-            ))
-        } */}
+         
              {/* <div className='main-title'>Best Places In India</div> */}
              <div className="headingseciotion">
            <div className="mainheading">Best Places In India</div>
