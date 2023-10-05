@@ -1,11 +1,34 @@
-.topsearchcard{
+/* .topsearchcard{
     width: 100vw;
     height: 100vh;
+} */
+.famousplace-main-container{
+    width: 100vw;
+    height: 100vh;
+    padding:  3% 10%;
 }
 .place-name{
-    font-size: var(--fontsubheading);
+    font-size: var(--fontheading);
     text-align: center;
+    font-weight: var(--headingweight);
+    color:var(--darkcolor);
+    /* margin-top: 50px; */
+}
+.place-img{
+    border-radius: 15px;
+    margin: 20px;
+    margin-top: 60px;
+    width: 360px;
+}
+.about-place{
+    /* text-align: center; */
+    font-size: var(--fontsubheading);
     font-weight: var(--subheadingweight);
-    color:var(--ternarycolor);
-    margin-top: 50px;
+    color: var( --ternarycolor);
+    margin-top: 60px; 
+}
+.place-text{
+    font-size: var(--textsize);
+    margin-top: 15px;
+    text-align: justify;
 }

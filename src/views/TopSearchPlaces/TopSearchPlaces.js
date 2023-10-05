@@ -9,17 +9,17 @@ import { Link } from 'react-router-dom';
 const TopSearchPlaces = () => {
     const [topsearch, setTopsearch] = useState(tosearchdata.topsearch);
     const [searchterm, setSearchterm] = useState("");
-
+    const [place, setPlace] =useState(tosearchdata.topsearch)
     useEffect(() => {
         const filtereddata = tosearchdata.topsearch.filter((topsearchplace) => {
             const { placename } = topsearchplace;
             const lowerplacename = placename.toLowerCase()
             return (lowerplacename.includes(searchterm))
         })
-        setTopsearch(filtereddata);
+    setPlace(filtereddata);
     }, [searchterm]);
 
-    const [place, setPlace] =useState(tosearchdata.topsearch)
+    
 
     return (
         <>
@@ -40,8 +40,8 @@ const TopSearchPlaces = () => {
 
          </div>
            
-
-            {/* {
+{/* 
+            {
             topsearch.map((elementofsearch,i)=>(
              <TopSearchCard name={elementofsearch.placename} img1={elementofsearch.placeimg[0]} img2={elementofsearch.placeimg[1]} img3={elementofsearch.placeimg[2]} description={elementofsearch.placedescription} history={elementofsearch.placehistory}/>
 
