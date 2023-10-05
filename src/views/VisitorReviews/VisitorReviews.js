@@ -20,6 +20,11 @@ function Reviews() {
             description : description,
             name: name ,
         }
+        let oldData = data;
+        setData([...oldData,obj])
+        setName('')
+        setDescription('')
+        setTitle('')
         
     }
 
