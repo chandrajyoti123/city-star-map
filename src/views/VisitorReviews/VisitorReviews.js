@@ -29,6 +29,15 @@ function Reviews() {
     }
 
     
+function deleteCard(obj){
+    const index = data.indexOf(obj);
+    const realArray = data ;
+
+    realArray.splice(index , 1)
+    setData([...realArray])
+}
+
+    
     // function addReviewCard(){
     //     const ranid=Math.floor(Math.random()*100)
     //     const obj={
@@ -75,7 +84,7 @@ function Reviews() {
 
                                     <div>
                                         <Customer name={customerdata.name} description={customerdata.description} address={customerdata.address} img={customerdata.image} NoOfReview={customerdata.NoOfReview} 
-                                       
+                                       deleteCard={deleteCard} obj={customerdata}
                                         />
                                       {/* deletcard={deletReviewCard} obj={customerdata}  */}
                                     </div>

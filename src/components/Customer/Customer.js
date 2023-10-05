@@ -35,7 +35,9 @@ export default function Customer({ name, description, address, img, NoOfReview, 
                         <p className='font-family text-center'>0</p><br />
                     </div>
                 </div>
-               
+                <div className='delete-reviews-container'>
+                    <span className='delete-reviews-card' onClick={()=>{deleteCard (obj)}}>🗑️</span>
+                </div>
                 {/* <div className='delete-reviews-container'>
                     <span onClick={() => { deletcard(obj) }} className='delete-reviews-card'>🗑️</span>
                 </div> */}
