@@ -35,7 +35,7 @@
    text-align: center;
     height: 450px;
     width: 350px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 25px;
     box-shadow: 0 0 5px #0784b5;
     padding: 20px;
@@ -51,3 +51,19 @@
     display: flex;
     justify-content: space-evenly;
 }
+.btn-add-update{
+    padding: 5px 20px;
+    border: 0.5px solid #0784b5;
+    border-radius: 20px;
+    background-color: #cadeef;
+    color: #0784b5;
+}
+.btn-add-update:hover{
+    background: #0784b5;
+    color: white;
+    cursor: pointer;
+}
+.heading-section-right{
+    color: #0784b5;
+}
+
