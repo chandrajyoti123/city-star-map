@@ -11,7 +11,10 @@
     width: 270px;
     height: 320px;
     border-radius: 15px;
+    transition: 0.5s;
+   
 }
+
 
 .placecardbody{
     width: 100%;

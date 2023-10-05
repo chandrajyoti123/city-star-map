@@ -1,32 +1,110 @@
-.homecard{
-    width: 80vw;
+* {
+  margin: 0;
+  padding: 0;
+}
+.homecard {
+  width: 100vw;
+  height: auto;
+  margin: 60px 0;
+}
+.img-section {
+  width: 100vw;
+  height: 500px;
+  display: flex;
+}
+.img-section-left {
+  width: 10%;
+  height: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.homeicon {
+  font-size: 50px;
+  color: rgb(95, 92, 92);
+}
+.overflow{
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+ 
+  width: 80%;
+  height: 500px;
+  padding: 0;
+}
+.overflow::-webkit-scrollbar {
+  display: none;
+}
+.homecard-img-group{
+  display: flex;
+  flex-direction: row;
+ 
+   width: 80%;
+ 
     height: auto;
-    background-color: pink;
-    margin: 20px auto;
+ 
+   /* margin-top: 20px; */
+ 
+   padding: 0;
 }
-.img-group{
-    width: 100%;
+
+
+.homecardimg {
+  width: 1300px;
+  height: 500px;
+  margin: 0 10px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.img-section-right {
+  width: 10%;
+  height: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+} 
+
+
+.img-section{
+    width: 100vw;
+    height: 500px;
+   
+}
+/* .homecard-img-group{
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
     display: flex;
-    height: 300px;
 }
-.img{
-    width: 33%;
+.homecardimgbody{
+    width: 100%;
     height: 100%;
-}
-.name{
-    font-size: 30px;
-    text-align: center;
-    color: brown;
-    font-family: bold;
-}
-.description{
+    border: 1px solid black;
+    
+} */
+.descriptionhomecard{
+    padding: 15px 10%;
+    width: 100%;
+    /* background-color: red; */
     font-size: 25px;
+    color: var(--darkcolor);
     text-align: justify;
-    padding: 0 30px;
-    color: rgb(219, 113, 113);
 }
-.heading{
-    font-size: 30px;
-    color: brown;
-    text-align: center;
+.homecardsubheading{
+    font-size:40px;
+    font-weight: var( --subheadingweight);
+    padding-left: 10%;
+ margin: 15px 0;
+ color: var(  --ternarycolor);
 }
+/* .homecardhistory{
+    
+} */

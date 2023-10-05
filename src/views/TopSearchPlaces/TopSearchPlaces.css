@@ -1,11 +1,48 @@
+.tosearch-main-container{
+    background:linear-gradient(10deg,rgba(0, 0, 0,0.5),rgba(255, 255, 255, 0.3)), url("./topsearchbg.jpeg.jpg");
+    height: 450px;
+    background-size:cover;
+    
+    width: 100%;
+}
 .main-heading{
     font-size: var(--fontheading);
-    color: var(--darkcolor);
+    color:white;
     text-align: center;
-    margin-top: 35px;
+    /* margin-top: 55px; */
+    position: absolute;
+    top:200px;
+    left: 300px;
+    text-align: center;
+}
+.main-title{
+    font-size: var(--fontheading);
+    color: var(--darkcolor);
+    font-weight: var(--headingweight);
+    padding:  3% 10% ;
+    
 }
 .topsearch-container{
-    padding: 10%;
+    padding:  0 10% ;
     display: flex;
     flex-wrap: wrap;
+}
+.searchbox{
+    width: 400px;
+    position: absolute;
+    top: 280px;
+    left: 480px; 
+}
+input {
+    width: 420px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 12px;
+    background: transparent;
+    /* border: none; */
+    color: white;
+    border: 1px solid gray;
+}
+.link{
+    text-decoration: none;
 }
