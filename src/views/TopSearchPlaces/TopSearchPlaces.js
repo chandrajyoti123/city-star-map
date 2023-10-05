@@ -27,7 +27,7 @@ const TopSearchPlaces = () => {
          <div className='tosearch-main-container'>
             <div className='searchbox'>
             < input type='text'
-                placeholder=' Search Place Here'
+                placeholder=' Search Place Here...'
                 value={searchterm}
                 onChange={(e) => {
                     setSearchterm
@@ -47,12 +47,17 @@ const TopSearchPlaces = () => {
 
             ))
         } */}
-
+             {/* <div className='main-title'>Best Places In India</div> */}
+             <div className="headingseciotion">
+           <div className="mainheading">Best Places In India</div>
+            
+           </div>
             <div className="topsearch-container">
+               
                 {
                     place.map((placecitydata,i) => {
                         // const {placename ,placeimg,  placedescription } = placecitydata;
-                        return (<Link to={`/topplaces/${i}`}><FamousPlaceCard image={placecitydata.placeimg[0]}  title={placecitydata.placename} description={placecitydata.placedescription} no={i+1} /></Link>)
+                        return (<Link to={`/topplaces/${i}`} className='link'><FamousPlaceCard image={placecitydata.placeimg[0]}  title={placecitydata.placename} description={placecitydata.placedescription} no={i+1} /></Link>)
                     })
                 }
             </div>

@@ -5,7 +5,7 @@ import imgs2 from './tajmusium2.jpg'
 import imgs3 from './tajmusium3.jpg'
 import { useState ,useEffect } from 'react';
 
-import FamousPlaceData from './../../CityData/topplaces.json'; // Corrected import statement (FamousPlaceData)
+import FamousPlaceData from '../../CityData/topplaces.json'; // Corrected import statement (FamousPlaceData)
 
 export default function FamousPlacess (){
     const { id } = useParams();
@@ -22,26 +22,22 @@ export default function FamousPlacess (){
     }, [id]);
 
     return (
-       <div>
-      
-            
+       <div>        
                 <div className="topsearchcard">
+                <div className='place-name'>{famousDataOne.placename}</div>
                    
                 <div className='img-group'>
                     <img src={imgs1} className='img' alt="Image 1" />
                     <img src={imgs2} className='img' alt="Image 2" />
                     <img src={imgs3} className='img' alt="Image 3" />
                 </div>
-                <div className='name'>{famousDataOne.placename}</div>
-                <h1 className='heading'>Description</h1>
+                
+                <div className='heading'>Description</div>
                 <div className='description'>{famousDataOne.placedescription}</div>
                 <h1 className='heading'>History</h1>
                 <div className='description'>{famousDataOne.placehistory}</div>
             </div>
-            
-
-            
-        
+             
        </div>
     );
 };

@@ -2,3 +2,10 @@
     width: 100vw;
     height: 100vh;
 }
+.place-name{
+    font-size: var(--fontsubheading);
+    text-align: center;
+    font-weight: var(--subheadingweight);
+    color:var(--ternarycolor);
+    margin-top: 50px;
+}

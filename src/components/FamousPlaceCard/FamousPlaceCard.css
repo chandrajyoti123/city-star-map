@@ -1,10 +1,12 @@
 .topplacecard-container {
-    height: 450px;
+    height: 480px;
     width: 350px;
-    border: 1px solid black;
+    border: 1px solid var(--secondarycolor);
+    box-shadow: 0 0 9px 0.5px grey;
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
+    background-color: var(--primarycolor);
 }
 
 .toppalaceimage {
@@ -18,15 +20,18 @@
 }
 
 .titleplace {
-    font-size: 25px;
+    font-size: var( --fontsubheading);
     font-weight: bolder;
+    color: var(--darkcolor);
     padding: 10px;
 }
 
 .description-place {
-    font-size: 17px;
+    font-size: 18px;
     padding: 0 10px;
     text-align: justify;
+      color: var(--ternarycolor);
+    /* color:var(--secondarycolor); */
     /* background-color: pink; */
     height: 110px;
     /* width: 300px; */
@@ -36,12 +41,13 @@
 .number-box {
     display: inline-block;
     width: 32px;
-    height: 27px;
+    height: 30px;
     text-align: center;
     margin-right: 12px;
     background-color: var(--secondarycolor);
     border-radius: 3px;
-    border: 1px solid black;
+    border:0.5px solid var(--ternarycolor);
+    box-shadow:  0 0 0.5px 0.5px var(--darkcolor);
     border: none;
     /* background-color: rgb(102, 176, 236); */
 }
