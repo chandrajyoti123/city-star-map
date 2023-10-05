@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './Customer.css';
 
-export default function Customer({ name, description, address, img, NoOfReview, deleteCard, obj }) {
+export default function Customer({ name, description, address, img, NoOfReview, deleteCard, obj,editReview,id}) {
     const [count, setCount] = useState(0);
     function incre() {
         setCount(1 + count)
@@ -12,14 +12,19 @@ export default function Customer({ name, description, address, img, NoOfReview, 
             <div className='card-container'>
 
                 <div className='container-customer'>
-                    <h1>Best Western Alfa Aeropuerto</h1>
+                    <h1>Best Western Alfa Aeropuerto </h1>
                     <div><p>{address}</p></div>
                     <div><p>{description}</p></div><br />
                     <div className='img-container'>
                         <div><img src={img} className='img' /></div>
                         <div className='font-size'><p className='font-family'>{name}</p></div>
                         <div className='font-size border'><p>{NoOfReview}</p></div>
-                        <div className='font-size '><button className='btn'>Edit Review</button></div>
+
+                        <div className='font-size'>
+                            <button onClick={()=>{editReview(id)}} className='btn cursor-pointer' type='button' >
+                                Edit Review
+                                </button></div>
+
                     </div>
 
                 </div>
