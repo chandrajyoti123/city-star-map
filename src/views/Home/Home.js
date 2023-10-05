@@ -3,7 +3,7 @@ import HomeCard from "../../components/HomeCard/HomeCard";
 import { Link } from "react-router-dom";
 import CityPlace from "../CityPlace/CityPlace";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass,faAngleLeft,faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import { faMagnifyingGlass, faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import CityData from './../../CityData/City.json'
 import { useState, useEffect } from "react";
 import logo from './logo.png'
@@ -17,30 +17,31 @@ import section4 from './section4.jpg'
 import section5 from './section5.jpg'
 import TrendingCity from "../TrendingCity/TrendingCity";
 import TopSearchData from './../../CityData/topplaces.json'
+import map from './map.png'
 
 
 const Home = () => {
     const [cityname, setCityname] = useState("")
     const [storecity, setStorecity] = useState([])
-    const [cityplace ,setCityplace]=useState("mathura")
-    const [topsearcharr,setTopsearcharr]=useState(TopSearchData.topsearch)
-    
-    // console.log(cityplace)
-    
-    useEffect(()=>{
-        localStorage.setItem("city",cityplace)
+    const [cityplace, setCityplace] = useState("mathura")
+    const [topsearcharr, setTopsearcharr] = useState(TopSearchData.topsearch)
 
-    },[cityplace])
-      
-        
-   
+    // console.log(cityplace)
 
     useEffect(() => {
-        
+        localStorage.setItem("city", cityplace)
+
+    }, [cityplace])
+
+
+
+
+    useEffect(() => {
+
         if (cityname == "mathura") {
             setStorecity(CityData.mathura)
             setCityplace("mathura")
-         
+
 
         }
         else if (cityname == "manali") {
@@ -120,10 +121,10 @@ const Home = () => {
 
     return (
         <div>
-            
+
             <Navbar />
-           
-       
+
+
             {/* <SectionOne img1={section1} img2={section2} img3={section3} img4={section4} img5={section5}/> */}
             <div className="sectionone">
                 <div className="searchsection">
@@ -132,7 +133,7 @@ const Home = () => {
                             <img src={logo} className="logo" />
                         </div>
                         <div className="searchleftright">
-                           <Link to='/cityplace'> <span ><FontAwesomeIcon icon={faMagnifyingGlass} className="icon" /></span></Link>
+                            <Link to='/cityplace'> <span ><FontAwesomeIcon icon={faMagnifyingGlass} className="icon" /></span></Link>
                             <input className="input" value={cityname} placeholder="search city here" onChange={(e) => {
                                 setCityname(e.target.value)
                             }} />
@@ -146,14 +147,14 @@ const Home = () => {
                 </div>
                 <div className="sectiononebody">
 
-                    <div className="sectiononeheading">The #1 Road Trip Apps</div>
-                    <div className="sectiononesubheading">  Start planning your next unforgettable road trip</div>
+                    <div className="sectiononeheading">City Star Map</div>
+                    <div className="sectiononesubheading">  See Your Favourite Destination To Be An Explore</div>
                 </div>
             </div>
-           <div className="headingseciotion">
-           <div className="mainheading">Trending destinations</div>
-            
-           </div>
+            <div className="headingseciotion">
+                <div className="mainheading">Trending destinations</div>
+
+            </div>
 
             <div className="sectiontwo">
 
@@ -199,54 +200,58 @@ const Home = () => {
 
                         </div>
                     </Link>
-                   <Link className="linkrow2" to='/trendingcity/5'>
-                   <div className='row2-child'>
-                        <img src={section5} className='sectionimg' />
-                        <div className="transparentfilm">
-                            <div className="nameofcard">Jaipur</div>
-                        </div>
+                    <Link className="linkrow2" to='/trendingcity/5'>
+                        <div className='row2-child'>
+                            <img src={section5} className='sectionimg' />
+                            <div className="transparentfilm">
+                                <div className="nameofcard">Jaipur</div>
+                            </div>
 
-                    </div>
-                   </Link>
+                        </div>
+                    </Link>
 
                 </div>
 
 
             </div>
             <div className="headingseciotion">
-           <div className="mainheading">Best of India </div>
-           
-           </div>
-           <div className="topplaces">
-          <div className="topplacecol1"> 
-          <span><FontAwesomeIcon icon={faAngleLeft} className="faangle" onClick={()=>{
-              handleScroll({ deltaY: -500 });
-          
-          }}/></span>
-          </div>
-           <div  className=" flexrow" id="flex-scroll">
-                 {
-                topsearcharr.map((topsearchele,i)=>{
-                    return <TopPlaceCard placecardimg={topsearchele.placeimg[0]} placecardname={topsearchele.placename}/>
+                <div className="mainheading">Best of India </div>
 
-                   })
-                 }
             </div>
-            <div className="topplacecol2"> 
-            <span><FontAwesomeIcon icon={faAngleRight} className="faangle" onClick={()=>{
-            handleScroll({ deltaY:500 });
-          
-          }}/></span>
-          </div>
-           </div>
+            <div className="topplaces">
+                <div className="topplacecol1">
+                    <span><FontAwesomeIcon icon={faAngleLeft} className="faangle" onClick={() => {
+                        handleScroll({ deltaY: -500 });
+
+                    }} /></span>
+                </div>
+                <div className=" flexrow" id="flex-scroll">
+                    {
+                        topsearcharr.map((topsearchele, i) => {
+                            return <TopPlaceCard placecardimg={topsearchele.placeimg[0]} placecardname={topsearchele.placename} />
+
+                        })
+                    }
+                </div>
+                <div className="topplacecol2">
+                    <span><FontAwesomeIcon icon={faAngleRight} className="faangle" onClick={() => {
+                        handleScroll({ deltaY: 500 });
+
+                    }} /></span>
+                </div>
+            </div>
+            <div>
+                {/* <img src={ma}/> */}
+            </div>
 
 
-           
-
-          
 
 
-         
+
+
+
+
+
 
 
         </div>
