@@ -1,9 +1,10 @@
 .card-container{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     margin: 20px;
     padding: 20px;
     font-family: Arial;
+   
     /* border: 1px solid red; */
  }
  .container-customer{
@@ -37,7 +38,7 @@ padding-left: 10px;
 }
 .font-size{
     font-size: 25px;
-    /* margin-top: 20px; */
+    margin-top: 20px;
 
 }
 .container-like{
@@ -47,8 +48,14 @@ padding-left: 10px;
     border-radius: 0px 20px 20px 0px;
     background-color: #9bd4e4;
 }
+.text-center{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
 
-/* .dfghj{
+
+.dfghj{
     --primarycolor:#cadeef;
 --secondarycolor:#9bd4e4;
 --ternarycolor:#39ace7;
@@ -58,9 +65,18 @@ padding-left: 10px;
 --textsize:23px;
 --subheadingweight:600;
 --headingweight:bolder;
-} */
+}
 .font-family{
     font-family: Arial;
+}
+.task-container{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
