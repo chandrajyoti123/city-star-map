@@ -218,10 +218,12 @@ const Home = () => {
            
            </div>
            <div className="topplaces">
-          <div className="topplacecol1"> <span><FontAwesomeIcon icon={faAngleLeft} className="faangle" onClick={()=>{
+          <div className="topplacecol1"> 
+          <span><FontAwesomeIcon icon={faAngleLeft} className="faangle" onClick={()=>{
               handleScroll({ deltaY: -500 });
           
-          }}/></span></div>
+          }}/></span>
+          </div>
            <div  className=" flexrow" id="flex-scroll">
                  {
                 topsearcharr.map((topsearchele,i)=>{
@@ -230,11 +232,16 @@ const Home = () => {
                    })
                  }
             </div>
-            <div className="topplacecol2"> <span><FontAwesomeIcon icon={faAngleRight} className="faangle" onClick={()=>{
+            <div className="topplacecol2"> 
+            <span><FontAwesomeIcon icon={faAngleRight} className="faangle" onClick={()=>{
             handleScroll({ deltaY:500 });
           
-          }}/></span></div>
+          }}/></span>
+          </div>
            </div>
+
+
+           
 
           
 
