@@ -1,5 +1,7 @@
 import  ReactDOM  from "react-dom/client";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 import FamousPlacess from "./views/FamousPlacess/FamousPlace";
 import Home from "./views/Home/Home";
 import AboutUs from "./views/AboutUs/AboutUs";

@@ -2,7 +2,6 @@
     background:linear-gradient(10deg,rgba(0, 0, 0,0.5),rgba(255, 255, 255, 0.3)), url("./topsearchbg.jpeg.jpg");
     height: 450px;
     background-size:cover;
-    
     width: 100%;
 }
 .main-heading{
@@ -23,7 +22,7 @@
     
 }
 .topsearch-container{
-    padding:  0 10% ;
+    padding:  0 9% ;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -40,7 +39,7 @@
     font-size: 18px;
     border-radius: 12px;
     background: transparent;
-    /* border: none; */
+    border: none;
     color: white;
     border: 1px solid gray;
 }
