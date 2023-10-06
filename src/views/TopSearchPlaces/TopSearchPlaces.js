@@ -5,6 +5,7 @@ import './TopSearchPlaces.css'
 import Navbar from '../../components/Navbar/Navbar';
 import FamousPlaceCard from '../../components/FamousPlaceCard/FamousPlaceCard';
 import { Link } from 'react-router-dom';
+import Footer from '../../components/Footer/Footer';
 
 const TopSearchPlaces = () => {
     const [topsearch, setTopsearch] = useState(tosearchdata.topsearch);
@@ -55,6 +56,8 @@ const TopSearchPlaces = () => {
                     })
                 }
             </div>
+
+            <Footer/>
         </>
     );
 }
