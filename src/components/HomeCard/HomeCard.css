@@ -29,8 +29,9 @@
   scroll-behavior: smooth;
  
   width: 80%;
-  height: 500px;
+  height: 600px;
   padding: 0;
+  margin-bottom: 100px;
 }
 .overflow::-webkit-scrollbar {
   display: none;
@@ -50,8 +51,8 @@
 
 
 .homecardimg {
-  width: 1300px;
-  height: 500px;
+  /* width: 1300px; */
+  height: 600px;
   margin: 0 10px;
 
   background: linear-gradient(
@@ -97,6 +98,7 @@
     font-size: 25px;
     color: var(--darkcolor);
     text-align: justify;
+    margin-top: 100px;
 }
 .homecardsubheading{
     font-size:40px;

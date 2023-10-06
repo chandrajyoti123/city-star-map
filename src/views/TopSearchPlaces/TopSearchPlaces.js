@@ -27,6 +27,7 @@ const TopSearchPlaces = () => {
          <div className='tosearch-main-container'>
             <div className='searchbox'>
             < input type='text'
+            className='input'
                 placeholder=' Search Place Here...'
                 value={searchterm}
                 onChange={(e) => {

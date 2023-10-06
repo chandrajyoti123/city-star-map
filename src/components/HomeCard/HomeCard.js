@@ -21,7 +21,7 @@ const HomeCard = ({ name, img1, img2, img3, description, history }) => {
                 <div className='img-section-left'>
                     <span><FontAwesomeIcon icon={faAngleLeft} className="homeicon"
                      onClick={() => {
-                        handleScrollImg({ deltaY: -1350 });
+                        handleScrollImg({ deltaY: -900 });
 
                     }} 
                     /></span>
@@ -45,7 +45,7 @@ const HomeCard = ({ name, img1, img2, img3, description, history }) => {
                 <div className='img-section-right'>
                     <span><FontAwesomeIcon icon={faAngleRight} className="homeicon"
                      onClick={() => {
-                        handleScrollImg({ deltaY: 1350 });
+                        handleScrollImg({ deltaY: 900 });
 
                     }} 
                     /></span>
