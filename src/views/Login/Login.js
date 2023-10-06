@@ -1,109 +1,73 @@
-import React, { useState, useEffect } from "react";
+import showToast from 'crunchy-toast';
 import './Login.css';
-function Login() {
-    const [fullName, setFullName] = useState('')
-    const [gender, setGender] = useState('male')
-    const [condition, setCondition] = useState([]);
-    const [ city, setCity] =useState ('pune');
+import React, { useState } from 'react';
 
-
-    useEffect(() => {
-        console.log(condition);
-    }, [condition]);
-
-    const handlecheck = (e) => {
-        if (e.target.checked) {
-            setCondition([...condition, e.target.value]);
-
-        }
-        else {
-            const indexToBeDeleted = condition.indexOf(e.target.value);
-            condition.splice(indexToBeDeleted, 1);
-            setCondition([...condition]);
-
-        }
+function Login(){
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    
+   function Submit(){
+    const data = {
+        name , email , password
     }
-    return (
-        <>
-            <div className="form-div-main">
-                <h2 className="heading">Are You Ready to Go...</h2>
-                <h2 className="heading">Login</h2>
-                <div className="form-cont">
-                    <form>
-                        <div className="d-flex">
-                            <div className="common-width">
-                                <h3>Enter your first name:-</h3>
-                                <input type="text"
-                                    placeholder="Enter full name"
-                                    onChange={(e) => {
-                                        setFullName(e.target.value)
-                                    }} className="input-box" />
-                            </div>
+      localStorage.setItem('userdata', JSON.stringify(data))  ;
+      
+      setName('');
+      setEmail('');
+      setPassword('');
+      showToast('successfull', 'success', 3000);
+   }
+  
+    
+return(
+    <>
+        <div className='login-container'>
+           <div className='input-container'>
+            <h1 className='heading'>Login</h1>
+           <h1>{name} {email} {password}</h1>
+           
+            <input type='text'
+             value={name} 
+             onChange={(e)=>{setName(e.target.value)}} 
+             id='name'
+             placeholder=' Enter Your Name '
+              className='input-box'
+               required/>
 
-                            <div  className="common-width">
-                                <h3>Enter your first name:-</h3>
-                                <input type="text"
-                                    placeholder="Enter full name"
-                                    onChange={(e) => {
-                                        setFullName(e.target.value)
-                                    }} className="input-box" />
-                            </div>
-                        </div>
-                        <div className="d-flex">
-                            <div  className="common-width">
-                                <h3>Choose your Gender</h3>
+            <input type='email'
+             value={email} 
+             onChange={(e)=>{setEmail(e.target.value)}}
+             id='email'
+              placeholder=' Enter Your Email '
+               className='input-box'
+                required />
 
-                                <input
-                                    type="radio"
-                                    name="gender"
-                                    value="male"
-                                    onChange={(e) => {
-                                        setGender(e.target.value)
+            <input type='password'
+             value={password} 
+              onChange={(e)=>{setPassword(e.target.value)}} 
+              id='password'
+              placeholder=' Enter Your Password ' 
+              className='input-box' 
+              required />
 
-                                    }}
-                                    checked={gender === "male"}
-                                /> Male
-                                <br />
-                                <input
-                                    type="radio"
-                                    name="gender"
-                                    value="female"
-                                    onChange={(e) => {
-                                        if (e.target.checked) {
-                                            setGender(e.target.value)
-                                        }
-                                    }}
-                                    checked={gender === "female"}
-                                /> Female
-                            </div>
-                            <div  className="common-width">
-                                <h3 className="text-start">Choose your city</h3>
-                                    <select value={city}
-                                    onChange={(e) => {
-                                        setCity (e.target.value)
-                                    }}>
-                                        <option value="Hydrabad">Hydrabad</option>
-                                        <option value="Mumbai">Mumbai</option>
-                                        <option value="Gujarat">Gujarat</option>
-                                        <option value="Nagpur">Nagpur</option>
-                                        <option value="Ahmednagar">Ahamednagar</option>
-                                        </select>
-                            </div>
-                        </div>
-                        <h3 className="condition-hea">Conditions</h3>
-                        <input
-                            type="checkbox"
-                            value="condition 1"
-                            onChange={handlecheck}
-                        className="condition" />Agree with all Terms and Condition <br />
-
-                       
+            <p className='condition-container'>Agree with all Terms and Condition</p>
+            <input type="checkbox" className='checkbox' />
+            <br/>
 
 
-                    </form>
-                </div>
-            </div>
-        </>
-    )
+            <button
+            type="button"
+            className='login-btn'
+            onClick={Submit}
+            >
+                Login
+            </button>
+           </div>
+        </div>
+    </>
+)
 }
-export default Login;
+export default Login
+
+
