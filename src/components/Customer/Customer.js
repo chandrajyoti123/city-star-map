@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './Customer.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart,faMoon,faLocationDot} from "@fortawesome/free-solid-svg-icons";
+import { faHeart,faMoon,faLocationDot,faTrash} from "@fortawesome/free-solid-svg-icons";
 
 export default function Customer({ name, description, address, img, NoOfReview, deleteCard, obj,editReview,id}) {
     const [count, setCount] = useState(0);
@@ -45,9 +45,9 @@ export default function Customer({ name, description, address, img, NoOfReview, 
                         </div>
                     </div>
                 </div>
-                {/* <div className='delete-reviews-container'>
-                    <span className='delete-reviews-card' onClick={()=>{deleteCard (obj)}}>🗑️</span>
-                </div> */}
+                <div className='delete-reviews-container'>
+                    <span className='delete-reviews-card' onClick={()=>{deleteCard (obj)}}><FontAwesomeIcon icon={faTrash} className='deleticon'/></span>
+                </div>
                 {/* <div className='delete-reviews-container'>
                     <span onClick={() => { deletcard(obj) }} className='delete-reviews-card'>🗑️</span>
                 </div> */}

@@ -1,11 +1,11 @@
 import React, { useState,useEffect } from "react";
 import placeimg from './section5.jpg'
-// import './VisitorReviews.css'
-import './review.css'
+import './VisitorReviews.css'
+// import './review.css'
 import view from './../../CityData/reviews.json';
 import Customer from "./../../components/Customer/Customer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {  faBars} from "@fortawesome/free-solid-svg-icons";
+import {  faBars, faL} from "@fortawesome/free-solid-svg-icons";
 import chandani from './chandani.jpg'
 import Navbar from "../../components/Navbar/Navbar";
 
@@ -63,6 +63,8 @@ function Reviews() {
 
     //update start
     function editReview(id){
+        setMenuclass("sidebaropen")
+        setIsmenu(false)
         setIsEdit(true)
         let temp;
         data.forEach((datalist, i)=>{
@@ -117,6 +119,7 @@ function Reviews() {
         setDescription('')
         setTitle('')
         settolocalstorage(temparrr)
+        setIsEdit(false)
     }
     //update end
     // -----------------menu bar----

@@ -228,9 +228,10 @@ const Home = () => {
                 <div className=" flexrow" id="flex-scroll">
                     {
                         topsearcharr.map((topsearchele, i) => {
-                            return <TopPlaceCard placecardimg={topsearchele.placeimg[0]} placecardname={topsearchele.placename} />
+                            return(<Link to={`/topplaces/${i}`} ><TopPlaceCard placecardimg={topsearchele.placeimg[0]} placecardname={topsearchele.placename} /> </Link> )
 
                         })
+    
                     }
                 </div>
                 <div className="topplacecol2">
