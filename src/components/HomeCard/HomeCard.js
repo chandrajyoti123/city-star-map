@@ -17,8 +17,44 @@ const HomeCard = ({ name, img1, img2, img3, description, history }) => {
            <div className="mainheading">{name}</div>
             
            </div>
-          
-                      <div className='imgcontainerfamouse'>
+            {/* <div className='img-section'>
+                <div className='img-section-left'>
+                    <span><FontAwesomeIcon icon={faAngleLeft} className="homeicon"
+                     onClick={() => {
+                        handleScrollImg({ deltaY: -900 });
+
+                    }} 
+                    /></span>
+
+                </div>
+                <div className='overflow'  id='homescrollimg'>
+                <div className='homecard-img-group'>
+                    <div className='homecardimgbody'>
+                        <img src={img3} className='homecardimg' />
+                    </div>
+                    <div  className='homecardimgbody'>
+                        <img src={img1} className='homecardimg' />
+                    </div>
+                    <div  className='homecardimgbody'>
+                        <img src={img2} className='homecardimg' />
+                    </div>
+
+                </div>
+                </div>
+
+                <div className='img-section-right'>
+                    <span><FontAwesomeIcon icon={faAngleRight} className="homeicon"
+                     onClick={() => {
+                        handleScrollImg({ deltaY: 900 });
+
+                    }} 
+                    /></span>
+
+                </div>
+            </div> */}
+
+
+            <div className='imgcontainerfamouse'>
                          <div className='leftoffamousplace'>
                          <span><FontAwesomeIcon icon={faAngleLeft} className='famouspalceicon'
                           onClick={() => {

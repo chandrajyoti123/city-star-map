@@ -1,85 +1,45 @@
-/* .topsearchcard{
-    width: 100vw;
-    height: 100vh;
-} */
-.img-container-famouse{
-    width: 100vw;
-     height: 500px;
-     background-color: pink;
-}
-.place-name{
-    font-size: var(--fontheading);
-    text-align: center;
-    font-weight: var(--headingweight);
-    color:var(--darkcolor);
-    /* margin-top: 50px; */
-}
-.img-of-place{
-    border-radius: 25px;
-    /* margin: 20px; */
-    /* margin-top: 60px; */
-    width: 6000px;   
-    height: 400px;
-    margin: 0 10px;
-    /* margin-bottom: 200px; */
-   
-
-}
-.about-place{
-    /* text-align: center; */
-    font-size: var(--fontsubheading);
-    font-weight: var(--subheadingweight);
-    color: var( --ternarycolor);
-    margin-top: 120px; 
-}
-.place-text{
-    font-size: var(--textsize);
-    color: var(--darkcolor);
-    margin-top: 10px;
-    text-align: justify;
-}
-.place-history{
-     /* text-align: center; */
-     font-size: var(--fontsubheading);
-     font-weight: var(--subheadingweight);
-     color: var( --ternarycolor);
-     margin-top: 25px;
+.imgcontainerfamouse{
+    width: 100%;
+    height: 500px;
+    /* background-color: pink; */
+    display: flex;
 }
 .leftoffamousplace{
     width: 10%;
     height: 100%;
-    background-color: green;
+    /* background-color: red; */
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+.famouspalceicon{
+    font-size: 40px;
+    color: rgb(104, 98, 98);
 }
 .overflow-topplaces{
-    overflow-y: scroll;
     width: 80%;
-    margin: 0 auto;
-    padding:  0 5px;
-}
-
-.famousimggroup{
-   padding: 0 40px;
-    height: auto;
-    background-color: red;
-    display: flex;
+    height: 100%;
+    /* background-color: green; */
     overflow-y: scroll;
-    justify-content:center;
-    align-items: center;
-    
+    scroll-behavior: smooth;
 }
-.img-container-famouse{
+.overflow-topplaces::-webkit-scrollbar{
+display: none;
+}
+.famousimggroup{
     display: flex;
-    width: 100vh;
-    height: auto;
-
+}
+.img-of-place{
+    height:500px ;
+    margin: 0 15px;
+    border-radius: 20px;
 }
 .rightoffamousplace{
     width: 10%;
     height: 100%;
-    background-color: gray;
-}
-.overflow-topplaces{
-    width: 80%;
-    height: 100%;
-    background-color: green;
+    /* background-color: red; */
+    display: flex;
+    justify-content:start;
+    align-items: center;
+
 }
