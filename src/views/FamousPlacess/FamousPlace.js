@@ -32,13 +32,24 @@ export default function FamousPlacess() {
                 <div className="famousplace-main-container">
                     <div className='place-name'>{famousDataOne.placename}</div>
 
-                    <div className='img-group'>
+                 <div className=' img-container-famouse'>
+                 <div    className='leftoffamousplace'>
+
+                </div>
+
+                 <div className='overflow-topplaces'>  
+                     <div className='famousimggroup'>
                             {
                                   famousDataOne?.placeimg?.map((imgUrl, index) => (
-                                    <img key={index} src={imgUrl} alt={`Image ${index}`} className='place-img'/>
+                                    <img key={index} src={imgUrl} alt={`Image ${index}`} className='img-of-place'/>
                                 ))
                             }
                     </div>
+                 </div>
+                 <div  className='rightoffamousplace'>
+
+                 </div>
+                 </div>
 
                     <div className='about-place'>Overview</div>
                     <div className='place-text'>{famousDataOne.placedescription}</div>
