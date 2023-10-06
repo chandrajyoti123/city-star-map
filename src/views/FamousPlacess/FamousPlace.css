@@ -2,10 +2,10 @@
     width: 100vw;
     height: 100vh;
 } */
-.famousplace-main-container{
+.img-container-famouse{
     width: 100vw;
-    height: 100vh;
-    /* padding:  0% 10%; */
+     height: 500px;
+     background-color: pink;
 }
 .place-name{
     font-size: var(--fontheading);
@@ -56,6 +56,7 @@
     margin: 0 auto;
     padding:  0 5px;
 }
+
 .famousimggroup{
    padding: 0 40px;
     height: auto;
@@ -76,4 +77,9 @@
     width: 10%;
     height: 100%;
     background-color: gray;
+}
+.overflow-topplaces{
+    width: 80%;
+    height: 100%;
+    background-color: green;
 }

@@ -6,6 +6,7 @@
     font-family: Arial;
     width: 900px;
     height:300px ;
+    position: relative;
    
     /* border: 1px solid red; */
  }
@@ -123,7 +124,10 @@ padding-left: 10px;
     justify-content: space-evenly;
 }
 .delete-reviews-container{
-    position: relative;
+    position: absolute;
+    bottom: 18px;
+    right: 22px;
+
 }
 .delete-reviews-card{
     cursor: pointer;
@@ -131,6 +135,10 @@ padding-left: 10px;
     position: absolute;
     right:5px;
     bottom:5px;
+}
+.deleticon{
+    font-size: 25px ;
+    color: var(--darkcolor);
 }
 .text-center-child{
     width: 80%;
