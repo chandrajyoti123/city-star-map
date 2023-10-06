@@ -1,5 +1,5 @@
-// import './FamousPlace.css'
-import './famous.css'
+import './FamousPlace.css'
+
 import { useParams } from 'react-router-dom';
 import Navbar from '../../components/Navbar/Navbar';
 import topsearchdata from './../../CityData/topplaces.json';
