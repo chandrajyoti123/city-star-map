@@ -1,0 +1,77 @@
+.logincontainer{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginform{
+    width: 50%;
+    height: 80%;
+    /* background-color: aqua; */
+    border:  1px solid black;
+  
+}
+.input-field-container{
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.input-con{
+    display:flex;
+    align-items: start;
+    flex-direction: column;
+    margin: 15px 0;
+    width: 80%;
+  
+   
+
+}
+.loginheading{
+    font-size: var( --fontheading);
+    color: var( --darkcolor);
+    font-weight: bolder;
+    text-align: center;
+}
+.input-filed{
+    width: 400px;
+    height: 40px;
+    border: none;
+    background-color: var(--primarycolor);
+    padding-left: 15px;
+}
+.labeloflogin{
+    font-size:30px;
+    color: var(--darkcolor);
+}
+.checkboxcon{
+    display: flex;
+    justify-content: start;
+    width: 80%;
+    font-size:25px;
+    color: var(--darkcolor);
+ }
+ .checkboxinput{
+    width: 20px;
+    margin-right: 5px;
+ }
+ .loginbutton{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+ }
+ .forget-password{
+    font-size: 25px;
+    color:var(--darkcolor);
+ }
+ .loginbtn{
+    width: 100px;
+    height: 50px;
+    background-color: var(--darkcolor);
+    border: none;
+    color: white;
+    border-radius: 10px;
+   
+ }

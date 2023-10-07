@@ -11,6 +11,8 @@ import TopSearchPlaces from "./views/TopSearchPlaces/TopSearchPlaces";
 import VisitorReviews from "./views/VisitorReviews/VisitorReviews";
 import CityPlace from "./views/CityPlace/CityPlace";
 import TrendingCity from "./views/TrendingCity/TrendingCity";
+import LoginOne from "./views/LoginOne/LoginOne";
+import LoginTwo from "./views/LoginTwo/LoginTwo";
 
 
 const router =createBrowserRouter([
@@ -28,7 +30,7 @@ const router =createBrowserRouter([
     },
     {
         path:'/login',
-        element:<Login/>
+        element:<LoginOne/>
     },
     {
         path:'/topserchplaces',
@@ -49,6 +51,10 @@ const router =createBrowserRouter([
     {
         path:'/topplaces/:id',
         element:<FamousPlacess/>
+    },
+    {
+        path:'/logintwo',
+        element:<LoginTwo/>
     },
 
 ])
