@@ -19,14 +19,14 @@
   margin-top: 20px;
 }
 
-<<<<<<< HEAD
+
 .homecardsubheading {
   font-size: 40px;
   font-weight: var(--subheadingweight);
   padding-left: 10%;
   margin: 15px 0;
   color: var(--ternarycolor);
-=======
+
     font-size: 23px;
     color: var(--darkcolor);
     text-align: justify;
@@ -38,5 +38,5 @@
     padding-left: 10%;
  margin: 15px 0;
  color: var(  --ternarycolor);
->>>>>>> cc9f7e73b5eb5223073fcec610b887c7dbb4e6fd
+
 }
