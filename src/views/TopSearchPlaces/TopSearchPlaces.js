@@ -3,6 +3,8 @@ import tosearchdata from './../../CityData/topplaces.json'
 import React, { useState, useEffect } from "react"; 
 import './TopSearchPlaces.css'
 import Navbar from '../../components/Navbar/Navbar';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import{faMagnifyingGlass}  from '@fortawesome/free-solid-svg-icons';
 import FamousPlaceCard from '../../components/FamousPlaceCard/FamousPlaceCard';
 import { Link } from 'react-router-dom';
 import Footer from '../../components/Footer/Footer';
