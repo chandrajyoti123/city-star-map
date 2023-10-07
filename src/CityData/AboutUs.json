@@ -1,20 +1,37 @@
 [
-    {
-        "name":"Chandrajyoti Adil",
-        "instagram":"",
-        "linkedin":"",
-        "github":"",
-        "twiter":""
-
-       
-
-    },
-    {   
-
-    },
-    {       
-
-    }
    
-
+    {
+        "image" : "./img/aboutus/tara.jpg",
+        "name" : "Chandrajoti Adil",
+        "linkdin" : "https://www.linkedin.com/in/chandrajyoti-adil-378029215",
+        "github" : "https://github.com/chandrajyoti123",
+        "insta" : "https://instagram.com/its____.tara?igshid=MzNlNGNkZWQ4Mg==",
+        "basicinfo" : "Doing B.Tech from tusliramjiGaikwad patil college of engineering and technology"
+    },
+    {
+        "image": "./img/aboutus/datta.jpg",
+        "name" : "Dattatray Tupe",
+        "linkdin" : "https://www.linkedin.com/in/dattatray-tupe/",
+        "github" : "https://github.com/datta88",
+        "insta" : "datta_patil_8788",
+        "basicinfo" : "I Have Completed BBA(CA) from Rajarshi Shahu Mahavidyalaya Deolali Pravara "
+    },
+    {
+        "image": "./img/aboutus/sonali.jpg",
+        "name" : "Sonali Gadekar",
+        "linkdin" : "https://www.linkedin.com/in/sonali-gadekar/",
+        "github" : "https://github.com/sonaligadekar20",
+        "insta" : "https://www.instagram.com/sonaliygadekar/",
+        "basicinfo" : "I have completed B.E in computer science from RTMNU university, Nagpur"
+    },
+    {
+        "image": "./img/aboutus/harsh.jpg",
+        "name" : "Harshvardhan Khairnar",
+        "linkdin" : "https://www.linkedin.com/in/harshvardhan-khairnar",
+        "github" : "https://github.com/Harshvardhan-Kh",
+        "insta" : "https://www.instagram.com/victor_hackz/",
+        "basicinfo" : "Currently Doing IGCP-in RTC Graduation :-I have completed my graduation in commerce feild"
+    }
+    
+    
 ]
