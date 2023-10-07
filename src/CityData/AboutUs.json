@@ -1,4 +1,5 @@
 [
+   
     {
         "image" : "./img/aboutus/tara.jpg",
         "name" : "Chandrajoti Adil",
@@ -31,4 +32,6 @@
         "insta" : "https://www.instagram.com/victor_hackz/",
         "basicinfo" : "Currently Doing IGCP-in RTC Graduation :-I have completed my graduation in commerce feild"
     }
+    
+    
 ]
