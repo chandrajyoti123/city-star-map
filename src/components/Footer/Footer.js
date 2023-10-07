@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from "react-router-dom"
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import{faHouse,faEnvelope,faPhone}  from '@fortawesome/free-solid-svg-icons';
+import{faHouse,faEnvelope,faPhone,faInstagram}  from '@fortawesome/free-solid-svg-icons';
 
   const Footer= () =>
   {
@@ -58,36 +59,38 @@ import{faHouse,faEnvelope,faPhone}  from '@fortawesome/free-solid-svg-icons';
           <h6 class="text-uppercase fw-bold mb-4 fs-4">
             Quick Links
           </h6>
-          <p class="fs-5">
-            <a href="#!" class="text-reset">Review</a>
+          <p class="fs-fs-5" >
+            <Link class="text-reset" to={"/"}>Home </Link>
+            {/* <a href="#!" class="text-reset">Review</a> */}
           </p>
-          <p  class="fs-5">
-            <a href="#!" class="text-reset">Top Searches</a>
+          <p  class="fs-fs-5">
+          <Link class="text-reset" to={"/visitorreviews"}>Review </Link>
+            {/* <a href="#!" class="text-reset">Top Searches</a> */}
           </p>
-          <p  class="fs-5">
-            <a href="#!" class="text-reset">Blog</a>
+          <p  class="fs-fs-5">
+          <Link class="text-reset" to={"/topserchplaces"}>Top Searches </Link>
           </p>
-          <p  class="fs-5">
-            <a href="#!" class="text-reset">About Us</a>
+          <p  class="fs-fs-5">
+            {/* <a href="#!" class="text-reset">About Us</a> */}
+            <Link class="text-reset" to={"/aboutus"}>About </Link>
           </p>
         </div>
       
-
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
          
           <h6 class="text-uppercase fw-bold mb-4 fs-4">
             Useful links
           </h6>
-          <p class="fs-5">
+          <p class="fs-fs-5">
             <a href="#!" class="text-reset">Pricing</a>
           </p>
-          <p class="fs-5">
+          <p class="fs-fs-5">
             <a href="#!" class="text-reset">Settings</a>
           </p>
-          <p class="fs-5">
+          <p class="fs-fs-5">
             <a href="#!" class="text-reset">Orders</a>
           </p>
-          <p class="fs-5">
+          <p class="fs-fs-5">
             <a href="#!" class="text-reset">Help</a>
           </p>
         </div>
@@ -96,11 +99,11 @@ import{faHouse,faEnvelope,faPhone}  from '@fortawesome/free-solid-svg-icons';
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
          
           <h6 class="text-uppercase fw-bold mb-4 fs-4">Contact</h6>
-          <p class="fs-5"> <FontAwesomeIcon icon={faHouse} /> 404, Laxmi Heights, Above Lotus Multi-speciality Hospital Manjari BK, pune - 412307
- </p>
-          <p  class="fs-5"><FontAwesomeIcon icon={faEnvelope}/> roadtocode@.org</p>
-          <p class="fs-5"><FontAwesomeIcon icon={faPhone}/> + 01 234 567 88</p>
-          
+          <p class="fs-fs-5"> <FontAwesomeIcon icon={faHouse} /> 404, Laxmi Heights, shevalevadi, pune - 412307
+          </p>
+          <p  class="fs-fs-5"><FontAwesomeIcon icon={faEnvelope}/> sonaliygadekar@gmail.com</p>
+          <p class="fs-fs-5"><FontAwesomeIcon icon={faPhone}/> + 91 9767973193</p>
+          {/* <p> <FontAwesomeIcon icon={faInstagram} /></p> */}
         </div>
     
       </div>
