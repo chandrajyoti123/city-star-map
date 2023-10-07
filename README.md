@@ -21,7 +21,7 @@ City Star Map is a web application built with React for searching cities and top
 
 **Interactive Map :** Explore a map interface with markers pinpointing the locations of cities and landmarks.
 
-### Real-Life Usefulness:
+## Real-Life Usefulness:
 This website serves as a valuable resource for users to search about specific destinations.
 
 ## Contributors
