@@ -2,26 +2,27 @@
   margin: 0;
   padding: 0;
 }
+
 .homecard {
   width: 100vw;
   height: auto;
   margin: 60px 0;
 }
 
+.descriptionhomecard {
+  padding: 15px 10%;
+  width: 100%;
 
-.descriptionhomecard{
-    padding: 15px 10%;
-    width: 100%;
-
-    font-size: 25px;
-    color: var(--darkcolor);
-    text-align: justify;
-    margin-top: 20px;
+  font-size: 25px;
+  color: var(--darkcolor);
+  text-align: justify;
+  margin-top: 20px;
 }
-.homecardsubheading{
-    font-size:40px;
-    font-weight: var( --subheadingweight);
-    padding-left: 10%;
- margin: 15px 0;
- color: var(  --ternarycolor);
+
+.homecardsubheading {
+  font-size: 40px;
+  font-weight: var(--subheadingweight);
+  padding-left: 10%;
+  margin: 15px 0;
+  color: var(--ternarycolor);
 }

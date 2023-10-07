@@ -1,4 +1,4 @@
-import './TopSearchCard.css'
+import './TopSearchcard.css'
 
 const TopSearchCard=({name,img1,img2,img3,description,history})=>{
     

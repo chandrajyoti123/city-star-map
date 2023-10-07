@@ -7,7 +7,6 @@
 .leftoffamousplace{
     width: 10%;
     height: 100%;
-    /* background-color: red; */
     display: flex;
     justify-content:end;
     align-items: center;
@@ -41,5 +40,51 @@ display: none;
     display: flex;
     justify-content:start;
     align-items: center;
+}
+@media screen and (max-width:600px) {
+    .imgcontainerfamouse{
+        width: 100%;
+        height: 320px;
+        /* background-color: pink; */
+        display: flex;
+    }
+    .leftoffamousplace{
+        width: 10%;
+        height: 100%;
+        /* background-color: red; */
+        display: flex;
+        justify-content:end;
+        align-items: center;
+    }
+    .famouspalceicon{
+        font-size: 25px;
+        color: rgb(104, 98, 98);
+    }
+    .overflow-topplaces{
+        width: 80%;
+        height: 100%;
+        /* background-color: green; */
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
+    .overflow-topplaces::-webkit-scrollbar{
+    display: none;
+    }
+    .famousimggroup{
+        display: flex;
+    }
+    .img-of-place{
+        height:320px ;
+        margin: 0 15px;
+        border-radius: 20px;
+    }
+    .rightoffamousplace{
+        width: 10%;
+        height: 100%;
+        /* background-color: red; */
+        display: flex;
+        justify-content:start;
+        align-items: center;
+    }
 
 }
