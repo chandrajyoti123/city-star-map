@@ -6,29 +6,28 @@ The CityStar Map Project is an interactive web application designed to help user
 ![output-1](././public/img/images/projecthome.png)
 
 **Website URL : "https://github.com/sonaligadekar20/city-star-map"**
-**Live URL : " "**
- 
+
 
 ## Top Places In India
 ![output-1](././public/img/images/Screenshot%202023-10-07%20122843.png)
 
+## Description
+City Star Map is a web application built with React for searching cities and top famous places in India. When a user searches for a city or place, retrieve relevant information from your database.
 
+## Features
+**City Search :** Easily find cities in India by name, region, or other relevant criteria.
 
+**Famous Places :** Discover top famous places within each city, complete with descriptions and images.
 
-### Description
+**Interactive Map :** Explore a map interface with markers pinpointing the locations of cities and landmarks.
 
+### Real-Life Usefulness:
+This website serves as a valuable resource for users to search about specific destinations.
 
+## Contributors
+<a href="https://github.com/sonaligadekar20/city-star-map/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=sonaligadekar20/city-star-map" />
+</a>
 
-### Features
-City Search: Easily find cities in India by name, region, or other relevant criteria.
-
-Famous Places: Discover top famous places within each city, complete with descriptions and images.
-
-Interactive Map: Explore a map interface with markers pinpointing the locations of cities and landmarks.
-
-
-### Real Life Usefulness
-
-
-### Contributors
+Made with [contrib.rocks](https://contrib.rocks).
 
