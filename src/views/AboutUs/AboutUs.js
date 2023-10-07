@@ -1,7 +1,16 @@
+ 
+import Navbar from "../../components/Navbar/Navbar";
+import './AboutUs.css'
+import AboutUsCard,{AboutUsCard2} from "../../components/AboutUsCard/AboutUsCard";
 const AboutUs =() => {
     return(
-        <h1>This is about page</h1>
-
+<>
+<Navbar/>
+<div className="aboutuscontainer">
+<AboutUsCard/>
+<AboutUsCard2/>
+</div>
+</>
     )
 
 }
