@@ -89,8 +89,8 @@ const TrendingCity=()=>{
 
             </div>
         {
-            samplearr.map((citydatastore)=>{
-                return <HomeCard img1={citydatastore.placeimg[0]} img2={citydatastore.placeimg[1]} img3={citydatastore.placeimg[2]} name={citydatastore.placename} history={citydatastore.placehistory} description={citydatastore.placedescription}/>
+            samplearr.map((citydatastore,i)=>{
+                return <HomeCard img1={citydatastore.placeimg[0]} img2={citydatastore.placeimg[1]} img3={citydatastore.placeimg[2]} name={citydatastore.placename} history={citydatastore.placehistory} description={citydatastore.placedescription} i={i}/>
 
 
             })
