@@ -75,7 +75,8 @@ const LoginOne = () => {
 
                     </div>
                     <div className='loginbutton'>
-                        <span className='forget-password'>forget password?</span>
+                        <Link to='/forgetpassword'><span className='forget-password'>forget password?</span></Link>
+                        
                         <Link to='/logintwo'><button type='button' className='loginbtn' onClick={nextpage}>Next</button></Link>
 
                     </div>

@@ -14,6 +14,7 @@ import TrendingCity from "./views/TrendingCity/TrendingCity";
 import LoginOne from "./views/LoginOne/LoginOne";
 import LoginTwo from "./views/LoginTwo/LoginTwo";
 import ThreeLogin from "./views/ThreeLogin/ThreeLogin";
+import ForgetPassword from "./views/ForgetPassword/ForgetPassword";
 
 
 
@@ -62,6 +63,10 @@ const router =createBrowserRouter([
     {
         path:'/loginthree',
         element:<ThreeLogin/>
+    },
+    {
+        path:'/forgetpassword',
+        element:<ForgetPassword/>
     }
     
 

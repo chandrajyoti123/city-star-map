@@ -5,10 +5,10 @@ import './HomeCard.css'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
-const HomeCard = ({ name, img1, img2, img3, description, history }) => {
+const HomeCard = ({ name, img1, img2, img3, description, history,i }) => {
 
     const  handleScroll = (event) => {
-        const homescrollimg = document.getElementById('homescrollimg');
+        const homescrollimg = document.getElementById(`homescrollimg${i}`);
         homescrollimg.scrollLeft += event.deltaY;
     }
     return (
@@ -65,7 +65,7 @@ const HomeCard = ({ name, img1, img2, img3, description, history }) => {
 
                         </div>
 
-                        <div className='overflow-topplaces' id='homescrollimg'>
+                        <div className='overflow-topplaces' id={`homescrollimg${i}`}>
                             <div className='famousimggroup'>
                          
                              <img src={img3} className='img-of-place' />

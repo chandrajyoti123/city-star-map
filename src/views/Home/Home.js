@@ -1,6 +1,6 @@
 import TopPlaceCard from "../../components/TopPlaceCard/TopPlaceCard";
 import HomeCard from "../../components/HomeCard/HomeCard";
-import { Link } from "react-router-dom";
+import { Link, json } from "react-router-dom";
 import CityPlace from "../CityPlace/CityPlace";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass, faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
@@ -118,6 +118,19 @@ const Home = () => {
         const scroll = document.getElementById('flex-scroll');
         scroll.scrollLeft += event.deltaY;
     }
+    // -------------local-storage--------
+    const [userlogindata,setUserlogindata]=useState('')
+    useEffect(()=>{
+        const logindata=JSON.parse(localStorage.getItem("userinfo"))
+        if(logindata){
+            setUserlogindata(logindata)
+        }
+  },[])
+  function logOut(){
+    localStorage.clear("userinfo")
+}
+   
+   
 
 
     return (
@@ -142,7 +155,10 @@ const Home = () => {
                     </div>
 
                     <div className="searchsetionright">
-                        <Link to={"/login"} className="login">Login</Link>
+                        <div className="login">{userlogindata.firstname} {userlogindata.lastname}</div>
+                        
+                        {userlogindata?<Link to='/'><div  onClick={logOut}  className="login">logout</div></Link>: <Link to={"/login"} className="login">login</Link>}
+                       
                     </div>
 
                 </div>
