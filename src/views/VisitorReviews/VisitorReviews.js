@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faBars, faL} from "@fortawesome/free-solid-svg-icons";
 import chandani from './chandani.jpg'
 import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
 
 
 // import Customer from "../../componets/Cutomer/Customer";
@@ -247,6 +248,7 @@ function Reviews() {
 
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

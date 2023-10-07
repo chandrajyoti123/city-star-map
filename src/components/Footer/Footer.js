@@ -11,12 +11,7 @@ import{faInstagram,faGithub,faFacebook,faLinkedin,}  from '@fortawesome/free-bra
       <>
 
  <footer class="text-center text-lg-start bg-blue text-light p-2 mt-5">
-    {/* <section class="d-flex justify-content-center justify-content-lg-between p-2 border-bottom">
-    
-    
-    
-    </section> */}
-   
+     
   <section class="">
     <div class="container text-center text-md-start mt-5">
       

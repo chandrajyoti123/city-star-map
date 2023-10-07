@@ -19,7 +19,6 @@
     color: var(--darkcolor);
     font-weight: var(--headingweight);
     padding:  3% 10% ;
-    
 }
 .topsearch-container{
     padding:  0 9% ;
@@ -41,8 +40,59 @@
     background: transparent;
     border: none;
     color: white;
+    margin-top: 25px;
     border: 1px solid gray;
 }
 .link{
     text-decoration: none;
+}
+
+@media screen and (max-width:600px) {
+    .tosearch-main-container{
+        background:linear-gradient(10deg,rgba(0, 0, 0,0.5),rgba(255, 255, 255, 0.3)), url("./topsearchbg.jpeg.jpg");
+        height: 48 0px;
+        background-size:cover;
+        width: 100%;
+    }
+    .main-heading{
+        font-size: 30px;
+        color:white;
+        text-align: center;
+        /* margin-top: 55px; */
+        position: absolute;
+        top:250px;
+        left: 40px;
+        text-align: center;
+    }
+    .searchbox{
+        /* width: 150px; */
+        position: absolute;
+        top: 350px;
+        left: 40px; 
+    }
+    .input {
+        width: 330px;
+        padding: 7px;
+        font-size: 18px;
+        border-radius: 12px;
+        background: transparent;
+        border: none;
+        color: white;
+        margin-top: 25px;
+        border: 1px solid gray;
+    }
+    .main-title{
+        font-size: 30px;
+        color: var(--darkcolor);
+        font-weight: var(--headingweight);
+        /* padding:  0% 5% ; */
+    }
+    .topsearch-container{
+        padding:  0 2% ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    
 }
