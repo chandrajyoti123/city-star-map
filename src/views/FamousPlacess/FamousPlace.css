@@ -1,34 +1,45 @@
-/* .topsearchcard{
-    width: 100vw;
-    height: 100vh;
-} */
-.famousplace-main-container{
-    width: 100vw;
-    height: 100vh;
-    padding:  3% 10%;
+.imgcontainerfamouse{
+    width: 100%;
+    height: 500px;
+    /* background-color: pink; */
+    display: flex;
 }
-.place-name{
-    font-size: var(--fontheading);
-    text-align: center;
-    font-weight: var(--headingweight);
-    color:var(--darkcolor);
-    /* margin-top: 50px; */
+.leftoffamousplace{
+    width: 10%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content:end;
+    align-items: center;
 }
-.place-img{
-    border-radius: 15px;
-    margin: 20px;
-    margin-top: 60px;
-    width: 360px;
+.famouspalceicon{
+    font-size: 40px;
+    color: rgb(104, 98, 98);
 }
-.about-place{
-    /* text-align: center; */
-    font-size: var(--fontsubheading);
-    font-weight: var(--subheadingweight);
-    color: var( --ternarycolor);
-    margin-top: 60px; 
+.overflow-topplaces{
+    width: 80%;
+    height: 100%;
+    /* background-color: green; */
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
-.place-text{
-    font-size: var(--textsize);
-    margin-top: 15px;
-    text-align: justify;
+.overflow-topplaces::-webkit-scrollbar{
+display: none;
+}
+.famousimggroup{
+    display: flex;
+}
+.img-of-place{
+    height:500px ;
+    margin: 0 15px;
+    border-radius: 20px;
+}
+.rightoffamousplace{
+    width: 10%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content:start;
+    align-items: center;
+
 }

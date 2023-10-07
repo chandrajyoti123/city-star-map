@@ -18,6 +18,7 @@ import section5 from './section5.jpg'
 import TrendingCity from "../TrendingCity/TrendingCity";
 import TopSearchData from './../../CityData/topplaces.json'
 import map from './map.png'
+import Footer from "../../components/Footer/Footer";
 
 
 const Home = () => {
@@ -228,9 +229,10 @@ const Home = () => {
                 <div className=" flexrow" id="flex-scroll">
                     {
                         topsearcharr.map((topsearchele, i) => {
-                            return <TopPlaceCard placecardimg={topsearchele.placeimg[0]} placecardname={topsearchele.placename} />
+                            return(<Link to={`/topplaces/${i}`} ><TopPlaceCard placecardimg={topsearchele.placeimg[0]} placecardname={topsearchele.placename} /> </Link> )
 
                         })
+    
                     }
                 </div>
                 <div className="topplacecol2">
@@ -251,7 +253,7 @@ const Home = () => {
 
 
 
-
+        <Footer/>
 
 
         </div>

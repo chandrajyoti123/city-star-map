@@ -5,6 +5,7 @@ import './TopSearchPlaces.css'
 import Navbar from '../../components/Navbar/Navbar';
 import FamousPlaceCard from '../../components/FamousPlaceCard/FamousPlaceCard';
 import { Link } from 'react-router-dom';
+import Footer from '../../components/Footer/Footer';
 
 const TopSearchPlaces = () => {
     const [topsearch, setTopsearch] = useState(tosearchdata.topsearch);
@@ -27,6 +28,7 @@ const TopSearchPlaces = () => {
          <div className='tosearch-main-container'>
             <div className='searchbox'>
             < input type='text'
+            className='input'
                 placeholder=' Search Place Here...'
                 value={searchterm}
                 onChange={(e) => {
@@ -39,14 +41,7 @@ const TopSearchPlaces = () => {
              <p className='main-heading'>Top 15 Tourist Places Attraction In India</p>
 
          </div>
-           
-{/* 
-            {
-            topsearch.map((elementofsearch,i)=>(
-             <TopSearchCard name={elementofsearch.placename} img1={elementofsearch.placeimg[0]} img2={elementofsearch.placeimg[1]} img3={elementofsearch.placeimg[2]} description={elementofsearch.placedescription} history={elementofsearch.placehistory}/>
-
-            ))
-        } */}
+         
              {/* <div className='main-title'>Best Places In India</div> */}
              <div className="headingseciotion">
            <div className="mainheading">Best Places In India</div>
@@ -61,6 +56,8 @@ const TopSearchPlaces = () => {
                     })
                 }
             </div>
+
+            <Footer/>
         </>
     );
 }

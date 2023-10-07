@@ -1,0 +1,121 @@
+import React from 'react';
+import './Footer.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import{faHouse,faEnvelope,faPhone}  from '@fortawesome/free-solid-svg-icons';
+
+  const Footer= () =>
+  {
+    return(
+      <>
+
+ <footer class="text-center text-lg-start bg-blue text-light mt-5">
+  <section class="d-flex justify-content-center justify-content-lg-between p-2 border-bottom">
+  
+    {/* <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div> 
+
+    <div>
+      <a href="https://www.facebook.com" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div> */}
+   
+  </section>
+   
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      
+      <div class="row mt-3">
+       
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+       
+          <h6 class="text-uppercase fw-bold mb-4 fs-4">
+            City star Map
+          </h6>
+          <p class="fs-5">
+          The "City Star Map" project is a modern web application designed to help users explore and learn more about cities around the world.
+          </p>
+        </div>
+        
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        
+          <h6 class="text-uppercase fw-bold mb-4 fs-4">
+            Quick Links
+          </h6>
+          <p class="fs-5">
+            <a href="#!" class="text-reset">Review</a>
+          </p>
+          <p  class="fs-5">
+            <a href="#!" class="text-reset">Top Searches</a>
+          </p>
+          <p  class="fs-5">
+            <a href="#!" class="text-reset">Blog</a>
+          </p>
+          <p  class="fs-5">
+            <a href="#!" class="text-reset">About Us</a>
+          </p>
+        </div>
+      
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+         
+          <h6 class="text-uppercase fw-bold mb-4 fs-4">
+            Useful links
+          </h6>
+          <p class="fs-5">
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p class="fs-5">
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p class="fs-5">
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p class="fs-5">
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+       
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+         
+          <h6 class="text-uppercase fw-bold mb-4 fs-4">Contact</h6>
+          <p class="fs-5"> <FontAwesomeIcon icon={faHouse} /> 404, Laxmi Heights, Above Lotus Multi-speciality Hospital Manjari BK, pune - 412307
+ </p>
+          <p  class="fs-5"><FontAwesomeIcon icon={faEnvelope}/> roadtocode@.org</p>
+          <p class="fs-5"><FontAwesomeIcon icon={faPhone}/> + 01 234 567 88</p>
+          
+        </div>
+    
+      </div>
+
+    </div>
+  </section>
+
+  {/* <div class="text-center p-4">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">citystarmap.com</a>
+  </div> */}
+ 
+</footer>
+</>
+    )
+}
+export default Footer;
+

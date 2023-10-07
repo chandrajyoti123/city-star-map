@@ -1,30 +1,30 @@
 {
     "customer": [
         {    "id":1,
-            "address": " 📍Shevalewadi, Tal:- Haveli, Dist:- Pune",
+            "address": "Chandmari nagar ,Nagpur",
             "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam corporis atque, magni delectus ipsum modi aperiam   aspernatur sit a culpa harum assumenda quasi similique enim, repellat tenetur?",
-            "name": "Chandrajiti  Adile",
-            "image": "./img/VesitReviews/dudhsagar-falls-2.jpg",
+            "name": "Chandrajyoti Adil",
+            "image": "./img/chandani.jpg",
             "NoOfReview": "150 + "
         },
-        {   "id":99,
-            "address": "📍Shevalewadi, Tal:- Haveli, Dist:- Pune",
-            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam corporis atque, magni delectus ipsum modi aperiam   aspernatur sit a culpa harum assumenda quasi similique enim, repellat tenetur?",
-            "name": "Chandrajiti Adile",
-            "image": "./img/VesitReviews/dudhsagar-falls-2.jpg",
-            "NoOfReview": "150 + "
-        },
+        {    "id":1,
+        "address": "Chandmari nagar ,Nagpur",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam corporis atque, magni delectus ipsum modi aperiam   aspernatur sit a culpa harum assumenda quasi similique enim, repellat tenetur?",
+        "name": "Chandrajyoti Adil",
+        "image": "./img/chandani.jpg",
+        "NoOfReview": "150 + "
+    },
         {   "id":77,
-            "address": "📍Shevalewadi, Tal:- Haveli, Dist:- Pune",
+            "address": "Shevalewadi, Tal:- Haveli, Dist:- Pune",
             "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam corporis atque, magni delectus ipsum modi aperiam   aspernatur sit a culpa harum assumenda quasi similique enim, repellat tenetur?",
-            "name": "Chandrajiti Adile",
+            "name": "Sonali ",
             "image": "./img/VesitReviews/dudhsagar-falls-2.jpg",
             "NoOfReview": "150 + "
         },
         {   "id":55,
-            "address": "📍Shevalewadi, Tal:- Haveli, Dist:- Pune",
+            "address": "Shevalewadi, Tal:- Haveli, Dist:- Pune",
             "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam corporis atque, magni delectus ipsum modi aperiam   aspernatur sit a culpa harum assumenda quasi similique enim, repellat tenetur?",
-            "name": "Chandrajiti Adile",
+            "name": "datatre tupe",
             "image": "./img/VesitReviews/dudhsagar-falls-2.jpg",
             "NoOfReview": "150 + "
         }

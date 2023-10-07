@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './Customer.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart,faMoon,faLocationDot,faTrash} from "@fortawesome/free-solid-svg-icons";
 
 export default function Customer({ name, description, address, img, NoOfReview, deleteCard, obj,editReview,id}) {
     const [count, setCount] = useState(0);
@@ -12,13 +14,13 @@ export default function Customer({ name, description, address, img, NoOfReview, 
             <div className='card-container'>
 
                 <div className='container-customer'>
-                    <h1>Best Western Alfa Aeropuerto </h1>
-                    <div><p>{address}</p></div>
-                    <div><p>{description}</p></div><br />
+                    <div className='customer-container'>City Star Map </div>
+                    <div className='cutomer-Address'> <span><FontAwesomeIcon icon={faLocationDot} className='location-icon'/></span>{address}</div>
+                    <div className='cutomer-review'>{description}</div>
                     <div className='img-container'>
                         <div><img src={img} className='img' /></div>
-                        <div className='font-size'><p className='font-family'>{name}</p></div>
-                        <div className='font-size border'><p>{NoOfReview}</p></div>
+                        <div className='font-size'>{name}</div>
+                        <div className='font-size border'><p>+150</p></div>
 
                         <div className='font-size'>
                             <button onClick={()=>{editReview(id)}} className='btn cursor-pointer' type='button' >
@@ -30,18 +32,21 @@ export default function Customer({ name, description, address, img, NoOfReview, 
                 </div>
                 <div className='container-like'>
                     <div className='text-center'>
-                        <button className='text-center' value={count} onClick={incre}>💖</button>
-                        <p className='font-family'>Your Ratting</p>
-                        <p className='font-family text-center'>{count}</p><br />
+                      <div className='text-center-child text-center-child1'>  <div className='' value={count} onClick={incre}><FontAwesomeIcon icon={faHeart} className='likebutton'/></div>
+                        <div className='rating'>Your Ratting</div>
+                        <div className='ratingpoint'>{count}</div>
+                    </div>
                     </div>
                     <div className='text-center'>
-                        <button className='text-center'>🌙</button>
-                        <p className='font-family'>Your Ratting</p>
-                        <p className='font-family text-center'>0</p><br />
+                    <div className='text-center-child'> 
+                        <div className='text-center-child'><FontAwesomeIcon icon={faMoon} className='likebutton'/></div>
+                        <p className='rating'>Your Ratting</p>
+                        <p className='ratingpoint'>0</p>
+                        </div>
                     </div>
                 </div>
                 <div className='delete-reviews-container'>
-                    <span className='delete-reviews-card' onClick={()=>{deleteCard (obj)}}>🗑️</span>
+                    <span className='delete-reviews-card' onClick={()=>{deleteCard (obj)}}><FontAwesomeIcon icon={faTrash} className='deleticon'/></span>
                 </div>
                 {/* <div className='delete-reviews-container'>
                     <span onClick={() => { deletcard(obj) }} className='delete-reviews-card'>🗑️</span>
