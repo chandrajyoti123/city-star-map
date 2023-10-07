@@ -1,0 +1,11 @@
+.loginthree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.loginsubheading{
+    font-size: 20px;
+    color:var( --ternarycolor);
+    margin-top:3px;
+}

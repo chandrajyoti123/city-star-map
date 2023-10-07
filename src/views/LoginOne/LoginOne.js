@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import './LoginOne.css'
-import { Link } from 'react-router-dom';
+import { Link, json } from 'react-router-dom';
 
 import emailjs from '@emailjs/browser'
+import Navbar from '../../components/Navbar/Navbar';
 const LoginOne = () => {
   
     const [email, setEmail] = useState()
@@ -10,10 +11,33 @@ const LoginOne = () => {
     const [checkbox, setCheckbox] = useState(false)
     console.log(checkbox)
 
+
+    function savetolocalstorage(obj){
+       
+      const emailpass=JSON.stringify(obj)
+      localStorage.setItem("emailpas",emailpass)
+
+    }
+
+
   
+    function nextpage(){
+        const obj={
+            email:email,
+            password:password,
+            check:checkbox
+        }
+        savetolocalstorage(obj)
+        
+       
+
+
+ }
 
 
     return (
+        <>
+       <Navbar/>
         <div className="logincontainer">
             <div className="loginform">
                 <div className='loginheading'>Welcome</div>
@@ -28,7 +52,7 @@ const LoginOne = () => {
 
                             }}
                         />
-                        {email}
+                      
                     </div>
                     <div className='input-con'>
                         <label form='password' className='labeloflogin'>Password</label>
@@ -39,7 +63,7 @@ const LoginOne = () => {
 
                             }}
                         />
-                        {password}
+                       
                     </div>
                     <div className='checkboxcon'>
                         <input type='checkbox' id='checkbox' checked={checkbox} onChange={(e) => {
@@ -52,7 +76,7 @@ const LoginOne = () => {
                     </div>
                     <div className='loginbutton'>
                         <span className='forget-password'>forget password?</span>
-                        <Link to='/logintwo'><button type='button' className='loginbtn'>Next</button></Link>
+                        <Link to='/logintwo'><button type='button' className='loginbtn' onClick={nextpage}>Next</button></Link>
 
                     </div>
 
@@ -62,6 +86,8 @@ const LoginOne = () => {
            
             </div>
         </div>
+        </>
+        
     )
 }
 export default LoginOne;
