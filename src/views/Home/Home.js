@@ -148,7 +148,7 @@ const Home = () => {
                         </div>
                         <div className="searchleftright">
                             <Link to='/cityplace'> <span ><FontAwesomeIcon icon={faMagnifyingGlass} className="icon" /></span></Link>
-                            <input className="input" value={cityname} placeholder="search city here" onChange={(e) => {
+                            <input className="inputhome" value={cityname} placeholder="search city here" onChange={(e) => {
                                 setCityname(e.target.value)
                             }} />
                         </div>
@@ -157,7 +157,7 @@ const Home = () => {
                     <div className="searchsetionright">
                         <div className="login">{userlogindata.firstname} {userlogindata.lastname}</div>
                         
-                        {userlogindata?<Link to='/'><div  onClick={logOut}  className="login">logout</div></Link>: <Link to={"/login"} className="login">login</Link>}
+                        {userlogindata?<a href='/'><div  onClick={logOut}  className="login">logout</div></a>: <Link to={"/login"} className="login">login</Link>}
                        
                     </div>
 

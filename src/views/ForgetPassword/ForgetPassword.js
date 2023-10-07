@@ -3,7 +3,8 @@ import Navbar from '../../components/Navbar/Navbar'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import './ForgetPassword.css'
-
+import { faUniversalAccess } from '@fortawesome/free-solid-svg-icons'
+import showToast from 'crunchy-toast';
 export default function ForgetPassword() {
     const [passwordone, setPasswordone] = useState("")
     const [passwordtwo, setPasswordtow] = useState("")
@@ -12,7 +13,10 @@ export default function ForgetPassword() {
 
 
 
+function pleasefilled(){
+    showToast('Please Fill All Field', 'alert', 1000);
 
+}
 
 
     return (
@@ -58,7 +62,10 @@ export default function ForgetPassword() {
                         </div>
 
                         <div className='loginbutton loginbutton-next margin-top'>
-                            <Link to='/logintwo'><button type='button' className='loginbtn' >Next</button></Link>
+                            {/* <Link to='/logintwo'><button type='button' className='loginbtn' >Next</button></Link> */}
+                        {
+                            (passwordone&& passwordtwo && email)?<Link to='/logintwo'><button type='button' className='loginbtn' >Next</button></Link>:<button type='button' className='loginbtn' onClick={pleasefilled} >Next</button>
+                        }
 
                         </div>
 

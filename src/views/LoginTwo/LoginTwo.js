@@ -2,6 +2,8 @@ import { useDebugValue, useState } from "react"
 import './LoginTwo.css'
 import Navbar from "../../components/Navbar/Navbar"
 import { Link } from "react-router-dom"
+import { faUnsorted } from "@fortawesome/free-solid-svg-icons"
+import showToast from 'crunchy-toast';
 
 const LoginTwo = () => {
     const [firstname, setFirstname] = useState()
@@ -22,6 +24,8 @@ const LoginTwo = () => {
   
     
       function logineduser(){
+
+      
           const obj1={
               firstname:firstname,
             lastname:lastname,
@@ -37,6 +41,12 @@ const LoginTwo = () => {
 
   
   
+      }
+      
+
+      function pleasefilled(){
+        showToast('Please Fill All The Field', 'alert', 1000);
+
       }
 
     return (
@@ -115,7 +125,11 @@ const LoginTwo = () => {
                      <div className=' loginbutton-next'>
                         
                        <Link to='/login'> <button type='button' className='loginbtn margin-right'>previous</button></Link>
-                         <Link to='/loginthree'><button type='button' className='loginbtn ' onClick={logineduser}>Login</button></Link>
+                         {/* <Link to='/loginthree'><button type='button' className='loginbtn ' onClick={logineduser}>Login</button></Link> */}
+
+                         {
+                            (firstname && lastname && gender && city)?<Link to='/loginthree'><button type='button' className='loginbtn ' onClick={logineduser}>Login</button></Link>:<button type='button' className='loginbtn ' onClick={pleasefilled}>Login</button>
+                         }
 
                     </div> 
 
