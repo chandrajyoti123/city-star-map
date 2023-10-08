@@ -15,20 +15,34 @@
     /* background-color: var(--darkcolor); */
     background-color: rgba(0,0, 0,0.1);
     box-shadow: 0 0 5px 1px  rgba(9, 98, 133,0.7) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
    
+}
+.logocontainer{
+    width: 30%;
+    height: 100%;
 }
 .navbar ul{
     display: flex;
-    width: 100%;
-    justify-content: flex-end;
+    width: 70%;
+    justify-content: space-evenly;
     align-items: center;
     height: 100%;
 
 }
 
+.logoimgof{
+    width: 200px;
+    margin-top: -80px;
+
+}
+
 .navbar ul li{
   list-style: none;
-  padding: 10px 60px;
+  /* padding: 10px 60px; */
   
   /* background-color: red; */
 }
@@ -87,7 +101,7 @@
 
     }
     .navbarlogoimg{
-        width: 200px;
+        width: 150px;
     }
     .navbarphoneicon{
         font-size: 40px;

@@ -3,9 +3,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 90vh;
 }
 .loginsubheading{
-    font-size: 20px;
+    font-size: 25px;
     color:var( --ternarycolor);
     margin-top:3px;
+    text-transform: capitalize;
 }

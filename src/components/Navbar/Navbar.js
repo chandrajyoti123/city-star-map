@@ -4,9 +4,10 @@ import logo from './logo.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars,faXmark } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
+import logo2 from './logo2.png'
 const Navbar = () => {
 
-    const [sidebar,setSidebar]=useState("")
+    const [sidebar,setSidebar]=useState("sidebarclosed")
     function sidebaropen(){
         setSidebar("sidebarcloseopen")
     }
@@ -17,6 +18,7 @@ const Navbar = () => {
         <>
             <div className="navabarcontainer">
                 <div className="navbar">
+                    <div className="logocontainer"><img src={logo2} className="logoimg"/></div>
                     <ul>
                         <li><Link className="navlink" to={"/"}>Home</Link></li>
                         <li><Link className="navlink" to={"/visitorreviews"} >Review</Link></li>
@@ -31,7 +33,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-phone">
                 <div className="navbar-phone-child">
-                    <div><img src={logo} className="navbarlogoimg"/></div>
+                    <div><img src={logo2} className="navbarlogoimg"/></div>
                     <span><FontAwesomeIcon icon={faBars} className="navbarphoneicon" onClick={sidebaropen}/></span>
                 </div>
 

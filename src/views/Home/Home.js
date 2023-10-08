@@ -19,6 +19,7 @@ import TrendingCity from "../TrendingCity/TrendingCity";
 import TopSearchData from './../../CityData/topplaces.json'
 import map from './map.png'
 import Footer from "../../components/Footer/Footer";
+import logo2 from './logo2.png'
 
 
 const Home = () => {
@@ -146,7 +147,7 @@ const Home = () => {
                 <div className="searchsection">
                     <div className="searchsetionleft">
                         <div className="searchleftleft">
-                            <img src={logo} className="logo" />
+                            <img src={logo2} className="logo" />
                         </div>
                         <div className="searchleftright">
                             <Link to='/cityplace'> <span ><FontAwesomeIcon icon={faMagnifyingGlass} className="icon" /></span></Link>
