@@ -8,6 +8,7 @@ import { useState, useEffect } from 'react';
 import FamousPlaceData from '../../CityData/topplaces.json';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import Footer from '../../components/Footer/Footer';
 
 export default function FamousPlacess() {
     const { id } = useParams();
@@ -88,6 +89,7 @@ export default function FamousPlacess() {
                 {famousDataOne.placehistory}
             </div>
             </div>
+            <Footer/>
               
 
         </>
