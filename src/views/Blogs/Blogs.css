@@ -49,9 +49,26 @@
 }
 .blogBanner-btn {
     position: absolute;
-    bottom: 50px;
+    bottom: 40px;
     border: none;
     background-color: #096285;
     color: white;
     padding: 5px;
+}
+
+@media  screen and (min-width: 370px) and (max-width: 600px) {
+    .blogBanner-card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .blogBanner-img {
+        width: 100%;
+    }
+    .blogBanner-btn {
+        bottom: 6px;
+    }
+    .blogBanner-description {
+        margin-bottom: 40px;
+    }
+
 }

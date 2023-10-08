@@ -2,7 +2,7 @@
 
 .blogCard {
     width: 400px;
-    height: 540px;
+    height: 620px;
     box-shadow: 0 0 13px 0 rgb(158, 158, 158);
     margin: 28px;
     position: relative;
@@ -24,4 +24,10 @@
     bottom: 2px;
     left: 4px;
     cursor: pointer;
+}
+.fs-larg {
+    font-size: 23px;
+}
+@media  screen and (min-width: 480px) {
+    
 }

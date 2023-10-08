@@ -10,10 +10,10 @@ const BlogCard = ({id,image, title,Author,Description,Content,Publish}) => {
           <div className="blog-img">
           <img className="blog-img-content" src={image} alt="image"/>
           </div>
-          <p className="txt-center">{title}</p>
+          <p className="txt-center fs-larg">{title}</p>
           <p className="txt-center">{Description}</p>
           <p className="txt-center">{Content}</p>
-          <a className="readpost-btn">Read more</a>
+          <a href="" className="readpost-btn">Read Post</a>
         </div>
 
     </>
