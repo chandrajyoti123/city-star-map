@@ -90,6 +90,7 @@
     background-color: rgba(0,0, 0,0.1);
     box-shadow: 0 0 5px 1px  rgba(9, 98, 133,0.7) ;
     font-size: 25px;
+    line-height: 32px;
 }
 
 .margin-letf{
@@ -126,7 +127,7 @@
 }
 .icon-set-container{
     display: flex;
-    
+    margin-top: 10px;
     font-size: 40px;
 }
 .icons{
@@ -217,6 +218,7 @@
             text-align: start;
            
             font-size: 15px;
+            line-height: 25px;
         }
         
 

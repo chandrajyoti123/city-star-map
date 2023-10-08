@@ -47,8 +47,8 @@ export function AboutUsCard2({ name2, basicinfo2, img2, insta2, linkdin2, github
                     <div className='aboutuslogen'>"{basicinfo2}"</div>
 
                 </div>
-                <div className=' extrainfoabouus2'>
-                    <div className=' extraingochild2'>
+                <div className=' extrainfoabouus'>
+                    <div className=' extraingochild'>
                         This is {name2}  A member of Project , A Frontend Web Developer {basicinfo2} ,
                         <div className="icon-set-container">
                             <a href={linkdin2}><span className="icons"><FontAwesomeIcon icon={faLinkedin} /></span></a>
