@@ -117,7 +117,7 @@
     width: 85%;
     height: 85%;
    color: rgb(255, 255, 255,0.5);
-    font-size: 20px;
+    font-size: 25px;
     padding: 10px;
     text-align: start;
     background-color: rgba(0,0, 0,0.1);
@@ -131,13 +131,93 @@
 }
 .icons{
     margin-left: 30px;
-    color:white;
+    color: rgb(255, 255, 255,0.5);
+    transition: 0.5s;
 }
 .icons:hover{
-   cursor: pointer;
-   font-size: 45px;
+   transform: translateY(10px);
 }
-.icons2{
-    margin-left: 30px;
-    color: white;
+
+
+@media screen and (max-width:600px){
+    .aboutuscard{
+        width: 100%;
+        height: 400px;
+      
+       margin-bottom: 250px;
+      
+    margin-left: 2%;
+    margin-right: 2%;
+    }
+    .aboutusname{
+        font-size:40px;
+            width: 100%;
+        height: 80px; }
+
+        .aboutusimgcon{
+            width: 60%;
+            height:300px;
+        }
+
+        .aboutuslogen{
+            width:45% ;
+            height: auto;
+             font-size: 20px;
+            margin-left: 5px;
+             margin-top: 5%;
+        }
+        .extrainfoabouus{
+            
+                width: 60%;
+                height: 183px;
+                position: absolute;
+                left: 121px;
+                bottom: -40px;
+          
+        
+        }
+        .extraingochild{
+            width: 95%;
+            height: 95%;
+         
+        
+            padding: 10px;
+            text-align: start;
+           
+            font-size: 25px;
+        }
+
+        .icon-set-container{
+            display: flex;
+            
+            font-size: 30px;
+        }
+        .icons{
+            margin-right: 30px;
+            color:white;
+        }
+        .margin-letf{
+            margin-left: auto;
+        }  
+
+        .extrainfoabouus{
+            width: 60%;
+            height: 183px;
+            position: absolute;
+            right: 121px;
+            bottom: -40px;
+        
+        }
+        .extraingochild{
+            width: 95%;
+            height: 95%;
+         
+        
+            padding: 10px;
+            text-align: start;
+           
+            font-size: 15px;
+        }
+        
+
 }

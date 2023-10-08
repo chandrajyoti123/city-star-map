@@ -61,7 +61,7 @@
     font-size: 25px;
     color: white;
 }
-.input{
+.inputhome{
     width: 400px;
     height: 40px;
     color: white;
@@ -73,17 +73,33 @@
     border-radius: 50px;
 }
 .searchsetionright{
-    width: 20%;
+    width: 40%;
     display: flex;
     height: 100%;
     align-items: center;
     justify-content: center;
+    
+}
+.username{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.slash{
+    font-size: 35px;
+    color: white;
+    margin-right: 10px;
 }
 .login{
    text-decoration: none;
    font-size: 30px;
    color: white;
    cursor: pointer;
+   margin-left: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 
 }
 .sectiononebody{
@@ -262,3 +278,202 @@
     font-size: 30px;
     position: absolute;
 }
+
+
+@media screen and (max-width:600px){
+    .sectionone{
+        width: 100vw;
+        height: 40vh;
+        /* display: flex;
+        justify-content:center;
+        flex-direction: column; */
+        
+      
+        
+    }
+
+    .searchsection{
+        width: 100%;
+        height: 70px;
+        border-bottom:none;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .searchsetionleft{
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        align-items: center;
+        
+    }
+    .searchleftleft{
+        width: 30%;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .logo{
+      display: none;
+    }
+    /* .searchleftright{
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+        height: 100%;
+        align-items: center;
+    } */
+    .icon{
+        
+       margin-right:20px;
+    
+    }
+    .inputhome{
+        width: 300px;
+        height: 35px;
+        color: white;
+     font-size: 20px;
+          padding-left: 19px;
+      
+      
+    }
+    .searchsetionright{
+        
+        flex-direction: column;
+        
+    }
+    .username{
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    .slash{
+        font-size: 35px;
+        color: white;
+        margin-right: 10px;
+    }
+    .login{
+      
+       font-size: 20px;
+ 
+      
+    
+    }
+    .sectiononebody{
+        width: 100%;
+        height: 30% ;
+        /* overflow-y: auto; */
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+
+    }
+    .sectiononeheading{
+       
+       
+     
+        font-size: 50px;
+        font-weight: bold;
+       
+       
+       margin-top: 0px;
+    }
+    .sectiononesubheading{
+       
+        
+        margin-top: 10px;
+       
+        font-size: 30px;
+        padding: 0 20px;
+        
+    }
+    .headingseciotion{
+        padding-left: 2%;
+        margin: 20px 0 5px 0;
+    }
+    .mainheading{
+        font-size:40px;
+      
+        
+    }
+    .sectiontwo{
+        width: 100vw;
+        height: 400px;
+       
+        padding: 0 2%;
+    }
+    .row1{
+        
+        height: 50%;
+       
+        
+    }
+    
+   
+    
+  
+    
+    
+    .row2{
+        
+        width: 100%;
+        
+        height: 50%;
+        
+    }
+    .nameofcard{
+        font-size:20px;
+        margin: 5px 20px;
+        color: white;
+    }
+   
+
+    .topplaces{
+        width: 100%;
+        height: auto;
+      display: flex;
+      justify-content: space-between;
+    }
+   
+    .topplacecol1{
+        width: 1%;
+    
+        background-color: transparent;
+        /* margin-left: 5px; */
+        z-index: 99;
+    
+    }
+    .topplacecol2{
+        width: 1%;
+      background-color: transparent;
+        
+     margin-right: 15px;
+        z-index: 99;
+    
+    }
+    .flexrow{
+        display: flex;
+        flex-direction: row;
+        /* background-color: red; */
+         width: 98%;
+         margin: 0 auto;
+          height: auto;
+         overflow-x:scroll;
+         margin-top: 20px;
+         scroll-behavior: smooth;
+
+    }
+    .flexrow::-webkit-scrollbar{
+       display: none;
+    }
+    .faangle{
+        font-size: 30px;
+        position: absolute;
+    }
+
+}
+
+

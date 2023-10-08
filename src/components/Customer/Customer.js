@@ -32,7 +32,8 @@ export default function Customer({ name, description, address, img, NoOfReview, 
                 </div>
                 <div className='container-like'>
                     <div className='text-center'>
-                      <div className='text-center-child text-center-child1'>  <div className='' value={count} onClick={incre}><FontAwesomeIcon icon={faHeart} className='likebutton'/></div>
+                      <div className='text-center-child text-center-child1'>  <div className='' value={count} onClick={incre}>
+                        <FontAwesomeIcon icon={faHeart} className='likebutton'/></div>
                         <div className='rating'>Your Ratting</div>
                         <div className='ratingpoint'>{count}</div>
                     </div>
@@ -48,19 +49,11 @@ export default function Customer({ name, description, address, img, NoOfReview, 
                 <div className='delete-reviews-container'>
                     <span className='delete-reviews-card' onClick={()=>{deleteCard (obj)}}><FontAwesomeIcon icon={faTrash} className='deleticon'/></span>
                 </div>
-                {/* <div className='delete-reviews-container'>
-                    <span onClick={() => { deletcard(obj) }} className='delete-reviews-card'>🗑️</span>
-                </div> */}
-
-
-                {/* ✍️🗑️🎯📑📄📜📃📒📙🖋️🖊️✏️📝🖌️🍜 */}
+                
 
             </div>
 
-            {/* <div>
-                    <div className='task-container'></div>
-                </div>
-            </div> */}
+        
         </>
     )
 }
@@ -68,25 +61,5 @@ export default function Customer({ name, description, address, img, NoOfReview, 
 
 
 
-
-// export default function Customer({ name, wish, img, secondaryColor }) {
-// return (
-//     <>
-//         <div className='card-contener' style={{backgroundColor:(secondaryColor)}}>
-//             <div className="container">
-//                 <div>
-//                     <img src={img} className='img' />
-//                 </div>
-//                 <div className='card-container'>
-//                     <p className='name-paragrap'>{name}</p>
-//                     <p>{wish}</p>
-//                 </div>
-//             </div>
-//             {/* <h1>{secondaryColor}</h1>  */}
-//         </div>
-//     </>
-
-// )
-//}
 
 

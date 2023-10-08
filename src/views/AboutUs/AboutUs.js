@@ -1,10 +1,11 @@
 
 import Navbar from "../../components/Navbar/Navbar";
-
 import './AboutUs.css'
 import AboutUsCard, { AboutUsCard2 } from "../../components/AboutUsCard/AboutUsCard";
 import aboutusdata from './../../CityData/AboutUs.json'
 import { useState } from "react";
+import Footer from "../../components/Footer/Footer";
+
 
 const AboutUs = () => {
     const [dataofabout, setDataofabout] = useState(aboutusdata)
@@ -26,6 +27,7 @@ const AboutUs = () => {
                     })
                 }
             </div>
+            <Footer/>
         </>
     )
 

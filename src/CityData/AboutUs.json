@@ -2,11 +2,11 @@
    
     {
         "image" : "./img/aboutus/tara.jpg",
-        "name" : "Chandrajoti Adil",
+        "name" : "Chandrajyoti Adil",
         "linkdin" : "https://www.linkedin.com/in/chandrajyoti-adil-378029215",
         "github" : "https://github.com/chandrajyoti123",
         "insta" : "https://instagram.com/its____.tara?igshid=MzNlNGNkZWQ4Mg==",
-        "basicinfo" : "Doing B.Tech from tusliramjiGaikwad patil college of engineering and technology"
+        "basicinfo" : "Doing B.Tech from tusliramji Gaikwad patil college of engineering and technology"
     },
     {
         "image": "./img/aboutus/datta.jpg",
@@ -22,7 +22,7 @@
         "linkdin" : "https://www.linkedin.com/in/sonali-gadekar/",
         "github" : "https://github.com/sonaligadekar20",
         "insta" : "https://www.instagram.com/sonaliygadekar/",
-        "basicinfo" : "I have completed B.E in computer science from RTMNU university, Nagpur"
+        "basicinfo" : "I have completed B.E in computer science  RTMNU university, Nagpur"
     },
     {
         "image": "./img/aboutus/harsh.jpg",
@@ -30,7 +30,7 @@
         "linkdin" : "https://www.linkedin.com/in/harshvardhan-khairnar",
         "github" : "https://github.com/Harshvardhan-Kh",
         "insta" : "https://www.instagram.com/victor_hackz/",
-        "basicinfo" : "Currently Doing IGCP-in RTC Graduation :-I have completed my graduation in commerce feild"
+        "basicinfo" : "I have completed my graduation in commerce feild"
     }
     
     

@@ -11,7 +11,7 @@ export default function ThreeLogin() {
 
   useEffect(() => {
     const loginData = JSON.parse(localStorage.getItem("emailpas"));
-    const { email, password, check } = loginData;
+    const { email, password } = loginData;
 
     const basicInfoData = JSON.parse( localStorage.getItem("nameinfo"));
     const { firstname, lastname, gender, city } = basicInfoData;
@@ -23,7 +23,7 @@ export default function ThreeLogin() {
       password: password,
       gender: gender,
       city: city,
-      check: check,
+     
     };
 
     savetolocalstorage(object);
