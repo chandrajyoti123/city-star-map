@@ -84,9 +84,7 @@ const TrendingCity=()=>{
                  </div>
                 <div className="weathertemp">{((storeweatherdata?.main?storeweatherdata?.main?.temp:'')-273).toFixed(0)}°C</div>
                 <div className="weatherfeels">Feels like {((storeweatherdata?.main?storeweatherdata?.main?.feels_like:'')-273).toFixed(0)}°C </div>
-           {/* <h1> temperatur:{((storeweatherdata?.main?storeweatherdata?.main?.temp:'')-273).toFixed(0)}°C</h1>
-           <h1>feels like:{((storeweatherdata?.main?storeweatherdata?.main?.feels_like:'')-273).toFixed(0)}°C</h1>
-           <h1>main:{(storeweatherdata?.weather?storeweatherdata?.weather[0]?.main:'')}</h1> */}
+
 
             </div>
         {
