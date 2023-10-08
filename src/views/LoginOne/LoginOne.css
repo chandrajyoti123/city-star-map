@@ -1,6 +1,6 @@
 .logincontainer{
     width: 100vw;
-    height: 100vh;
+    height:auto;
     /* background-color: red; */
     display: flex;
     justify-content: center;
@@ -10,7 +10,12 @@
     width: 50%;
     height: 80%;
     /* background-color: aqua; */
-    border:  1px solid black;
+    /* border:  2px solid black; */
+    /* box-shadow:  0 0 5px 3px #096285 ; */
+    border:  5px solid #096285 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   
 }
 .input-field-container{
@@ -64,6 +69,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    margin-bottom: 20px;
  }
  .forget-password{
     font-size: 25px;

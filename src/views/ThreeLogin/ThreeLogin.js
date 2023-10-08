@@ -32,12 +32,12 @@ export default function ThreeLogin() {
   return (
     <div>
       <Navbar />
-      <div className="logincontainer">
-        <div className="loginform loginthree">
+      
+        <div className=" loginthree">
           <div className="loginheading">Thank You</div>
-          <div className="loginsubheading">You have Login successfully</div>
+          <div className="loginsubheading">you have successfully logged in</div>
         </div>
-      </div>
+    
     </div>
   );
 }

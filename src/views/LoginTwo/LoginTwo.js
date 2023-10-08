@@ -108,7 +108,7 @@ useEffect(()=>{
 
                     </div>
                     <div className="name-field-container">
-                        <label className='labeloflogin'>Select Your </label>
+                        <label className='labeloflogin'>Select Your City </label>
                         <div className="name-feild-child-con ">
                             <select className="select-container" value={city} onChange={(e) => {
                                 setCity(e.target.value)

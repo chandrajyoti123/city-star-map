@@ -1,6 +1,7 @@
 .name-field-container{
     width: 80%;
     height: auto;
+    margin: 10px 0;
    
 }
 .name-feild-child-con{
@@ -9,7 +10,7 @@
     justify-content:space-between;
 }
 .name-feild{
-    width: 300px;
+    width: 290px;
     height: 40px;
     border: none;
     background-color: var(--primarycolor);
