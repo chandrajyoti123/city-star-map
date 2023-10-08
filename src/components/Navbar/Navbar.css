@@ -7,6 +7,10 @@
     background: linear-gradient(90deg,rgb(9, 98, 133,),rgb(0, 0, 1));
     /* background-color: pink; */
     background: linear-gradient(10deg,#096285,#9bd4e4);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 101;
 
 }
 .navbar{
