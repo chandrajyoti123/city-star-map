@@ -1,6 +1,7 @@
 .name-field-container{
     width: 80%;
     height: auto;
+    margin: 10px 0;
    
 }
 .name-feild-child-con{
@@ -9,7 +10,7 @@
     justify-content:space-between;
 }
 .name-feild{
-    width: 300px;
+    width: 290px;
     height: 40px;
     border: none;
     background-color: var(--primarycolor);
@@ -55,6 +56,29 @@
     justify-content: end;
     width: 80%;
     margin-top: 50px;
+}
+
+
+@media screen and (max-width:600px){
+    .name-field-container{
+       margin: 15px 0;
+       
+    }
+    
+    .name-feild-child-con{
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        flex-direction: column;
+
+    }
+
+   .name-margin{
+    margin: 10px 0;
+   }
+    
+    
+
 }
 
 

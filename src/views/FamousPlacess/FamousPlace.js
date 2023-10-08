@@ -3,10 +3,7 @@ import './FamousPlace.css'
 import { useParams } from 'react-router-dom';
 import Navbar from '../../components/Navbar/Navbar';
 import topsearchdata from './../../CityData/topplaces.json';
-import TopSearchCard from '../../components/TopSearchCard/TopSearchCard';
-import imgs1 from './tajmusium1.jpg'
-import imgs2 from './tajmusium2.jpg'
-import imgs3 from './tajmusium3.jpg'
+import TopSearchCard from '../../components/TopSearchCard/TopSearchCard'
 import { useState, useEffect } from 'react';
 import FamousPlaceData from '../../CityData/topplaces.json';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

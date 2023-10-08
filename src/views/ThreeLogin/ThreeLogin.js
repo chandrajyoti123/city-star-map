@@ -11,7 +11,7 @@ export default function ThreeLogin() {
 
   useEffect(() => {
     const loginData = JSON.parse(localStorage.getItem("emailpas"));
-    const { email, password, check } = loginData;
+    const { email, password } = loginData;
 
     const basicInfoData = JSON.parse( localStorage.getItem("nameinfo"));
     const { firstname, lastname, gender, city } = basicInfoData;
@@ -23,7 +23,7 @@ export default function ThreeLogin() {
       password: password,
       gender: gender,
       city: city,
-      check: check,
+     
     };
 
     savetolocalstorage(object);
@@ -32,12 +32,12 @@ export default function ThreeLogin() {
   return (
     <div>
       <Navbar />
-      <div className="logincontainer">
-        <div className="loginform loginthree">
+      
+        <div className=" loginthree">
           <div className="loginheading">Thank You</div>
-          <div className="loginsubheading">You have Login successfully</div>
+          <div className="loginsubheading">you have successfully logged in</div>
         </div>
-      </div>
+    
     </div>
   );
 }

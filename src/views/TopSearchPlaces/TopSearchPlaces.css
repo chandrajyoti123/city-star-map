@@ -61,17 +61,17 @@
         /* margin-top: 55px; */
         position: absolute;
         top:250px;
-        left: 40px;
+        left: 30px;
         text-align: center;
     }
     .searchbox{
-        /* width: 150px; */
+        width: 120px;
         position: absolute;
-        top: 350px;
-        left: 40px; 
+        top: 330px;
+        left: 45px; 
     }
     .input {
-        width: 330px;
+        width: 300px;
         padding: 7px;
         font-size: 18px;
         border-radius: 12px;

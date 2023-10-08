@@ -40,3 +40,29 @@ background: linear-gradient(180deg,rgba(0, 0, 0,0.7),rgba(255, 255, 255, 0.0),rg
     color: white;
     margin-bottom: 5px;
 }
+
+
+@media screen and (max-width:600px){
+    .placecard{
+        width: 200px;
+        height: 220px;
+    
+        position: relative;
+        border-radius: 15px;
+        margin: 5px 10px;
+       
+    }
+    .placecardimg{
+        width: 200px;
+        height: 220px;
+        border-radius: 15px;
+        transition: 0.5s;
+       
+    }
+    .placecardname{
+        font-size: 23px;
+        font-weight: bold;
+        
+    }
+
+}

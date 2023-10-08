@@ -19,13 +19,16 @@ import TrendingCity from "../TrendingCity/TrendingCity";
 import TopSearchData from './../../CityData/topplaces.json'
 import map from './map.png'
 import Footer from "../../components/Footer/Footer";
+import logo2 from './logo2.png'
 
 
 const Home = () => {
     const [cityname, setCityname] = useState("")
     const [storecity, setStorecity] = useState([])
-    const [cityplace, setCityplace] = useState("mathura")
+    const [cityplace, setCityplace] = useState("")
     const [topsearcharr, setTopsearcharr] = useState(TopSearchData.topsearch)
+    const [keypress,setKeypress]=useState()
+    console.log(keypress)
 
     // console.log(cityplace)
 
@@ -144,20 +147,25 @@ const Home = () => {
                 <div className="searchsection">
                     <div className="searchsetionleft">
                         <div className="searchleftleft">
-                            <img src={logo} className="logo" />
+                            <img src={logo2} className="logo" />
                         </div>
                         <div className="searchleftright">
                             <Link to='/cityplace'> <span ><FontAwesomeIcon icon={faMagnifyingGlass} className="icon" /></span></Link>
-                            <input className="input" value={cityname} placeholder="search city here" onChange={(e) => {
+                           
+                           <input className="inputhome" value={cityname} placeholder="search city here" onKeyDown={(e)=>{
+                                setKeypress(e.key)
+                            }} onChange={(e) => {
                                 setCityname(e.target.value)
                             }} />
+                           
+                            
                         </div>
                     </div>
 
                     <div className="searchsetionright">
-                        <div className="login">{userlogindata.firstname} {userlogindata.lastname}</div>
+                        <div className="username">{userlogindata.firstname} {userlogindata.lastname} </div>
                         
-                        {userlogindata?<Link to='/'><div  onClick={logOut}  className="login">logout</div></Link>: <Link to={"/login"} className="login">login</Link>}
+                        {userlogindata?<a href='/'><div  onClick={logOut}  className="login"> <span className="slash">/</span>logout</div></a>: <Link to={"/login"} className="login">login</Link>}
                        
                     </div>
 
