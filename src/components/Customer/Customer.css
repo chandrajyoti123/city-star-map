@@ -5,7 +5,7 @@
     padding: 20px;
     font-family: Arial;
     width: 900px;
-    height:300px ;
+    height:350px ;
     position: relative;
    
     /* border: 1px solid red; */
@@ -179,38 +179,123 @@ padding-left: 10px;
 }
 
 
-/* .container{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-   border:none;
-   border-radius: 20px;
-   padding-top: 10px;
-   padding-left: 20px;
-   padding-right: 20px;
-   width: 650px;
-   margin: 30px;
-    background-image: linear-gradient(to bottom right, rgba(0, 255, 234, 0.282), rgb(0, 255, 174)); 
-   box-shadow: 0 0 10px;
-}
+@media screen and (max-width:600px){
+    .card-container{
+        display: flex;
+        justify-content: start;
+        margin:15px auto;
+        padding: 20px;
+        font-family: Arial;
+        width:100%;
+        min-height: 300px;
+        max-height: auto;
+        position: relative;
+       
+        /* border: 1px solid red; */
+     }
 
-.img{
-    height: 250px;
-    width: 250px;
-    border-radius: 20px;
-    margin-top:25px ;
-    border: 1px solid black;
+     .container-customer{
+        width: 80%;
+        height: 100%;
+        /* background-color: red; */
+         /* border: 1px solid black; */
+         border-radius: 20px 0px 0px 20px;
+         /* margin: 20px; */
+         background-color:#cadeef ;
+         padding: 20px;
+         
+      }
+      .customer-container{
+         font-size: 25px;
+        
     
+      }
+      .cutomer-Address{
+         font-size: 20px ;
+      
+      }
+      .location-icon{
+        
+         margin-right: 5px;
+         font-size: 15px;
+      }
+      .cutomer-review{
+         font-size: 15px ;
+       
+         margin-top: 5px;
+     
+      }
+    
+
+      .img-container{
+   
+        justify-content: space-between;
+       
+        margin-top: 5px;
+     }
+    .btn{
+        padding: 5px 10px;
+        border-radius: 20px;
+        border: none;
+      
+    }
+    .border{
+    display: none;
+    }
+    .font-size{
+        font-size: 20px;
+        margin-top: 10px;
+       
+    
+    }
+    .cursor-pointer{
+        cursor: pointer;
+    }
+    .container-like{
+        width: 20%;
+        height: 100%;
+       background-color:#a1bdd5 ;
+        
+        /* margin: 20px; */
+        border-radius: 0px 20px 20px 0px;
+        /* background-color: #9bd4e4; */
+        
+    }
+    .text-center{
+        width: 100%;
+        height: 50%;
+      
+     
+      
+       
+       
+    }
+
+    .likebutton{
+        font-size: 20px ;
+      
+    
+    }
+    .rating{
+        font-size: 15px;
+      
+        font-weight: 400;
+        margin-top: 10px;
+       
+       
+    }
+    .ratingno{
+        font-size: 20px ;
+        color: var(--darkcolor);
+        font-weight: bold;
+    
+    }
+
+    
+   
+    .deleticon{
+        font-size: 20px ;
+        color: var(--darkcolor);
+    }
 }
-.card-contener{
-    display: flex;
-    justify-content: space-evenly;
-}
-.name-paragrap{
-    font-size: 25px;
-}
-.card-container{
-    border: 1px solid black;
-    margin-left: 15px ;
-} */
 

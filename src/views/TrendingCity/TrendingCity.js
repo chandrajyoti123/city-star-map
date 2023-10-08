@@ -4,6 +4,7 @@ import HomeCard from '../../components/HomeCard/HomeCard'
 import { Params, useParams } from 'react-router-dom'
 import axios from 'axios'
 import Navbar from '../../components/Navbar/Navbar'
+import Footer from "../../components/Footer/Footer";
 // import CityPlace from '../CityPlace/CityPlace'
 const TrendingCity=()=>{
 
@@ -97,6 +98,7 @@ const TrendingCity=()=>{
            
             
         }
+        <Footer/>
        </div>
 
 

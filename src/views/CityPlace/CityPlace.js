@@ -5,6 +5,7 @@ import sun from './sun.png'
 import './CityPlace.css'
 import { useState ,useEffect } from "react"
 import axios from "axios"
+import Footer from "../../components/Footer/Footer"
 const CityPlace=({})=>{
     
   
@@ -65,6 +66,7 @@ const CityPlace=({})=>{
             setStorecity(CityData.Hydrabad)
         }
         else {
+            setStorecity("invalid")
 
         }
 
@@ -97,31 +99,32 @@ const CityPlace=({})=>{
 
 
     return(
-        <div>
-            <Navbar/>
+      <>
+      
+      {
+        storecity=="invalid"?<div className="notfound">City Not Found</div>:  <div>
+        <Navbar/>
 
-            <div className="weathersection">
-                <div className="weathermaincon" ><div className="weathermain">It's {(storeweatherdata?.weather?storeweatherdata?.weather[0]?.main:'')} In {getcity} </div>
-                 {/* <img src={sun} className="imgofsun"/>  */}
-                 </div>
-                <div className="weathertemp">{((storeweatherdata?.main?storeweatherdata?.main?.temp:'')-273).toFixed(0)}°C</div>
-                <div className="weatherfeels">Feels like {((storeweatherdata?.main?storeweatherdata?.main?.feels_like:'')-273).toFixed(0)}°C </div>
-           {/* <h1> temperatur:{((storeweatherdata?.main?storeweatherdata?.main?.temp:'')-273).toFixed(0)}°C</h1>
-           <h1>feels like:{((storeweatherdata?.main?storeweatherdata?.main?.feels_like:'')-273).toFixed(0)}°C</h1>
-           <h1>main:{(storeweatherdata?.weather?storeweatherdata?.weather[0]?.main:'')}</h1> */}
+        <div className="weathersection">
+            <div className="weathermaincon" ><div className="weathermain">It's {(storeweatherdata?.weather?storeweatherdata?.weather[0]?.main:'')} In {getcity} </div>
+          
+             </div>
+            <div className="weathertemp">{((storeweatherdata?.main?storeweatherdata?.main?.temp:'')-273).toFixed(0)}°C</div>
+            <div className="weatherfeels">Feels like {((storeweatherdata?.main?storeweatherdata?.main?.feels_like:'')-273).toFixed(0)}°C </div>
+      
 
-            </div>
-        {
-            storecity.map((citydata, i) => {
-                const { placename, placeimg, placedescription, placehistory } = citydata
-                return <HomeCard name={placename} key={i} img1={placeimg[0]} img2={placeimg[1]} img3={placeimg[2]} description={placedescription} history={placehistory} />
-
-
-            })
-            
-            
-        }
         </div>
+    {
+        storecity.map((citydata, i) => {
+            const { placename, placeimg, placedescription, placehistory } = citydata
+            return <HomeCard name={placename} key={i} img1={placeimg[0]} img2={placeimg[1]} img3={placeimg[2]} description={placedescription} history={placehistory} />
+
+
+        }) }
+         <Footer/>
+    </div> }
+      
+      </>
     )
 }
 export default CityPlace;

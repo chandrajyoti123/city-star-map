@@ -1,9 +1,10 @@
-import { useDebugValue, useState } from "react"
+import { useDebugValue, useEffect, useState } from "react"
 import './LoginTwo.css'
 import Navbar from "../../components/Navbar/Navbar"
 import { Link } from "react-router-dom"
 import { faUnsorted } from "@fortawesome/free-solid-svg-icons"
 import showToast from 'crunchy-toast';
+import Footer from "../../components/Footer/Footer"
 
 const LoginTwo = () => {
     const [firstname, setFirstname] = useState()
@@ -48,6 +49,14 @@ const LoginTwo = () => {
         showToast('Please Fill All The Field', 'alert', 1000);
 
       }
+    //   -------------rerender in forget page----------
+const [dataoflogin,setDataoflogin]=useState()
+useEffect(()=>{
+    const objectofloginone=JSON.parse(localStorage.getItem("emailpas"))
+   setDataoflogin (objectofloginone.check?objectofloginone.check:"") 
+},[])
+  
+  
 
     return (
 
@@ -62,13 +71,13 @@ const LoginTwo = () => {
                     <div className="name-field-container">
                         <label className='labeloflogin'>Enter Your Name</label>
                         <div className="name-feild-child-con">
-                            <input type="text" placeholder="First Name" className="  name-feild" value={firstname}
+                            <input type="text" placeholder="First Name" className="  name-feild name-margin" value={firstname}
                                 onChange={(e) => {
                                     setFirstname(e.target.value)
 
                                 }}
                             />
-                            <input type="text" placeholder="Last Name" className="  name-feild" value={lastname}
+                            <input type="text" placeholder="Last Name" className="  name-feild name-margin" value={lastname}
                                 onChange={(e) => {
                                     setLastname(e.target.value)
                                 }}
@@ -99,7 +108,7 @@ const LoginTwo = () => {
 
                     </div>
                     <div className="name-field-container">
-                        <label className='labeloflogin'>Select Your Gender</label>
+                        <label className='labeloflogin'>Select Your </label>
                         <div className="name-feild-child-con ">
                             <select className="select-container" value={city} onChange={(e) => {
                                 setCity(e.target.value)
@@ -124,8 +133,13 @@ const LoginTwo = () => {
 
                      <div className=' loginbutton-next'>
                         
-                       <Link to='/login'> <button type='button' className='loginbtn margin-right'>previous</button></Link>
-                         {/* <Link to='/loginthree'><button type='button' className='loginbtn ' onClick={logineduser}>Login</button></Link> */}
+                    {
+                        dataoflogin?<Link to='/login'> <button type='button' className='loginbtn margin-right'>previous</button></Link>:<Link to='/forgetpassword'> <button type='button' className='loginbtn margin-right'>previous</button></Link>
+                    }
+                       
+                       {/* <Link to='/login'> <button type='button' className='loginbtn margin-right'>previous</button></Link> */}
+                      
+                         
 
                          {
                             (firstname && lastname && gender && city)?<Link to='/loginthree'><button type='button' className='loginbtn ' onClick={logineduser}>Login</button></Link>:<button type='button' className='loginbtn ' onClick={pleasefilled}>Login</button>
@@ -139,6 +153,7 @@ const LoginTwo = () => {
 
             </div>
         </div>
+        <Footer/>
         </>
 
     )
