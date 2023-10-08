@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "image" :"https://delhitourism.travel/images/places-to-visit/headers/india-gate-delhi-entry-fee-timings-holidays-reviews-header.jpg",
+    "title": "The Best City to Visit in India",
+    "Description": "This 42 meter high 'Arc-de-Triomphe' like archway situated in the heart of Delhi city is much taller in the hearts of India. Formerly known as All India War Memorial, India Gate was built to commemorate the death of 70,000 British Indian soldiers who died during First World War between 1914-21....",
+    "Author": "blogAuthor",
+    "Publish": "blogPublish"
+  },
+  {
+    "id": 1,
+    "image" :"https://cdn.s3waas.gov.in/s3ffeabd223de0d4eacb9a3e6e53e5448d/uploads/bfi_thumb/2018051772-olwe3962tt0aavryq6jb1edvuu91dfxgbgqe9r5klm.jpg",
+    "title": "The Lal Mahal (Red Palace) of Pune ",
+    "Description": "The Lal Mahal (Red Palace) of Pune is one of the most famous monuments located in Pune. In the year 1630 AD, Chhatrapati Shivaji’s Father Shri Shahaji Bhosale, established the Lal Mahal for his wife Jijabai and son. Chhatrapati Shivaji  Maharaj stayed here for several years until he captured his first fort....",
+    "Author": "blogAuthor",
+    "Publish": "blogPublish"
+  },
+  {
+    "id": 2,
+    "image" :"https://cdn.s3waas.gov.in/s304025959b191f8f9de3f924f0940515f/uploads/bfi_thumb/2018041073-olw6l4bupv7pp85u4ex5gkexydpj8xiiif8v4zoosq.jpg",
+    "title": "Mumbai Film City",
+    "Description": "Indian film industry is one of the largest film industry in the world, and the film industry accounts for 60% of the films produced in India.The Kalgarre  complex has been established at Goregaon in India.Mumbai has played a pivotal role in the development of cinematography....",
+    "Author": "blogAuthor",
+    "Publish": "blogPublish"
+  },
+  {
+    "id": 3,
+    "image" :"https://chennaitourism.travel/images/places-to-visit/headers/marina-beach-chennai-tourism-entry-fee-timings-holidays-reviews-header.jpg",
+    "title": "Marina Beach Chennai",
+    "Description": "Marina Beach is undeniably one of the most popular beaches in Chennai. It boasts of being the second longest beach in the world. Marina Beach stretch is located opposite to many prominent buildings in the city such as Madras University, Presidency College, Swami Vivekananda Museum and House, AIR and various government offices....",
+    "Author": "blogAuthor",
+    "Publish": "blogPublish"
+  },
+  {
+    "id": 4,
+    "image" :"https://cdn.s3waas.gov.in/s33621f1454cacf995530ea53652ddf8fb/uploads/bfi_thumb/2018071948-olw88vwf9n11wnck4qy6hzh1pd4po3s3q8jand2j62.jpg",
+    "title": "The Cubbon Park",
+    "Description": "The Cubbon Park, officially known as Sri. Chamarajendra Park is a historic park, located in the heart of the city in the Central Administrative Area. The park provides sylvan surroundings to the State Legislature building- the Vidhana Soudha, the High Court Buildings – the Attara Kacheri and a number of other organizations located....",
+    "Author": "blogAuthor",
+    "Publish": "blogPublish"
+  },
+  {
+    "id": 4,
+    "image" :"https://ihplb.b-cdn.net/wp-content/uploads/2021/06/hawa-mahal.jpg",
+    "title": "The  Hawa Mahal",
+    "Description": " Peep through the Jharokas at Hawa Mahal. One of the best Jaipur places to visit, Hawa Mahal is Jaipur’s iconic landmark that entices tourists from all over the world. Named after the 5th storey temple called Hawa Mandir, Hawa Mahal looks is shaped like a honeycomb, and from a distance, you can see its top resembling the crown of Lord Krishna.....",
+    "Author": "blogAuthor",
+    "Publish": "blogPublish"
+  }
+]

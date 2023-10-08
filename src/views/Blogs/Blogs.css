@@ -1,0 +1,74 @@
+.blogCard-container-main {
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.blogCards-container {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.blogBanner-container {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+.blogBanner-card {
+    width: 83%;
+    box-shadow: 0 0 13px 0 rgb(128, 128, 128);
+    display: flex;
+}
+.blogBanner-img {
+    width: 65%;
+    height: 230px;
+}
+.blogBanner-imgsrc {
+    width: 100%;
+    height: 100%;
+
+}
+.blogBanner-content {
+    margin-left: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.blogBanner-title {
+    margin-top: 15px;
+    text-align: start;
+    font-size: 29px;
+}
+.blogBanner-description {
+    text-align: start;
+}
+.blogBanner-btn {
+    position: absolute;
+    bottom: 40px;
+    border: none;
+    background-color: #096285;
+    color: white;
+    padding: 5px;
+}
+
+@media  screen and (min-width: 370px) and (max-width: 600px) {
+    .blogBanner-card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .blogBanner-img {
+        width: 100%;
+    }
+    .blogBanner-btn {
+        bottom: 6px;
+    }
+    .blogBanner-description {
+        margin-bottom: 40px;
+    }
+
+}
