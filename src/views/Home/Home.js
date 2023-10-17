@@ -130,7 +130,7 @@ const Home = () => {
         }
   },[])
   function logOut(){
-    localStorage.clear("userinfo")
+    localStorage.removeItem("userinfo")
 }
    
    

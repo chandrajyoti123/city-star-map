@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './LoginOne.css'
 import { Link, json } from 'react-router-dom';
 
-import emailjs from '@emailjs/browser'
+
 import Navbar from '../../components/Navbar/Navbar';
 import showToast from 'crunchy-toast';
 import Footer from '../../components/Footer/Footer';
@@ -12,6 +12,8 @@ const LoginOne = () => {
     const [email, setEmail] = useState()
     const [password, setPassword] = useState()
     const [eight,setEight]=useState('')
+    const regEx = /[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,8}(.[a-z{2,8}])?/g;
+    
    
 //    
 //    console.log(eight)
@@ -27,6 +29,7 @@ const LoginOne = () => {
     }
     useEffect(()=>{
         setEight(password?password.length:"")
+      
     },[password])
 
 
@@ -41,13 +44,19 @@ const LoginOne = () => {
             check:checkbox
         }
         savetolocalstorage(obj)
-        setEmail("")
-        setPassword('')
+     
         
        
 
 
  }
+
+//  useEffect(()=>{
+//     // setEmail("")
+//     // setPassword("")
+
+//  },[])
+ 
  function emptyfield(){
     
     
@@ -58,6 +67,11 @@ const LoginOne = () => {
 function eightdigit(){
     showToast('password should be 8 digit', 'alert', 1000);
 
+}
+
+function enterValidEmail() {
+    showToast('please enter valid email', 'alert', 1000);
+    
 }
 
 
@@ -110,10 +124,12 @@ function eightdigit(){
                     <div className='loginbutton'>
                         <Link to='/forgetpassword'><span className='forget-password'>forget password?</span></Link>
                         
+                   
+
                    {
-                    (email && password && checkbox)?(eight<8?<button type='button' className='loginbtn' onClick={eightdigit}>Next</button>:<Link to='/logintwo'><button type='button' className='loginbtn' onClick={nextpage}>Next</button></Link>):<button type='button' className='loginbtn' onClick={emptyfield}>Next</button>
+                    (email && password && checkbox)?(regEx.test(email))?eight>=8?<Link to='/logintwo'><button type='button' className='loginbtn' onClick={nextpage}>Next</button></Link>:<button type='button' className='loginbtn' onClick={eightdigit}>Next</button>:<button type='button' className='loginbtn' onClick={enterValidEmail}>Next</button>:<button type='button' className='loginbtn' onClick={emptyfield}>Next</button>
                    }
-                   {/* <Link to='/logintwo'><button type='button' className='loginbtn' onClick={nextpage}>Next</button></Link> */}
+               
 
                         
 

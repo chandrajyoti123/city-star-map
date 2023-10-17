@@ -3,15 +3,15 @@
     height: 450px;
     background-size:cover;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .main-heading{
     font-size: var(--fontheading);
     color:white;
-    text-align: center;
-    /* margin-top: 55px; */
-    position: absolute;
-    top:200px;
-    left: 300px;
+   
     text-align: center;
 }
 .main-title{
@@ -27,10 +27,7 @@
     justify-content: space-between;
 }
 .searchbox{
-    width: 400px;
-    position: absolute;
-    top: 280px;
-    left: 480px; 
+   width: 100%;
 }
 .input {
     width: 420px;
@@ -40,8 +37,9 @@
     background: transparent;
     border: none;
     color: white;
-    margin-top: 25px;
+   display: block;
     border: 1px solid gray;
+    margin: 0 auto;
 }
 .link{
     text-decoration: none;
@@ -56,30 +54,15 @@
     }
     .main-heading{
         font-size: 30px;
-        color:white;
-        text-align: center;
-        /* margin-top: 55px; */
-        position: absolute;
-        top:250px;
-        left: 30px;
-        text-align: center;
+       
     }
-    .searchbox{
-        width: 120px;
-        position: absolute;
-        top: 330px;
-        left: 45px; 
-    }
+    
     .input {
         width: 300px;
         padding: 7px;
         font-size: 18px;
         border-radius: 12px;
-        background: transparent;
-        border: none;
-        color: white;
-        margin-top: 25px;
-        border: 1px solid gray;
+       
     }
     .main-title{
         font-size: 30px;
@@ -88,10 +71,10 @@
         /* padding:  0% 5% ; */
     }
     .topsearch-container{
-        padding:  0 2% ;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+      
+      
+        flex-wrap: nowrap;
+        flex-direction: column;
     }
     
     

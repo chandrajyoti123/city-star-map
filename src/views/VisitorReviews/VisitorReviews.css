@@ -1,5 +1,5 @@
 .reviewcontainer{
-width: 100vw;
+max-width:  100vw;
 height: 86vh;
 /* background-color: pink; */
 display: flex;
@@ -94,15 +94,16 @@ flex-direction: column;
 }
 .input-review{
     width: 80%;
-    height: 60px;
+    /* height: 60px; */
     border: none;
     background-color: var( --darkcolor);
     opacity: 0.5;
     border-radius: 30px;
-    margin: 20px 0;
+    /* margin: 20px 0; */
     color: white;
     font-size: 23px;
     padding-left: 25px;
+    padding:10px 25px;
 }
 .text-review{
     width: 80%;

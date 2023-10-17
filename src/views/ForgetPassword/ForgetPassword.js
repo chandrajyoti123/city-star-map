@@ -5,51 +5,57 @@ import { useState } from 'react'
 import './ForgetPassword.css'
 import { faUniversalAccess } from '@fortawesome/free-solid-svg-icons'
 import showToast from 'crunchy-toast';
+import Footer from '../../components/Footer/Footer'
 export default function ForgetPassword() {
     const [passwordone, setPasswordone] = useState("")
     const [passwordtwo, setPasswordtow] = useState("")
-    const [eight,setEight]=useState()
-   useEffect(()=>{
-    setEight(passwordone?passwordone.length:"")
-    console.log(eight);
-   },[passwordone])
-    
-
-    const [email,setEmail]=useState("")
-
-    function settolocalstorage(obj){
-        const passworddata=JSON.stringify(obj)
-        localStorage.setItem("emailpas",passworddata)
- }
+    const regEx = /[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,8}(.[a-z{2,8}])?/g;
+    const [eight, setEight] = useState()
+    useEffect(() => {
+        setEight(passwordone ? passwordone.length : "")
+        console.log(eight);
+    }, [passwordone])
 
 
-    function setfiledempty(){
-        const obj={
-            password:passwordone,
-            passwordtwo:passwordtwo,
-            email:email
+    const [email, setEmail] = useState("")
+
+    function settolocalstorage(obj) {
+        const passworddata = JSON.stringify(obj)
+        localStorage.setItem("emailpas", passworddata)
+    }
+
+
+    function setfiledempty() {
+        const obj = {
+            password: passwordone,
+            passwordtwo: passwordtwo,
+            email: email
         }
         settolocalstorage(obj)
 
-    
-    setPasswordone("")
-    setPasswordtow("")
-    setEmail("")
-}
-function pleasefilled(){
-    
-    showToast('Please Fill All Field', 'alert', 1000);
 
-}
+        setPasswordone("")
+        setPasswordtow("")
+        setEmail("")
+    }
+    function pleasefilled() {
 
-function setsamepassword(){
-    showToast('Passwords should same in both the field', 'alert', 1000);
+        showToast('Please Fill All Field', 'alert', 1000);
 
-}
-function eightfield(){
-    showToast('password atlest 8 character', 'alert', 1000);
+    }
 
-}
+    function setsamepassword() {
+        showToast('Passwords should same in both the field', 'alert', 1000);
+
+    }
+    function eightfield() {
+        showToast('password atlest 8 character', 'alert', 1000);
+
+    }
+    function enterValidEmail() {
+        showToast('please enter valid email', 'alert', 1000);
+
+    }
 
 
     return (
@@ -92,30 +98,29 @@ function eightfield(){
                                 name='user_password'
                                 className='input-filed'
                                 value={passwordtwo}
-                                onChange={(e)=>{
+                                onChange={(e) => {
                                     setPasswordtow(e.target.value)
 
                                 }}
-                                
-                                />
-                                
+
+                            />
+
 
                         </div>
 
                         <div className='loginbutton loginbutton-next margin-top'>
-                            {/* <Link to='/logintwo'><button type='button' className='loginbtn' >Next</button></Link> */}
-                        {
-                            (passwordone&& passwordtwo && email)?(passwordone!=passwordtwo)?<button type='button' className='loginbtn' onClick={setsamepassword} >Next</button>:(eight<8)? <button type='button' className='loginbtn' onClick={eightfield} >Next</button>:<Link to='/logintwo'><button type='button'   onClick={setfiledempty} className='loginbtn' >Next</button></Link> :<button type='button' className='loginbtn' onClick={pleasefilled} >Next</button>
-                        }
-
+                            {
+                                (passwordone && passwordtwo && email) ? (regEx.test(email)) ? (passwordone == passwordtwo) ? (eight >= 8) ? <Link to='/logintwo'><button type='button' onClick={setfiledempty} className='loginbtn' >Next</button></Link> : <button type='button' className='loginbtn' onClick={eightfield} >Next</button> : <button type='button' className='loginbtn' onClick={setsamepassword} >Next</button> : <button type='button' className='loginbtn' onClick={enterValidEmail} >Next</button> : <button type='button' className='loginbtn' onClick={pleasefilled} >Next</button>
+                            }
                         </div>
-
                     </form>
 
 
 
                 </div>
             </div>
+            <Footer />
+
         </>
     )
 }

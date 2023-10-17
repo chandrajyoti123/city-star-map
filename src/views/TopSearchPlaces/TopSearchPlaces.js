@@ -28,7 +28,10 @@ const TopSearchPlaces = () => {
         <>
             <Navbar />
          <div className='tosearch-main-container'>
-            <div className='searchbox'>
+           
+         
+             <p className='main-heading'>Top 15 Tourist Places Attraction In India</p>
+             <div className='searchbox'>
             < input type='text'
             className='input'
                 placeholder=' Search Place Here...'
@@ -39,8 +42,6 @@ const TopSearchPlaces = () => {
                 }}
             />
             </div>
-         
-             <p className='main-heading'>Top 15 Tourist Places Attraction In India</p>
 
          </div>
          

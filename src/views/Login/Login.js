@@ -13,9 +13,7 @@ function Login(){
     }
       localStorage.setItem('userdata', JSON.stringify(data))  ;
       
-      setName('');
-      setEmail('');
-      setPassword('');
+     
       showToast('successfull', 'success', 3000);
    }
   
